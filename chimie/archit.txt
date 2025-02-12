@@ -1,0 +1,62 @@
+   *-* MODELE DE LEWIS *-*
+
+DEFINITIONS
+
+◼LIAISON COVALENTE
+Paire(s) électroniq associant 2 atomes par la mise en commun d'e⁻ de valence pouvant provenir des 2 atomes ou d'1
+◼REGLE DE L'OCTET
+Les atomes d'1 molec partagent autant de doublets d'e⁻ qu'il leur est nécessaire pour la réalisation de leurs octets(seul H se limite à un doublet)
+le nombre x de liaisons coval que peut former 1 atome dépend directement du nbr Nv de ses e⁻ de valence:x=8-Nv
+◼REGLE DES DIX-HUIT ELECTRONS
+À partir de la 4ème période(Z>18), un élément tend à constituer des doublets covalents en nombre tel qu'ils confèrent 18 électrons à sa couche de valence.À partir dela 4ème période,le nombre x' de liaisons coval que peut former 1 atome est tel que :    x'=18-Nv
+
+ESPECE À LIAISONS LOCALISEES
+
+◼REPRESENTATION DE LEWIS:Ecriture nécessitant une série d'étapes:
+_découverte de l'ensemble Ne des e⁻ de valence de l'espèce considérée;
+_assemblage des symboles chimiquesdes atomes en s'aidant éventuellement de propriétés chimiques connues;
+_formation de liaisons simples entre atomes centraux et chacun de leurs voisins;
+_obtention de l'octet de chaque atome externe par apport de doublets;
+_attributions de tous les doublets restant(et de l'e⁻ célibataire quand Ne est impaire) aux atomes centraux;
+_formation de liaisons multiples si les atomes centraux n'ont pas tous leur octet;
+_détermination de la charge formelle de chaque atome en vérifiant que leurs somme correspond à la charge électrique de l'espèce.
+◼CHARGES FORMELLES
+Resultat de la comparaison du nombre apparent Na au nombre réel Nv d'e⁻ de val d'un atome:
+ Cf=e.(Nv-Na), où Na se détermine en considérant que tte paire de liaison se partagent équitablemnt entre les 2 atomes qu'elle lie, les e⁻ d'un doublet libre appartenant en propre à l'atome sur lequel celui-ci est localisé.
+La somme des charges formelles des atomes constituant l'espèce chimique considérée est toujours égale à la charge électrique globale de celle-ci
+Σ(Cf)=0  pour une molécule
+Σ(Cf)=q=z.e  pr un ion de charge q=ze
+
+◼NOMBRE D'INSATURATIONS N(I)
+Nombre total de liaisons multiples et/ou de cycle que comporte une molécule, fonction des nombres n^IV, n^III et n^I domes tétravalents, trivalents et monovalents:
+N(I)=(1/2)*(2n^IV+n^III-n^I+2)
+
+ESPECES À LIAISONS LOCALISEES
+
+◼PRINCIPE DE LA MESOMERIE:
+L'ensemble des représentations de LEWIS écrites pour une éspèce chimique et ne différant que par la répartition des e⁻ autour des noyaux, définit l'ensemble des formes mésoméres: ce sont des structures de résonnance
+
+◼FORMULES DE LEWIS LES PLUS PROBABLES
+Les represantation de Lewis qui décrivent les config les plus stables d'1 molécule ou d'1 ion sont celle pour lesquelles la somme des abs() des charges formelles est minimale.La(ou les) formule de Lewis la(…) plus probable est celle qui attribue la charge négative à l'atome le plus électronégatif et la charge positive à l'atome le moins électro⁻
+
+◼HYBRIDE DE RESONNANCE
+Structure réelle, d'un ion ou d'une molécule, intermédiaire entre toutes les formules mésomères
+
+◼SYSTEME CONJUGUE
+Association dans laquelle des doublets libres ou π rentre en résonance π
+La séquence de conjugaison est de type:…-A=B-C=D-…
+Selon le critère d'aromaticité de Hückel, un système aromatique est un système carbone ou avec des hétéroatomes comportant (4n+2) e⁻ délocalisés appartenant à des liaisons conjuguées par résonnance π sur n cycles plans adjacents
+
+CARACTERISTIQUES DES LIAISONS
+
+◼ENERGIE DE LIAISON El(ou de dissociation D↓(AB):Energie à fournir, à l'état gazeux, pour dissocier la molécule AB en deux atomes A et B et constituer ainsi deux radicaux A. et B.:
+A-B(g) -→ A.(g) + B.(g)
+Une liaison A-B est d'autant plus forte que la distance internucléaire de liaison dAB est courte; l'énergie de liaison DAB est alors d'autant plus grande
+
+◼CARACTERE ACIDO-BASIQUE DE LEWIS
+Transfert électronique entre deux éspèces occasionné par la réactivité chimique des doublets libres.Un acide est un accepteur de doublet, une base un donneur
+
+◼MOMENT DIPOLAIRE
+Grandeur vectorielle traduisant la polarisation d'une liaison A-B, orientée du pôle - vers le pôle +, et de norme p=q.dAB  (avec q=charge électrique transférée et dAB la distance internucléaire)
+Le caractère ionique, ou pourcentage ionique IAB, d'une liaison A-B dépend des moments dipolaires experimental p(ex) et théorique p(th):
+I(AB)=100*(p(exp)/p(th))

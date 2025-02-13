@@ -44,7 +44,7 @@ pour un prisme droit a base parallelogramme V=a.b.c.sin(α)
 
 _Masse volumique:
     M.Z    / M=masse molaire du motif
- ρ=-----  <  V=volume du motif
+ ρ=-----  (  V=volume du motif
     V.Na   \ Z=nombre de mot de mail
 
 COMPARAISON DES LIAISONS

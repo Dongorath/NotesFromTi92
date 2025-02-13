@@ -1,0 +1,103 @@
+           CRISTALLO
+1_ definit°
+2_ etude réseau hexag compact (metal)
+3_ cubic face centrée cfc (+ sites)
+4_ cristaux ioniq
+5_ cristaux covalents
+
+1_ defini°
+
+◼etat cristallin: solid parfait constitué par arrangemt triplemr periodiq d'entités selon 3 direc° espace
+◼maille: volume qui permet de recons le cristal ds son ensemble
+◼maille elementaire: correspond a la maille de dimension la plus faible
+◼noeud: position du centr d'inertie d'une entité élémentaire
+◼compacité: % volum réelement occupé
+◼coordinence: nb de plus proche voisin(coordinence vis à vis de chaq type d'entit)
+◼cristaux metalliq:ions avec posi° fixe avec e- mobile → cond electro
+◼cristaux ioniq: cation et anion → interac° electrostat
+◼cristaux coval: atome liés par liais de coval
+◼cristaux moleculaire: molecule liée par liaison de Van de Waals
+
+
+2_ etude résaeu hexag compact (metal)
+ (Mg,Ti,Cd,Zn,Be,…)
+
+6 motifs par maill d'etude
+coord 12
+lig de tgence: coté hexag
+c hauteur struct
+ o o
+o o o   c=2√2/√3*a et a=2r
+|o o|   volume maille:
+| | | ↑ v=√3/2a²c=√2a³
+| o | c compacité:
+| | | ↓ X=π√2/6=0.74
+|o|o|
+o o o
+ o o /a
+3_ cubic face centrée cfc (+ sites)
+    a
+  o---o 4 motif / maille
+ / o /| coord 12
+o---ooo lign de tgence: diag face
+| o |/  a√2=4r
+o---o   compacité: X=π√2/6=.74
+◼chaq cube d'arrete a/2 est le siege d'1 site t
+8 site T dispo dans cfc
+◼chaq milieu d'arete est siege site O
+ctre d'un cube aussi site O
+◼condition d'insertion d'1 sphere ds site: diag d'un cube a/2=a√3/2:
+r+r(tetra)≤a√3/4
+◼pour site O: arete cube:
+r+r(octa)≤a/2
+
+4_ cristaux ioniq
+
+*type NaCl
+Cl- est cfc site O occ par Na+
+Na+ et Cl- role symetriq
+coord 6/6
+4 motifs NaCl
+|tgence arete: r+ + r-=a/2
+|tgence limite sur diag face:
+ 4r-≤a√2
+|r+/r-≥√2-1=0.414 (coord 6/6)
+
+*type ZnS
+S2- cfc moitié des T par Zn2+
+coord 4/4
+4 motifs ZnS
+|tgence diag cub aret a/2:
+ r+ + r-=a√3/2
+|tgence limite diag face 4r-≤a√2
+|r+/r-≥√(3/2)-1=0.225 (coord 4/4)
+
+*type AB2: fluorine CaF2
+ antifluorine K2O
+(LiO2,BaF2,CdF2,Na2O,…)
+Ca+ cfc 4 Ca+/maille → 8F- site T
+coord CaF2: 8/4
+(pour antifluorine inverser cation et anion K2O)
+
+*derivé du nombre cubiq simple (CsCl)
+reseau cubic centrée (cc) coord 8,comp X=π√3/8=.68
+tgence diag cube 4r=a√3
+2 atome par maille
+struct CsCl: Cs+ centr Cl- sommet
+coord 8/8
+|tgence diag cub r+ + r-=a√3/2
+|tgence arete cub 2r-≤a
+|r+/r-≥√3-1=0.732
+
+5_ cristaux covalents
+
+*diamant(3D)
+chq atom C relié a 4 C (struc tetra)
+reseau T du cfc struct dérivé ZnS:cfc+ moitié des T
+8C/maille
+coord 4 et X=π√3/16=.34
+*graphite(2D)
+C par plans
+strct hexag ds chq plan
+C liée a 3 autre angle 120°
+a=141.5pm c=670pm

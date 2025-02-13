@@ -1,0 +1,15 @@
+acide|base : Ka=[B]h/[A]
+complexation : n=[MLn]/([M][L]^n)
+log(βn)=Σ(pKdi)
+precipitation ; Ks=[Ap-]^q[Cq+]^p
+pole+ : arrivée d'e- →consomation→réduction→cathode
+pole- : production d'e- →perte→oxydation→anode
+une cellule galvanique ou électrochimique est constitué de l'association de deux demi-piles reliées entre elles par une jonction électrolytique ou électrochique
+E°:fem pile  de ESH à gauche et à droite de la 1/2 caractéristique du couple ox|red
+Formule de Nernst
+E=E°+RT/(nF)ln([ox]/[red])
+R=8.314J.K-1.mol-1
+T=température (K) (25°C=298°K)
+n:nombre d'e- échangés
+F=Na*e=1 faraday=96500 C
+RT/F*lnX=.03*logX

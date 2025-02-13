@@ -6,26 +6,26 @@ Ac acetique: H3C-C=O
  Pur: conduit tres peu et non ionise
  Dilue: conduit et ionise
 
-H3C-COOH + H2O ←→ H3C-COO⁻ + H3O+
+H3C-COOH + H2O ←→ H3C-COO- + H3O+
 
 pH>-log(C)
 [H3O+]<C
 
 α=coeff de dissociation=(nb de molec dissociees)/(nb de molec au depart)
-α=([CH3COO⁻])/([CH3COOH]f+[CH3COO⁻]f)
+α=([CH3COO-])/([CH3COOH]f+[CH3COO-]f)
 α=[H3O+]/C
 
 BASES FAIBLES:
 --------------
 ammoniac=NH3,gaz,moleculaire
-ammoniaque=sol° aq base partiellement ionise: NH3 + H2O→NH4+ + OH⁻
+ammoniaque=sol° aq base partiellement ionise: NH3 + H2O→NH4+ + OH-
 reaction partielle
 
 pH<14+log(C)
-[OH⁻]<C
+[OH-]<C
 
 β=coeff de dissociation=(nb de molec dissociees)/(nb de molec au depart)
-β=([NH4+])/([NH3]f+[NH4]f)=[OH⁻]/C
+β=([NH4+])/([NH3]f+[NH4]f)=[OH-]/C
 
 EQUILIBRE CHIMIQUE:
 -------------------
@@ -35,14 +35,14 @@ k=([C]*[D])/([A]*[B])
 note: ne pas prendre en compte [H2O]
 
 Pour 1 acide faible:
-Ka=([A⁻]*[H3O+])/[HA]
+Ka=([A-]*[H3O+])/[HA]
 or [A-]=[H3O+] et [HA]=C donc
 Ka=([H3O+]^2)/C
 [H3O+]^2=Ka*C
 
 Pour 1 base faible:
-Kb=([BH+]*[OH⁻])/([B])
-or [BH+]=[OH⁻] et [B]=C donc
-Kb=([OH⁻]^2)/C
-[OH⁻]^2=Kb*C
+Kb=([BH+]*[OH-])/([B])
+or [BH+]=[OH-] et [B]=C donc
+Kb=([OH-]^2)/C
+[OH-]^2=Kb*C
 (10^-14/[H3O+])^2=Kb*C

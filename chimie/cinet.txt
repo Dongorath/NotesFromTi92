@@ -1,0 +1,16 @@
+νi="nu i"
+dξ=dni/νi    νi algebrique
+v=dξ/dt      def unique
+vs=1/V*v=1/V*dξ/dt
+vs=1/νi*d[Ai]/dt si homogene isochore
+v>0
+vs=k(T)*Π[Ai]^αi
+αi=ordre partiel par rapport a Ai
+Σ(αi,i)=ordre total
+k(T)=cste de vitesse
+ordre 0: [Ai](t)=k*νi*t+[Ai]0
+ordre 1: ln[A]=ln[A]0-k*t
+         t1/2=ln(2)/k
+ordre 2: 1/[A]=k*t+1/[A]0
+
+loi d'ARRHENIUS: k=Ae^(-Ea/RT)

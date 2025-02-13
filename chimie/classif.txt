@@ -1,0 +1,53 @@
+CLASSIFICAT° PERIODIQUE
+.classes par Z crois.
+.periode:elements sur 1 meme ligne
+.groupe:(ou famille) elements sur 1 meme colonne
+
+elements de transit° possedent la couche d partiellement occupee
+
+NRJ D'IONISAT°
+.C'est l'nrj minim a fournir pour realiser X(g)→(X+)(g)+(e-) ΔU=EI
+.EI ↑
+ .de la gauche vers la droite
+ .de base en haut
+
+AFFINITE ELECTRONIQUE
+.C'est l'oppose de l'nrj mise en jeu
+ds X(g)+(e-)→(X-)(g) ΔU=-AE
+AE=E(X)-E(X-)
+.+ X- est stable, + AE est elevee
+AE ↑ de gauche a droite
+   cst ds 1 colonne
+
+ELECTRONEGATIVITE
+.Elle correspond a la tendance d'1 atome lie a attirer vers lui les e- des
+autres atomes avec lesquels il est engage  ds des liaisons de covalence
+.Selon MILLIKEN
+ X(X)=0.37+0.36*((AE(X)+EAI(X))/2)
+.X aug
+ .de bas en haut
+ .de gauche a droite
+
+RAYONS DS LES EDIFICES COVALENTS
+.r ↓ de gauche a droite
+.r ↓ qd on monte
+RAYONS IONIQUES
+.An° tjrs + gros que cat°
+.sur 1 ligne
+ .An° + gros qd + charges
+ .Cat° + petit qd + charges
+.sur 1 ligne: r dim, stable, aug
+
+POUVOIR POLARISANT D'1 CAT°
+.prop a Ze/(r^2)
+.d'autant + gd que le cat° est petit & fortement charge
+.le pouvoir polarisant des an° est
+tjrs + petit que celui des cat°
+POLARISIBILITE
+.essentiellement associee aux an°
+.d'autant + gde que l'an° est gros &
+charge
+.+ elle est gde + le volume est gd
+
+ENERGIE D UN e- SUR COUCHE QUELCONQUE
+E=-13,6.Z*²/n²

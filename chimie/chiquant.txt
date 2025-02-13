@@ -1,0 +1,71 @@
+  chimie quantique
+
+noyau → Z protons + A-Z neutrons
+mp~mn=1.67*10^-27 kg
+me-=9.1*10^-31 kg = mp/1836
+r(noyau) ~ 10^-5 r(atome)
+λ=cT
+T=1/γ
+E=h.γ
+h=6.62*10^-34 J.s
+p→=(E/c).u→
+Pour le photon
+1/λ=E0/hc.[1/n1²-1/n2²]
+
+Longueur d'onde
+λ=h/p (qté de mvt)
+
+σ(n,m)=Rh(1/n²-1/m²)
+
+ppe d'incertitude d'Heisenberg:
+Δx.Δp≥h  (p=qdm)
+
+Eq de Schrödinger: HΨ=E.Ψ
+H=-h_²/2μ.Δ+V
+h_=h/2π
+1/μ=1/m1+1/m2 masse reduite
+
+NOMBRE QUANTIQUE
+En=-13.6*Z²/n² eV
+E=E0/n² energie du H
+c'est le premier nombre quantique
+
+le deuxieme represente la quantifica° du moment cinetique
+||σ0→||=h_*√(l*(l+1))
+a n fixe l peut varier  de 0 a n-1
+
+le 3eme nombre quantique represente la quantificat° de la project° du moment cinetique sur l'axe Oz
+σOz=m/h_
+-l≤m≤l
+
+Pour un etat n, l a n valeurs possibles et m 2l+1
+
+nb quantique de spin ms caracterise le moment cinetique propre de l'e-
+μ=-2.ms.μB
+μB=magneton de Bohr
+ms=-1/2 ou 1/2
+
+Ψ(n,l,m,r,θ,φ)=R(n,l,r)*Y(l,m,θ,φ)
+
+Regle de Klechkowsky
+
+1s2s2p3s3p4s3d4p5s4d...
+spdf
+ecrire et faire fleches:
+1s
+2s2p
+3s3p3d
+4s4p4d4f
+5s5p…
+
+Regle de Slater
+pour un e donne Z*=σ-Z
+
+σ=Σ(σi,i=1..N-1)
+
+Orbitale atomique
+Le rayon de l orbite de valence est
+R=n².ao/Z*
+
+E(n,l) ↑ comme n+1, comme n a n+1 cst
+2n² e- par niv

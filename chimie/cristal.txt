@@ -1,0 +1,149 @@
+  DEFINITIONS ET PROPRIETES
+
+Element de symetrie
+Operateur transformant une figure F en une figure F',absolument indiscernable
+
+System cristallin
+Combinaison d'elements de symetrie, caracterisee a l'echelle macroscopique par un polyedre geometrique et un ensemble de symetries specifiques
+
+Motif
+Entite la plus petite possible qui puisse etre reproduite periodiquement au sein d'une figure F; il s'agit de particule(ex:8*1/8+4*1/2 pour 8∈8maille et 4∈2maille)
+
+Reseau
+Ensemble periodique des points construits sur les trois vecteurs de base a,b,c constituant le lieu geometrique des motifs
+
+Noeud
+Position particuliere du reseau ou se localise un motif;elle se deduit de l'origine par translation:t=ma+nb+pc
+
+Maille elementaire
+Pour un systeme donne, volume minimal de l'espace qui, par translation t, redonne le cristal; une maille peut contenir un motif(maille simple) ou plusieurs motifs(maille multiple)
+
+Mode de reseau
+Assemblage specifique des motifs au sein d'une maille elementaire
+
+Cristal
+Assemblage tridimentionnel constitue par un reseau determine
+
+SYSTEM DE BRAVAIS
+--------------------------------------
+mode    |simple|centre |ba cen |fa ce
+--------------------------------------
+symbole |   P  |   I   |  S    |  Z
+--------------------------------------
+nb mot Z|   1  |   2   |  2    |  4
+--------------------------------------
+position|sommet|somm + |somm + |som +
+des mots|      |centre |cende 2|cendes
+        |      |maille |fa para|faces
+--------------------------------------
+
+RELATIONS IMPORTANTES EN CRISTALLO
+
+_Volume d'une maille: V=(a^b).c
+pour un prisme droit a base parallelogramme V=a.b.c.sin(α)
+
+_Masse volumique:
+    M.Z    / M=masse molaire du motif
+ ρ=-----  <  V=volume du motif
+    V.Na   \ Z=nombre de mot de mail
+
+COMPARAISON DES LIAISONS
+
+Liaison metallique:
+resultat de l'interaction coulombienne electrostatiq ,entre charges - des e- et les charges + des cations metalliq M(+)
+
+Liaison covalente
+Resultat de mise en commun d'une paire d'e- par deux atomes;un cristal covalent constitue une macromolecule covalente de taille infinie
+
+Liaison ionique
+Resultat de l'attraction electrostatiq entre ions de charges opposees et de repulsion a courte distance
+
+Liaison intermoleculaire dite de VAN DER WAALS
+Resultat d'interaction electrostatique dipole-dipole
+
+Liaison hydrogene
+Resultat d'une interaction entre un atome d'hydrogene lie a un atome electronegatif A(A=N,O,F,…) et un atome electronegatif B porteur d'un doublet libre (B=N,O,halogene,…);elle est conventionnellement notee A-H…B
+
+DEFINITIONS ET PROPRIETES
+
+Famille cristalline
+Ensemble des solides ayant meme strcture cristalline et representant une forte analogie des proprietes physiques et chimiques
+
+Compacite
+Nombre qui mesure le taux d'occupation reel de l'espace (0<C<1)
+comp=Vatome/Vmaille
+
+Coordinence
+Nombre de premiers voisins V d'un atome Ai donne
+
+Site cristallographique
+Portion d'espace non occupee d'un reseau cristallin, constitue de spheres S de rayon R
+
+Site interstitiel
+Centre d'un polyedre de coordination, regulier ou non, ayant pour sommets les centres des premiers voisins du reseau cristallin servant de site cristallographique
+
+Couche compacte
+Association compacte de spheres identiques tangentes dans un plan
+
+Assemblage compact
+Reseau constitue de l'empilement compact de couches compactes.Il existe en deux types, possendant la meme coordinence [12] et la meme compacite C=0.74
+Ce sont:
+_l'assemblage de type hexagonal compact H, à sequence d'empilement …AB…,dont les parametres de a maille elementaire hc sont lies par la relation
+ch/ah =~ 1.633
+_l'assemblage de type cubique à faces centrees F , à sequence d'empilement …ABC…
+
+SITES CRISTALLO
+Conditions d'occupation
+
+| /coordinence de l'espece inseree=CO
+|(espece neutre de rayon r=NE
+| \espece chargee de rayon r=CH
+
+◼cubique C
+_CO=[8]
+_NE: r/R≤√(3)-1
+_CH: √(3)-1≤ r/R ≤1
+◼octaedrique O
+_CO=[6]
+_NE: r/R≤√(2)-1
+_CH: √(2)-1≤ r/R ≤√(3)-1
+tetraedrique T
+_CO=[4]
+_NE: r/R≤√(3/2)-1
+_CH: √(3/2)-1≤ r/R ≤√(2)-1
+
+STRUCTUREDES CORPS
+Comparaison des caractéristiques de divers réseaux métalliques
+
+
+   /composé type =CT
+  /maille élementaire =ME
+ /nb Z de motifs =Z
+(coordinence E/E =CO
+ \compacité C =C
+  \nb Nc de sites C = Nc
+   \nb No de sites O = No
+    \nb Nt de sites T =Nt
+reseau |   F  |    H    |  I
+  CT   |cuivre|magnesium|sodium
+  ME   | cfc  |   hc    |  cc
+   Z   |  4   |    2    |   2
+  CO   | [12] |   [12]  |  [8]
+   C   | 0.74 |   0.74  |  0.68
+   Nc  |   -  |     -   |   -
+   No  |  4   |    2    |   6
+   Nt  |  8   |    4    |   12
+
+STRUCTURES DES COMPOSES TONIQUE CxAy
+(Rc<Ra)  A-=A^q-  C+=C^p+    I=ions
+re=réseau   si=sites
+
+type str.|CsCl|NaCl|ZnS    |CaF2
+I A-     |re P|re F|re F   |re P
+I C+     |si C|si O|(si/2)T| (si/2)C
+nb I A-  | 1  | 4  |  4    | 8
+nb I C+  | 1  | 4  |  4    | 4
+CO A-/A- |[6] |[12]|[12]   |[6]
+CO C+/C+ |[6] |[12]|[12]   |[12]
+CO C+/A- |[8] |[6] | [4]   |[8]
+CO A-/C+ |[8] |[6] | [4]   |[4]

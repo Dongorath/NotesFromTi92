@@ -1,0 +1,26 @@
+AEQS pour t≠0 et t pas trop grand
+d[IR]/dt=0
+mecanisme par stade = seq ouverte
+  R --→ I1 --→ I2 --→ I3 --→ P
+mecanisme en chaine = seq fermée
+  R -→ I1 -→ I2 -→ I3 -→ I1 -→ I2 ...
+    ↑               |
+    +---------------+
+Ds 1 react° en chaine:
+▶Initiat°: creat° des centres actifs
+           (=IR)
+▶Propagat°: seq fermee; bilan de la
+            seq fermee de propagat°
+            correspond au bilan de
+            la react°
+▶Terminaison:
+ *inhibit°: correspond a la disparit°
+            d'1 IR avec retour en
+            arriere du mecanisme
+ *rupture: disparit° des IR sans sans
+           format° de new IR avec
+           format° eventuelle de
+           produits secondaires
+▶Branchemt: 1 radical libre donne
+            plusieurs radicaux libres
+            --→ explosion

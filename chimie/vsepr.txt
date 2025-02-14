@@ -1,0 +1,30 @@
+MODELE V.S.E.P.R
+
+◼PRINCIPE
+Toutes les paires liantes et non liantes(doublets libres ou électron célibataire) de la couche externe se trouvent statistiquement à la même distance du noyau. à la surface d'une sphère dont le noyau occuperait le centre, Les e- correspondants se localisent le plus loins possible les uns des autres afin de minimiser les répulsion
+
+◼FORMUALATION V.S.E.P.R
+Ecriture symbolique de type AXmEn qui précise les nombres n d'atomes X liés à l'atome central et m celui de ses propres entités non liantes(doublets ou électron célibataire). La somme(m+n) définitla géometrie de la molécule:
+(m+n)=2  molécule linéaire
+(m+n)=3  molécule plane triangulaire
+(m+n)=4  molécule tétraédrique
+(m+n)=5  molécule bipyramidale à base
+         triangulaire
+(m+n)=6  molécule bipyramidale à base
+         carrée(ou octaédrique)
+
+CONSEQUENCES STRUCTURALES
+
+◼CRITERES DE COMPARAISON
+1_Les répulsions électroniq entre  doublets se classent ainsi:
+NL/NL<NL/L<L/L
+non liant =NL
+liant =L
+2_Un électron célibataire est moins répulsif qu'un doublet
+3_Dans le cas de formes mésomères, la géometrie de l'éspèce est celle de l'hybride de resonnance le plus probable
+
+◼ANGLES DE LIAISON
+La présence de doublets non liants sur l'atome central d'une molécule AXm entraine en général une déformation de celle-ci. Le(ou les) doublets non liant(s) qui occupe(nt) un volume supérieur à celui d'une paire liante,provoque(nt) l'ouverture des angles E-A-X et la fermeture des angles de liaison A-X-A
+
+◼POLARISATION MOLECULAIRE
+Une molécule est polaire chaque fois que les barycentres des charges positives et négatives ne coincident pas avec l'atome central A; c'est le cas lorsque A porte des ligands X et X' différents, ou des doublets non liants(sauf pour les configurations AX2E3 et AX4E2)

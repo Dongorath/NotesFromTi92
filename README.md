@@ -8,5 +8,7 @@ Les fichiers sont en UTF-8 pour pouvoir utiliser les caractères spéciaux.
 Note : la Ti-92 a des caractères spéciaux pour certaines choses :
 - pour les dérivées (ex: df/dx pour la dérivée de la fonction f par rapport à x), il y a un d italique, il sera remplacé par un simple d
 - pour le nombre d'Euler / la constante de Néper (e = 2.718...), il existe un e italique, il sera remplacé par un simple e
+- pour la notation scientifique (ex: 1000=1E3), il existe un "petit" E majuscule, il sera remplacé par un simple E
+- pour le i complexe (i²=-1), il existe un i minuscule gras et italique, il sera remplacé par un simple i
 
 L'utilisation d'une police monospace est nécessaires pour voir correctement certains textes (ex: alignement de représentations de molécules).

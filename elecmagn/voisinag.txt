@@ -1,0 +1,106 @@
+
+ONDE EM AU VOISINAGE D'
+      CONDUCTEUR
+
+I- CONDUCTEUR PARFAIT
+II- EFFET DE PEAU
+III-CHAMPS AU VOISINAGE CONDUCTEUR
+IV- ONDES STATIONNAIRES
+V- PRESSION DE RADIATION
+VI- REFLEXION NON NORMALE
+
+I- CONDUCTEUR PARFAIT
+
+Densité volumique de charge
+j=σ E   div E=ρ/ε0   div j + d(ρ,t)=0
+
+d(ρ,t) + σ/ε ρ =0
+ρ= ρ(0) e^(-t/τ)
+τ=1E-18
+pour f <<1E18_Hz, ρ=0
+
+rot B  = μ j + μ ε d(E,t)
+=> complexe voit que le 2nd est petit
+=> ROT B = μ j
+
+II- EFFET DE PEAU
+
+complexe:
+ROT ROT E=μ σ E ω/i
+=>k^(k^E)=(k.E).k-(k.k).E
+  =-k^2 E
+  = μ ω σ E
+k=±√(ωμ.σ) (1+i)
+
+δ=√(2/(ωμ.σ))
+
+III-CHAMPS AU VOISINAGE d'1 CONDUCTEUR
+
+E(x=0)=σ/ε0 ux
+B(x=0)=μ0 Js^UX
+
+REFLECTION SOUS INCIDENCE NORMALE
+
+E0r=-E0i e^(j(ω.t-k.x)Uy
+Dem:
+incident:    E0i=E0i.e^(j(ω.t+k.x).UX
+réfléchir:   E0r=E0r.e^(ωr.t-kr.r).UX
+en X=0 composante perp:
+vrai pour tout y,z,t donne
+t=y=z=0, E0r=-E0i
+pour tout t, ω=ωr
+pour tout y, KRy=0
+pour tout z, KRz=0
+k=ωr/c=ω/c=k
+donc kr=±k
+onde allant vers l'exterieur kr=-k
+composante noramle continue En=0
+E0r=-E0i e^(j(ω.t-k.x)Uy
+
+B0r=-Boicos(ωt-k.x)UZ
+Bi=-Boicos(ω.t+k.x)UZ
+
+Js=2Boi/μ0 cos(ω.t) Uy
+
+IV- ONDES STATIONNAIRES
+
+E=E0i+E0r
+ =-E0i.2.sin(ω.t)sin(k.x).UY
+B=-Boi.2.cos(ωt)cos(kx).Uz
+onde stationnaire
+<e elmg>=ε0 .E0i^2
+<R>=0 : L'énergie ne se propage pas
+
+V- PRESSION DE RADIATION
+  ASPECT ONDULATOIRE
+Btotal= BdS+ BExt
+BdS=μ0/2 Js^Ux=Btotal/2
+df=jS.DS^1/2Btot
+<df>=-ε0e0^2.dS.Ux
+    =-Pradiation Ds Ux
+prad=2<eelmg incidente>
+  ASPECT CORSPUCULAIRE
+choc elastique photon
+ρi=-hν/c.Ux
+ρr=hν/c.Ux
+dρ = 2h.ν/c.Ux
+n:densité volumique de photons
+dρ=-2n.hν.dS Ux
+
+VI- REFLEXION NON NORMALE
+angle α avec la normale
+[k.cos(α) , k.sin(α)]
+krz=0
+E0i=-E0r
+ω=ωr
+kr^2=k^2
+kr=k(-cos(α).UX+sin(α).UY)
+Er=-E0.e^(j(ωt+kxcos(α)-ky.sin(α))
+
+js=2E0.ε0.ccos(α)cos(ωt-kysin(α))UZ
+
+df=σ Eext +Flap
+Eext=1/2Etot(x=0)
+Flap=js.dS^(1/2 Btot(x=0))
+<df>=ε0.E0^2.cos(α)^2.Ds UX
+prad=2<eelmg> cos(α)^2

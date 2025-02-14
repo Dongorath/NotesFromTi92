@@ -1,0 +1,39 @@
+************************
+*dipole electrostatique*
+************************
+
+Moment dipolaire
+p→=qOP→-qON→
+(p→=Σ(qi.OPi→))
+
+V=(p→.ur→)/(4πε0r²)
+
+Er=2pcos(θ)/(4πε0r³)
+Eθ=psin(θ)/(4πε0r³)
+
+force exercee sur le dipole par un champ E→
+F→=(p→.grad→)E→
+M(O)→=p→*Eext→(O)
+
+Energie du dipole
+U=-p→.Eext→
+
+*******************
+*Dipole magnetique*
+*******************
+
+M→=∫∫I.dS→
+
+A→=μ0.(M→*ur→)/(4πr²)
+
+Br=μ02Mcos(θ)/(4πr³)
+Bθ=μ0Msin(θ)/(4πr³)
+
+Force subie dans Bext
+
+F→=grad→(M→.Bext→)
+
+U=-M→.Bext→
+
+moment
+M=M→*Bext→

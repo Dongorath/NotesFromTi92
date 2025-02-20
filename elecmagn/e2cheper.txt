@@ -1,0 +1,118 @@
+CHP ELECTRIQUE PERMANENT
+
+  I-TH DE GAUSS
+  II-POTENTIEL - LIGNES DE CHAMPS
+  III- RESISTANCE
+  IV- SYMETRIE - RELATION DE PASSAGE
+  V- EXEMPLES
+
+
+I-TH DE GAUSS
+
+∫∫∫ (divE→)dτ=∫∫∫(ρ/ε.)dτ=1/ε.∫∫∫(ρ)δτ
+   V
+d'après Maxwell.
+d'où §§E→.dS→=Qint/ε. d'après ostro
+
+II-POTENTIEL - LIGNES DE CHAMPS
+
+potentiel electrique
+E→(M)=grad→(V(M))
+
+◼lignes de champ:
+▶E(M) colineaire a ces lignes pr tt M
+▶orientees ds le sens des potentiels decroissants
+▶perpendiculaires aux equipotentielles
+▶ds 1 region vide de charge: pas d'extremum
+
+◼E est a circulation conservative:
+§(E.dr)=0
+
+◼Equation de Poisson:
+ΔV(r→)=-ρ(r→)/ε.
+
+◼Potentiel électrique:
+V(M)=∫∫∫(ρ(p)dτ/(4πε.rPM))
+    =∫∫∫(dq/(4πε.rPM))
+
+◼Champ électrique:
+E→(M)=∫∫∫((ρ(p)dτ)/(4πε.)uPM→/r³PM
+
+◼Conducteur en régime permanent:
+ρ=0 ds le conducteur ohmique en régime permanent
+de plus ΔV(r)=0 (eq de Laplace)
+V=(V2-V1)/l x +V1
+
+III- RESISTANCE
+
+Cas Général de calcul de resistance
+symétrie pour j
+I=∫∫j→.dS→=σ∫∫E→.dS→
+V1-V2=∫(-dV,1,2)=∫(E→.dr→,1,2)
+R=(V1-V2)/I
+
+ΔV=0 → V(M) → V1-V2 → R=(V1-V2)I ←+
+       +→ E→(M) → j→=σE→ → I→∫∫j→.dS→
+
+◼Conducteur en régime permanent:
+si on la résout:L/σS=R (=ρL/S)
+ρ:résistivité
+
+◼Conducteur linéaire
+V=(V2-V1)/L.x+V1
+E=-grad→(V)=(V2-V1)/l
+j=σ(V1-V2)/l
+I=∫∫j.dS=σS(V1-V2)/L
+R=L/(σ.S)
+
+◼Résistance d'1 conducteur cylindrique
+R1,R2 rayon intérieur et extérieur, H hauteur
+R=(V1-V2)/I=ln(R2/R1)/(2πHσ)
+
+◼Résistance d'1 conducteur sphérique
+R=(V1-V2)/I=(1/R1-1/R2)/4πσ
+
+IV- SYMETRIE - RELATION DE PASSAGE
+
+◼relations de passage
+E→(M2)-E→(M1)=(σ/ε0).n12→
+V primitive de E est continue
+
+dem:
+M1 milieu 1
+M2 milieu 2
+E(M1)=E ds(M1) + E autres
+E(M2)=E ds(M2) + E autres
+E(M2)-E(M1)=E ds(M2)- E ds(M1)
+on est pres, on peut supposer ds plan
+E ds(M2)=σ/(2ε) n(plan->M2)
+E(M2)-E(M1)=σ(M)/ε0 n(1->2)
+
+V- EXEMPLES
+
+◼fil infini→E(M)=(λ/2πε.x).ux
+
+◼segment
+M sur l'axe de symétrie du segment
+E(M)=∫(λ dl PM/(4πε(pm)^3)
+      P∈S
+θ=(MP,x)
+tan(θ)=y/x
+dy=x.dθ/cos(θ)^2
+PM=x ux
+pm=x/cos(θ)
+on integre
+E(M)=λ/(4πεx)*(sin(θb)-sin(θa))
+
+◼sphere de rayon a et de densite volumique de charge ρ(r,θ,φ)=α.r
+r≤a:
+Qint=∫∫∫ρ(P).dτp=π.α.r^4
+dτp=rp^2.drp.dθ.sin(θ).dφ
+E(r)=(α.r)/4ε0
+r≥a:
+Qint=π.α.a^4
+E(r)=(α.a^4)/(4ε0.r^2)
+V avec v(∞)=0 et V(a-)=V(a+)
+
+◼champ de revolut° autour d'1 axe
+E(r,z)~-r/2.d(E0(z))/dz

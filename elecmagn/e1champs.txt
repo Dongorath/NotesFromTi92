@@ -1,0 +1,52 @@
+ CHAMP ELECTROMAGNETIQUE
+
+ I- CHARGE ELECTROMAGNETIQUE
+ II- EQUATION DE CONSERVAT° DE CHARGE
+ III- EQUATIONS DE MAXWELL
+
+
+I- CHARGE ELECTRIQUE
+*densité volumique de charge:
+dq=ρ(r→,t)dτ
+
+*densité surfacique de charge:
+dq=ρ(r→,t)dτ=σ(r→,t)dS
+
+*densité linéique de charge:
+dq=ρ(r→,t)dτ=λ(r→,t)dl
+
+◼courant électrique:
+j→ vecteur densité de courant:
+di=j→.dS→ dq=di*dt
+j→=ρ(r→,t)*v→
+
+II- EQUATION DE CONSERVAT° DE CHARGE
+
+Pdt dt, Q varie de dQ
+Q=∫∫∫σ.dτ
+d(Q,t)=∫∫∫(d(ρ,t).dτ)
+dQ=∫∫∫(d(ρ,t).dτ).dt
+dQ = charge qui entre = -qui sort
+dQ=§§j.dS.dt=∫∫∫div j.dτ.dt
+dρ/dt+div(j→)=0
+
+analogie thermo:
+-dH=-μc(dT/dt)div(jcd→)
+
+◼cas du régime permanent:
+div(j→)=0 => §§(j→.dS→)=
+                      ∫∫∫(divj→*dτ)=0
+ie j→ est à flux conservatif
+
+III- EQUATIONS DE MAXWELL
+
+divE→=ρ/ε. (MG)
+
+rot→(E→)=-dB/dt  (MF)
+
+divB→=0 (Mφ)
+
+rot→(B→)=μ.j→+μ.*ε.*dE→/dt    (MA)
+
+ε.*μ.*c²=1
+1/(4πε.)=9.10^9

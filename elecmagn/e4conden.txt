@@ -1,0 +1,59 @@
+      CONDENSATEURS
+
+   I- PROPRIETES
+   II- EXEMPLEs
+
+I- PROPRIETES
+C=Q1/(V1-V2)  Q1:charge de l'intérieur
+          RC=ε./σ=ρε.   ρ=résistivité
+C=ε0∫∫E(M)→.dS→/∫(E(M)→.dr→,1,2)
+cond spheric:C=(4π.ε0)/(1/R1-1/R2)
+cond cyclindric:C=(2π.ε0.h)/ln(R2/R1)
+
+C=ε.*S/e  e:épaisseur
+
+◼en parallele C=C1+C2
+◼en serie 1/C=1/C1+1/C2
+
+◼force entre les arm.d'1 condensateur
+F=ε.*S*U²/2z²=C*U²/2z  z:épaisseur
+
+◼Energie d'1 condensateur
+E=QU/2=CU²/2=Q²/2C
+
+◼Densité volumique d'nrj électrique
+e(el)=ε.*E²/2
+
+II- EXEMPLES
+
+METHODES:
+symetrie
+∫∫E.dS=Qint/ε =>E
+V1-V2=∫(E.dr,1,2)
+C=Q/(V1-V2)
+svt apres DL e<<1
+C=ε.S/e
+S:surface en //
+e: distance entre les 2 armatures
+
+◼C Sphérik
+état1:Q2ext≠0,Q2int=-Q1=0
+=>E(M)→=0→
+état2:Q2ext=0,Q2int=-Q1≠0
+=>E(M)→=E(r)→
+E(M)→.ur→=Q1/(4πε.r²)
+V1-V2=∫(E.dr,1,2)=Q1/(4πε.)(1/R1-1/R2)
+C=4πε./(1/R1-1/R2)
+
+◼C Cylindrik
+λ1:charge/unité de longeur
+h:hauteur
+Ch=λ1*h/(V1-V2)=2πε.h/ln(R2/R1)
+◼C où e faible
+E(M)→=σ1/ε.n→
+or σ1=Q1/S1
+C=Q1/(V1-V2)=ε.*S1/e
+◼C plan
+effets de bord négligeables
+E→=E1→+E2→=σ1/2ε.ux→-σ1/2ε.-ux→
+C=S*ε./eq

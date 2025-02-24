@@ -1,0 +1,41 @@
+Conducteurs en éq électrostat dans le vide
+
+◼ds le conducteur en eq electrostatic
+E=0 dc div(E)=0 dc ρ=0
+aussi V(M)=Cste ds tt le conducteur
+
+◼la surface d'une cavite n'est pas
+chargee
+
+◼Th de Coulomb:
+E(M1)→=σ/ε. n→  avec M1 au vois de M
+M∈surface du conducteur M1 externe au conducteur(sinon le champ est nul)
+σ/2ε0 cree par dS et σ/2ε0 cree par les autres charges
+
+les lignes de champ partent des charges + arrivent aux charges -
+E:elles divergent des sources
+B:elles tournent autour des sources
+
+◼pression electrostatique
+dF→=dq.Eautres(M)→
+   =σ(M).dS.σ(M)/2ε0.n→
+   =pel.dS.n→
+Pel=σ²/2ε0
+
+◼pouvoir des pointes:
++ le rayon de courbure est petit,+ la densité surfacique de charge est grde
+
+◼capacité propre d'1 conducteur:
+Q=CV  C:capa propre d'1 cond seul ds l'espace
+V & Q potentiel & charge du conduct.
+
+◼Energie électrostatique:
+conduct.seul: E=VQ/2=CV²/2=Q²/2C
+
+◼Energie potentielle d'interactions:
+E=1/2*Σ(qi*Vi)
+pour 1 syst.cont.:U=1/2*∫∫∫ρ(M)V(M)dτ
+
+◼th des elements correspondants
+des elements correspondants ont des charges opposees (tube de champ)
+Qs1+Qs2=0

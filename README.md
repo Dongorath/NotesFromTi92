@@ -10,5 +10,6 @@ Note : la Ti-92 a des caractères spéciaux pour certaines choses :
 - pour le nombre d'Euler / la constante de Néper (e = 2.718...), il existe un e italique, il sera remplacé par un simple e
 - pour la notation scientifique (ex: 1000=1E3), il existe un "petit" E majuscule, il sera remplacé par un simple E
 - pour le i complexe (i²=-1), il existe un i minuscule gras et italique, il sera remplacé par un simple i
+- pour l'exposant -1 (inverse, x⁻¹), il existe un unique caractère, il sera remplacé par soit par la forme en division (1/x) soit par deux caractères superscripts (x⁻¹)
 
 L'utilisation d'une police monospace est nécessaires pour voir correctement certains textes (ex: alignement de représentations de molécules).

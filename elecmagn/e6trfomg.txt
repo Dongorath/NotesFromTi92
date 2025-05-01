@@ -1,0 +1,59 @@
+    TRAVAIL DES FORCES ELECTROMG
+
+  I-FORCE DE LAPLACE - CIRCUIT COUPLE
+  II-ROUE DE BARLOW
+  III-FLUX COUPE
+    E=-iφ
+  IV-MOMENT D'1 CIRCUIT
+
+
+I-FORCE DE LAPLACE - CIRCUIT COUPLE
+F→=qE→+qv→*B→
+Pvol=j→.E→ (B→ n'apporte pas de puiss à la matière)
+
+◼Force de Laplace:
+F→=Idl→*B→
+
+◼inductance mutuelle:
+φ1=L1*i1+M21*i2
+φ2=L1*i2+M12*i1
+E=1/2.L1.i1^2+1/2.L2.i2^2 + M.i1.i2
+
+◼Effet Hall:
+Uh=-IB/bρm (b epaisseur du conduct)
+
+II-ROUE DE BARLOW
+
+d²M→(O)=OM→*d²F→
+d²F=di.dl→*B→
+OM→=r.ur→
+dl→=dr.ur→+rdθ.uθ→
+M→(O)=-IBa²/2
+
+III-FLUX COUPE
+flux coupé: φc
+dSc→=dr→*dl
+δ²φc=B→.(dr→*dl→)
+δW=I∫φc
+surface coupée:dSc=dr^dl
+dem:
+δ²W=Flap→*dr→=(I.dl→*B→).dr→
+=I(dr→*dl→).B→=Iφc
+
+∫∫B→.dSlat→=φc
+∫∫B→.dS→ =φ1 |S=S1
+∫∫B→.dS→ =φ2 |S=S2
+=>φ2-φ1=φc:
+la variat° de flux entre t1 et t2 est egale au flux coupé par le circuit entre t1 et t2
+
+TH de MAXWELL:
+pour un champ permanent:
+Ep =-Iφ (i cst)
+δW=idφ
+
+a l'eq du circuit le flux est max
+
+IV-MOMENT d'1 CIRCUIT
+
+M→(O)=M→*B→
+M→=∫∫i.dS→ moment magn du circuit

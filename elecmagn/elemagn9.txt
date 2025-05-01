@@ -1,0 +1,38 @@
+ ENERGIE ELECMAGNETIQUE
+
+◼dP = J E dτ
+
+◼vect de Poynting:
+→  → →
+R=(E^B)/μ.
+
+◼Th de Poynting:
+             → →      → -→
+-dEem/dt=∫∫∫(j.Edτ)+§§R.dS
+
+◼Puissance rayonnée:
+         →
+=flux de R
+
+(pour 1 condensateur plan:-d(q²/2C)/dt nrj perdue=nrj rayonnée)
+(pour 1 solénoide:-d(Li²/2)/dt
+
+◼Energie mg:
+Emg=∫∫∫(B²/2μ. dτ)
+(pour 1 solénoide:Li²/2
+(pour 2 circuit en inductance mutuelle L1*i1²/2+L2*i2²/2+M*i1*i2
+
+◼R=1/μ E^B
+div R= 1/μ div(E^B)
+=1/μ (B rot E - E rot B)
+donc
+1/μ E rot B = 1/ μ B rot E - div R
+or E rot B=μ J E +μ ε0 E d(E,t)
+=μ J E + μ d( 1/2 ε E^2)
+or 1/μ B rot E = 1/ μ B d(B,t)
+
+J.E = -d(1/2ε E^2 + B/2μ)- div R
+ 1           2               3
+1:puissance fournie aux charges
+2:puissance electromagnetique perdue
+3:puissance rayonnee a travers surface

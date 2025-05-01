@@ -1,0 +1,68 @@
+
+Induction électromagnétique:
+
+◆)Rég quasi-stationnaire:
+------------------------
+→  ---→      →
+E=-grad V - dA/dt
+   → --→
+et B=rotA
+
+jauge de Lorentz:
+
+   →
+divA +(1/c²).dV/dt=0
+
+On dit qu'on est en rég qs si la période des grandeurs imposées(U,charge…) est tq T>>τ=10^-18s alors ds le cond. ρ=0.
+
+◼chgtde ref:R' en translation/R à la vitesse v:
+ρ=ρ'
+-→ →  →  → -→ → →  → -→
+j'=j-ρv, E=E'-v^B, B=B'
+
+◼champ électromoteur:
+→              →       →
+j(M,t)=σ(M,t).(E(M,t)+ve  →
+(M,t)^B(M,t))
+
+--→   →    → →
+Eem=-dA/dt+v^B
+
+chp electrostatic:
+Ees=-grad V
+
+◼Ddp au borne d'1 circuit AB:
+
+V(A)-V(B)=
+          --→ -→
+Rab*iab-∫(Eem.dr,A,B)
+
+dem:
+∫(j.dr,A,B)=∫(σ(-grad V +Eem))
+=σ-∫(dV+Eem,A,B)=σ(V(A)-V(B)+..)
+or ∫(j.dr)=iL/S=Rσ.i
+V(A)-V(B)=R.I - E AB
+EAB=∫(Eem.dr,A,B)
+
+    <-----V(A)-V(B)----
+       +-----+    -
+   A*--| RAB |---|E|--*B 
+       *-----+    -
+
+Eem=-d(A,t)+ve(M)^B
+
+◼force electromotrice induite
+eAB=∫(Eem.dr,A,B)
+
+◼formule de faraday:
+
+  -dφ/dt=e
+
+φ:flux de B à travers le circuit orienté.
+
+◼Loi de lenz:
+effets du courant induis'opposent à la cause decelui-ci
+
+◼quantité d'élec induite ds 1 circuit
+Q=-1/R*Δφ
+

@@ -1,0 +1,101 @@
+          CHAMPS MAGNETIQUE
+   CREE PAR DES COURANTS PERMANENTS
+
+I-LE CHAMP MAGNETIQUE
+II-EXEMPLES DE CALCULS
+
+I-LE CHAMP MAGNETIQUE
+
+◼φ=§§(B→.dS→)=0
+φ de B→ est le mm à travers tte surf s'appuyant sur 1 mm contour et ne dépend que du contour
+φ:Wéber Wb
+B:Tesla T
+
+◼Th d'Ampere:circulat° de B→à travers une surface fermée orientée @
+§B→.dr→=μ.*I@ (I@ algébrique)
+
+◼potentiel vecteur:(pas unique)
+divB→=0 => B(M)→=rot→(A(M)→)
+
+◼jauge de Coulomb:
+divA→=0
+
+◼champ B→ uniforme
+alors A→=1/2*B→*OM→ est un pot-vect
+
+◼circulat° de A→
+§(A→.dr→,@)=∫∫(B→.dS→,S)
+S s'appuie sur le contour @
+
+◼Eq de Poisson:
+rot→(B→)=μ0.j→   B→=rot→(A→)
+rot→(rot→(A→))=grad→(div(A→)-ΔA→=ΔA→
+ΔA→+μ0*j→=0→
+
+◼jv→(P).dτ<=>js→(P).dS<=>I.dl→
+
+◼A(M)→=∫∫∫(μ0.j(P)→.dτ/4πPM)
+SOLUT° DE L'EQUATION DE POISSON
+
+◼B(M)→=∫∫∫μ0.j→*dτ.uPM→/4πPM²
+B(M)→=∫∫μ0/4π.idl→*PM→/PM³
+formule de Biot et Savart
+dem:
+B(M)→=rot→(A→)=μ/4π∫∫∫(rot→(j→/PM)dτ)
+rot→(j→/PM)=grad→(1/pm)*j→   +
+                        1/pm.rot→(j→)
+
+II- EXEMPLES DE CALCULS
+
+◼calcul de A(M)→ et de B(M)→
+.formule de Biot et Savart
+.A(M) par integrales + B(M)=rot A(M)
+.B(M) par le th d'Ampere puis A(M) par B(M)=rot A(M) ou §(A.dr)=∫∫(B.dS)
+
+◼Segment filiforme:
+dem voir pour E (elecmagn\e2cheper)
+
+B(M)→=μ0I/4πr.(sinθB-sinθA)uθ→
+
+◼fil infini rectiligne
+B(M)→=μ0I/2πr.uθ→
+
+A=-μ0I.ln(r)/2π+C
+en prenant ∫(A.dr)=∫∫B.dS
+dS:rectangle // axe
+
+◼Cylindre infini (de rayon a)
+si r>a B→=μ0ja²/2r sur uθ→
+et A=-μ.ja²ln(r)/2+cte
+sir r<a B=μ.jr/2 sur uθ→
+et A=-μ.jr²/4+cte
+
+◼Spire de rayon a
+B(M)→= μ0I/2a sin³(α)
+
+dem:
+B(M)→=u/4π∫(I.dl→*PM→/PM³)
+
+◼Solénoïde (n spires/longueur)
+Bint→=μ0nI.uz→ , Bext→=0→ infini
+
+B(M)→=μ0nI/2.(cosα2-cosα1).uz→
+
+dem:
+dI=n.dz I
+dz=-a/(sin(α)^2)dα
+
+◼nappe plane infini
+B(M)→=μ0/2.js→*n(plan→M)→
+
+dem:
+∫∫B.dr=0
+B(z)=B(-z)
+=> choisir rectangle centre sur l'axe
+
+◼bobine
+Bext=0
+Bint→=μ0NI/2πr.uθ→
+elecmagn\e1champs
+
+B(M2)→-B(M1)→=μ0.js→*n(1→2)→

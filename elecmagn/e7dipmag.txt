@@ -1,0 +1,30 @@
+◆)moment magn:
+--------------
+◼circuit filiforme:
+M→=∫∫i.dS→
+M→=1/2*§(OM→*idl→)
+
+◼Cas général:
+M→=1/2*∫∫∫(OM→*j→.dτ)
+
+◆)Potentiel vect & champ créé
+-----------------------------
+A(M)→=μ0/4πr².(M→*ur→)
+B(M)→=rot→(A(M)→)
+
+◆)Analogie dip élect & dip magn
+-------------------------------
+→     -→          |→        -→ →
+p=∫∫∫(OM.ρ(M)dτ)  |M=1/2∫∫∫(OM^jdτ)
+              → -→|---→         → -→
+V(M)=1/4πr²ε.*p.Ur|A(M)=μ./4πr²*M^Ur
+Er=2pcosθ/4πr³ε.  |Br=2μ.Mcosθ/4πr³
+Eθ=psinθ/4πr³ε.   |Bθ=μ.Msinθ/4πr³
+Eφ=0              |Bφ=0
+-----→ → → ---→   |→ → ---→
+Moment=m=p^Eext   |m=M^Bext
+    → ---→        |    → ---→
+Ep=-p.Eext        |Ep=-M.Bext
+   →  →           |   →  →
+Fx=p.dE/dx        |Fx=M.dB/dx
+------------------+------------------

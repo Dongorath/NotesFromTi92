@@ -1,0 +1,131 @@
+PROPAGATION DU CHAMP MGTIQUES
+ * Rappel
+.Maxwell,continuité,potentiel,ARQS
+ * propagation
+.propag,eq de propag (chps et poten)
+ * onde plane
+.solu grale,interpret,OemPP
+ * onde stationnaire
+.OP,interpr,OS <-> OPP,cavite
+ * Polarisation
+.ellipt,…,polarisa°
+ * vitesse de prog
+.vφ,vg,dispertion
+
+--Rappel
+()Maxwell
+Gauss   divE=ρ/ε0
+Faraday rotE=-dB/dt
+φ       divB=0
+Ampere  rotB=μ0j+μ0ε0dE/dt
+()continuité
+E2-E1=σ/ε0(n1→2)→
+B2-B1=μ0j▴(n1→2)→
+()potentiel
+B=rotA
+E=-gradV-dA/dt
+jauge de Lorentz:
+divA+1/c²dV/dt=0
+()ARQS
+dimension<<λ
+rotB=μ0(j+jD)
+j=σE jD/j=ε0|dE/dt|/σ|E|=…=ε0ω/σ=1/fc
+on a f<<fc dc
+rotB=μ0j
+
+--propagation
+()propagation
+rot(rotA)=grad(divA)-ΔA
+rot(rotE)=gradρ/ε0-ΔE
+ =rot(-dB/dt)=-μ0dj/dt-μ0ε0d²E/dt²
+vide…
+→→ Δ.-1/c²*d²./dt²=0 eq de propag
+rot(rotB)=-ΔB
+ =μ0rotj-μ0ε0d²B/dt²
+→→ meme eq de propag
+rot(rotA)=rotB=…+μ0ε0dE/dt
+   avec E=-gradV-dA/dt
+util jauge Lorentz
+→→ meme eq de propag
+ΔV=div(gradV)
+divE=div(-gra…A/dt + j2lorentz
+→→ meme eq de propag
+
+--onde plane
+()solution
+d²ξ/dx²-1/v²d²ξ/dt²
+α=t-x/v et β=t+x/v
+d/dt=d/dα+d/dβ
+d/dx=1/v(-d/dα+d/dβ)
+d²/dx²=…
+d²/dt²=…
+0=d²/dx²-1/v²d²/dt² => d²ξ/dαdβ=0
+dξ/dβ=g'(β)
+ξ(x,t)=f(α)+g(β)=f(t-x/v)+g(t+x/v)
+()interpretation
+f(t-x/v) OPP selon +ux→
+()OemPP
+d/dx=-1/vd/dt
+grad=▾→=d/dx=-1/v*ux→*d/dt
+        d/dy
+        d/dz
+▾→=-1/v*ux→*d/dt
+grad=▾
+div=▾.
+rot=▾▴
+transversalité divE=0 divB=0
+u.E=0 et u.B=0
+dc E et B transverse
+dB/dt=-rotE=d/dt(1/c*u▴E)
+-: B=1/c*u▴E :-:
+-: E=-c*u▴B  :-:(rotB=1/c²*dE/dt)
+energie electro
+eel=1/2ε0E²
+emg=1/2B²/μ0=eel
+eelmg=ε0E²=B²/μ0
+poynting
+Π→=E▴B/μ0=E²/μ0c*u→
+()OemPP monchromatiq
+k→=ω/c*u→
+▾→=-ik→
+grad=-ik→…
+div=-ik→.…
+rot=-ik→▴…
+Δ=▾²=-k²…
+
+--Onde stationnaire
+pas couplage x et t
+()eq des ondes planes
+d²ξ/dx²-1/v²d²ξ/dt²=0
+d²ξ/dx²=g(t)f"(x)
+d²ξ/dt²=f(x)g"(t)
+f"(x)/f(x)*v²=g"(t)/g(t)=cste=-ω²
+g(t)=A1cos(ωt+φ1)
+f(t)=A2cos(kx+φ2)
+ξ=Acos(ωt+φ1)cos(kx+φ2)
+
+noeud de vibr: ξ(x,t)=0 qqs t
+ventre: dξ/dx=0 qqs t
+() OS <-> OPP
+2*cosAcosB=cos(A+b)+cos(A-B)
+cos(A+B)=cosAcosB+sinAsinB
+()cavité
+conditions au limite→noeuds ou ventre
+
+--polarisation
+polarisé si extremité vect decrit courbe fermée
+→ellipse
+a x fixé
+Ey=Ycos(ωt)
+Ez=Zcos(ωt-φ)
+→rectiligne
+E→=cste→cos(ωt)
+→circulaire
+Y=Z et φ=±π/2
+
+--vitesse de propag
+vg=dω/dk groupe
+vφ=ω/k  phase
+()dispertion
+si ω et k st proportionnels (vφ=cst),
+non dispersif

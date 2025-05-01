@@ -1,0 +1,71 @@
+               OPERATEURS
+
+
+      I- GRADIENT
+      II- ROTATIONNEL
+      III- DIVERGENCE
+      IV- LAPLACIEN
+      V- RELATION STOCKES-OSTRO
+
+
+ I - GRADIENT :
+ --------------
+
+--->    df ->   df ->   df ->
+grad(f)=-- x0 + -- y0 + -- z0
+        dx      dy      dz
+        df ->   1df ->   df ->
+       =-- r0 + --- θ0 + -- z0
+        dr      rdθ      dz
+        df ->   1df ->     1  df ->
+       =-- r0 + --- θ0 + ------- φ0
+        dr      rdθ      rsinθdφ
+
+ II- ROTATIONNEL
+ ---------------
+
+       | 1(dA(z) - drA(θ))
+       | - -----   ------
+       | r  dθ       dz
+--> -> |   dA(r) - dA(z)
+rot A =|   ----    -----
+       |    dz       dr
+       | 1(drA(θ) - dA(r))
+       | _ ______   _____
+       | r   dr       dθ
+
+ III- DIVERGENCE
+ ---------------
+
+    ->  dA(x)   dA(y)   dA(z)
+div A = ----- + ----- + -----
+          dx      dy      dz
+
+        1 d(rA(r))   dA(θ)   rdA(z)
+      = -[-------- + ----- + ------]
+        r    dr       dθ       dz
+
+  IV- LAPLACIEN
+  -------------
+      d2f   d2f   d2f
+Δ f = --- + --- + ---
+      dx2   dy2   dz2
+
+      1  d  df
+    = -[--(J--) + ...]
+      J du  du
+
+  ->      ->        ->        ->
+Δ A =ΔA(x)x0 + ΔA(y)y0 + ΔA(z)z0
+
+--> --> ->  --->     ->   ->
+rot rot A = grad div A - ΔA
+
+V- RELATION STOCKES-OSTRO
+--------------------------
+              --> ->      --> ->->
+Stockes : C=∫(A(M)dM) = ∫(rot(A)dS)
+-------
+                   ->->          ->
+ostrogradsky : φ=∫(A.dS) = ∫(div(A)dτ)
+------------

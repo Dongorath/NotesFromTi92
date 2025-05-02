@@ -1,0 +1,42 @@
+▶ Cercle avec ume fente avec une distribution λ :E(→)=-λsin(α)/(2πε0R) i(→)
+▶ Sphère chargé en volume
+Si r>R  E(→)=(ρR^3)/3ε0r²)
+Si r<R  E(→)=ρr/3ε0 Ur(→)
+▶ Sphère chargée en surface
+Si r>R  E(→)=σR²/ε0r² Ur(→)
+Si r<R  E(→)=0(→)
+▶ Fil rectiligne infini
+E=λ/(2πε0r) er(→)
+▶ Plan infini
+E(→)=(σ/2ε0) Nplan→ext(→)
+
+▶ Potentiel crée par un dipole
+||p→||=p
+V(M)=pcos(θ)/4πε0r²
+▶ Champ cré par un dipole
+E=(p/(4πε0r³))*(2cos(θ)er(→)+sin(θ)eθ→)
+
+▶ On pose un petit disque de rayon r de masse m sur un grand cercle
+V(0)=∫∫(σdS/4πε0R))
+s'eleve pour V≥(R/r)√(2mg/πε0)
+▶ potentiel d'une sphère
+V=σR/ε0
+▶Capa
+▶Boule metallique
+C=4πε0R
+▶Disque
+C=8ε0R
+▶Condensateur sphérique
+E=Q1/4πε0r²
+C=4πε0.(R1R2)/(R2-R1)
+▶Condensateu cylindrique
+C=2πε0/ln(R2/R1)
+
+▶Le plan contenant Oz et e point M est un plan de symétrie
+Le plan perp à 0s et passant par M est un plan de sym
+Invariance par translation et rot
+donc Er=E(r)er(→)
+Syrface de Gauss;cylindre d'axe Oz de rayon r,de hauteu h
+Théorème de Gauss ∫∫0 E→.dS→=∫∫E→.Ds→=E2πrh
+d'autre part Qint/ε0=λh/ε0
+donc E(→)=λ/2πε0r er(→)

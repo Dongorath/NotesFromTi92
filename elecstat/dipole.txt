@@ -1,0 +1,35 @@
+         Dipole électrostatique
+
+Un dipole est un atome polarisé donc placé dans un champ électrique.
+
+Polarisation induite : Pour polariser l'atome il faut fournir une force extérieure.
+
+On modélise le système polarisé par un ensemble de 2 charges ponctuelles :  +q placé en G+ et -q placé en G-
+La carge totale du système doit entre nulle.
+
+Moment dipolaire électrique du système→c'est la quantité vectorielle →p telle que q*(→G-G+) [p]=C.m
+Avec G- barycentre des charges négatives et G+ celui des charges positives.
+
+V(M) = (→p*→OM)/(4π*ε0*r^3) avec r>>a
+
+Les surfaces équipotentielles sont symétriques par rapport au plan médiant (zoy) et sont de révolution par rapport à l'axe (ox)
+
+Le moment →Γ ds forces est indépendant du pt par rapport auquel on le calcule=> →Γ = →p^→Ee
+
+L'énergie potentiel :
+Ep = -(→p)*(→Ee)
+
+Relation entre Ep et →Γ :
+→Γ = (dEp/dα)*→k
+avec α l'angle entre la posit° d'équilibre initiale et la position finale.
+
+A l'équilibre →Γ = 0
+
+          DIPOLE MAGNETIQUE
+
+Un dipole magnétiq est une distribut° de courrant qui,placé dans un champ magnétique uniforme est soumise à une résultante des forces de LAPLACE nulle.
+
+→M  = I*π*R^2*→n
+→Γ1 = →M^→B
+
+Energie potentiel : →Ep = -(→M)*(→B)

@@ -1,0 +1,47 @@
+     Action d'un champ électrique
+
+🔒 Loi de COULOMB : →Fe = q*→E
+Avec →Fe : force électrique
+Deux charge electriques q1 et q2, disposée dans le vide exercent l'une sur l'autre des forces d'unteract° opposée.
+ε0=8.85E-12 F.m⁻¹
+
+      1  q1q2  -->
+F12=---- ----  e12
+    4πε0  r²
+
+
+Travail de la force électrique :
+W,AB,(q*→E) = q*∫(→E*→dl,A,B)
+            = Ep(A)-Ep(B)
+            = q*[V(A)-V(B)]
+Or d'après le T.E.C :
+Ec(B)-Ec(A) = W,AB,(q*→E)
+            = q*[V(A)-V(B)]
+
+=>Ep(M) = q*V(M)
+V(M) : Potentiel électrostatique
+
+→E = -(→grad)(V)
+
+🔒 Intensité du courant :
+C'est la quantité de charge qui s'écoule par unité de temps.
+i = -n*s*v*e
+Avec n: nombre d'e- libre par unité de volume ; v vitesse de l'e- avec →v = -μ*→E avec μ la mobilité de l'e- ; s :section du conducteur.
+
+i = dQ/dt = -n*e*s*v
+
+Soit →J la densité volumique de courant qui est colinéaire aux lignes de champs
+       →J = n*q*v
+       →J = γ*→E  avec γ=(n*τ*e^2)/m
+γ est la conductivité du métal ; plus γ est élevé, plus le métal conduit bien le courant.
+              i = →J*→s
+τ est le temps de relaxation : c'est la valeur moyen du temps entre 2 changements de direction.
+μ = (e*τ)/m
+
+Si le conducteur est homogène, on obtient la loi d'ohm
+U = (l/γ*s)i avec R = l/(γ*s)
+Soit ρ = 1/γ : résistivité : R =(ρl)/s
+
+[R]= Ω  [γ]=Ω^-1*m^-1
+or Ω^-1=siemens=S =>[γ]=S*m^-1
+[ρ]=Ω*m

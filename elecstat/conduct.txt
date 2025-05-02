@@ -1,0 +1,33 @@
+Un conducteur électrique est un corpsqui contient des charges libres (mobiles) succeptibles de se mettre en movement sous l'action d'un champ électrostatique
+Un conducteur électrique est en équilibre électrostatique lorsqu'il n'est pas le siège d'un movement d'ensemble des porteurs de charge,cad la conductivité γ(→)=0(→) dans tout le materiau
+Le champ électrostatique d'un conducteur est nul dans tout le volume
+Un conducteur en équilibre électrostatique est nul dans tout le volume équipotentiel
+Losque l'on dépose un excédent de charge sur un condensateur à l'équilibre électrostatique,la répartition de charge ne peut être que volumique
+
+Théorème de Coulomb
+🔒 E(→)=σ/ε0 n(→)
+On définit la pression électrostatique Pe=dF/dS
+🔒Pe=σ²/2ε0 = ε0*E²/2
+La force est toujours située vers l'exterieur du conducteur
+Le conducteur crée dans son voisinage un champ électrostatique.Les champs présents dans l'air sont alors succeptibles de se déplacer et par l'intermédiaire de chocs,d'engendrer de nouvelles ionisations. Ce déplacement d'air est appelé Vent électrostatique
+Pour une sphère au potentiel V,
+🔒 V=σR/ε0
+Les charges vont venir s'accumuler dans les régions pointues.Le condensateur est un volume équipotentiel.
+La surface exterieur du conducteur peut présenter une distribution superficielle
+On définit la capacité d'un condensateur seul dans l'espace par
+🔒 C=Q/V
+Les lignes de champs sont dirigées vers l'exterieur,vers les potentiels les potentiels décroissants V(∞)=0
+
+Considérons deux condesateus A et B en influence et T un tube de champs issue de A aboutissant en B.Les surfaces découpées par T sur A et B sont appelées élements correspondants
+Les charges portées par des élements correspondants sont opposées
+On dit qu'il y a influence totale entre A aboutissent en B
+Le champ entre les deux plans d'un condesateur vaut:
+🔒E(→)=σ/ε0 k(→)
+ V1-V2=σ²/ε0
+Si Q désigne la charge portée par l'armature de surface S:
+🔒Q=σS
+ Q=C(V1-V2)  avec  C=ε0*S/e
+On appelle condensateur un système de deux conducteur dont l'un est en influence totale par rapport à l'autre
+🔒C=Q1/(V1-V2) = Q2/(V2-V1)
+en serie C^-1=Σ(Ci^-1)
+en dérivation  C=Σ(Ci)

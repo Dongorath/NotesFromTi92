@@ -1,0 +1,29 @@
+▶
+_Loi de Coulomb
+🔒 F(12)(→)=(q1q2)/(4πε0*r²) U12(→)
+_Champ électrostatique crée par q1 au point M2
+E(M2)(→)=q1/(4πε0*r²) U(12)(→)
+_Le champ élementaire dE(→) crée par dq au point M
+🔒 dE(→)=dq/(4πε0*PM²) U(PM)(→)
+
+THEOREME DE GAUSS
+🔒 φ=∫∫E(→).dS(→) =Qint/ε0
+Le flux du champ électrostatique crée par une distribution quelconque de charge travers une surface fermée quelconque est proportionnelle à la charge contenue à l'interieur de cette surface
+D'après la théorème de Green Ostrogradski ∫∫(E.dS)=∫∫∫(ρ/ε0)d(to)
+🔒 div E(→)=ρ/ε0
+On appelle potentiel électrostatique une fonction V tq δC=-dV soit
+🔒 dV=-E(→).dr(→)
+E est à circulation conservative
+🔒 E=-grad(→)V
+E(→) est un champ irrotationnel
+🔒 rot E(→)=0(→)
+Equation de Poisson
+🔒 ΔV+(ρ/ε0)=0
+Equation de Laplace:ρ=0
+🔒 ΔV=0
+
+La composante tangentielle de E(→) est constante à la traversée d'une surface chargée
+La composante normale du champ subit une discontinuité à la traversée de la surface
+
+Théorème de l'extrémum
+Le potentiel ne peut présenter d'extremum dans une région vide de charge

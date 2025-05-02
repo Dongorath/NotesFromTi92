@@ -1,0 +1,44 @@
+      LE CHAMP ELECTROSTATIQUE
+
+On appelle ligne de champ une courbe à laquelle le champ est en tout point tangent
+
+→E(M) = q/(4π*ε0*r^2)*→u
+Le champ électrostatique  est une grandeur vectorielle.
+
+V(M) = q/(4π*ε0*r)
+Le potentiel est 1 grandeur scalaire.
+
+→E(M) = -(→grad)V(M)
+
+En tout point de l'espace, le champ électrostatique est perpendiculaire à la surface équipotentiel
+
+Définition du flux :
+φ(→E\(Σ)) = ∫(→E*→ds)
+
+Théorème de GAUSS :
+Soit Σ 1 surface fermée orienté par sa normale extérieure en tout point. Le flux du champs électrostatique à travers 1 telle surface est égale à la charge totale Q contenue dans le volume V délimité par Σ divisé par ε0
+φ(→E\(Σ)) = ∫(Σ)(→E*→ds) = Q/ε0
+
+Quand la distribution de charge à un plan de symétrie (π), le champ quelle crée en 1 pt M quelconque de (π) est contenu dans ce plan.
+
+🔒 CALCUL D'UN CHAMP ET D'UN POTENTIEL
+
+◆Sphère :
+  En volume
+    ✓Si r>R : E(r) = Q/(4π*ε0*r^2)
+    ✓Si r<R : E(r) = Q*r/(4π*ε0*R^3)
+  En surface
+    ✓Si r>R : E(r) = Q/(4π*ε0*r^2)
+    ✓Si r<R : E(r) = 0
+◆Cylindre :
+  En volume
+    ✓Si r>R : E(r) = (ρ*R^2)/(2*ε0*r)
+    ✓Si r<R : E(r) = (ρ*r)/(2*ε0)
+  En surface
+    ✓Si r>R : E(r) = (ρ*R)/(r*ε0)
+    ✓Si r<R : E(r) = 0
+◆Plan :
+    ✓Si z>0 : σ/(2*ε0)
+    ✓Si z<0 : -σ/(2*ε0)
+
+Condensateur : U = ∫→E*dz = (σ*d)/ε0

@@ -1,0 +1,89 @@
+T cout majore (ou exact)
+C cout reel (majore)
+C(n)≤T(n)   =>    C(n)=O(T(n))
+T(n)=a*T(n-1)+b :
+▶ a>1 => T(n)=O(a^n)
+▶ a=1 => T(n)=O(n)
+▶ a<1 => T(n)=O(n)
+             (T(n)≤T'(n)=1*T'(n-1)+b)
+T(n)=T(n-1)+b*n :
+▶ T(n)=O(n²)   (T(n)~b/2*n²)
+T(n)=a*T(n/2)+b :
+▶ a>1 => T(n)=O(n^q)  q=log2(a) a=2^q
+▶ a=1 => T(n)=O(log2(n))
+▶ a<1 => T(n)=O(log2(n))
+             (T(n)≤T'(n)=1*T'(n/2)+b)
+T(n)=2*T(n/2)+f(n) :
+▶ si f=O(n^q) alors:
+  _ p<1 => T(n)=O(n)
+  _ p=1 => T(n)=O(n*log2(n))
+  _ p>1 => T(n)=O(n^p)
+▶ si f=O(n*log2(n)) alors:
+  _ T(n)=O(n*log2(n)^2)
+▶ sinon ???
+
+PREUVES:
+T(n)=T(n-1)+b:
+T(n)=b+b+…+b+cste=n*b+cste~n*b
+T(n)=a*T(n-1)+b:
+T(n)/a^n=T(n-1)/a^(n-1)+b/a^n
+T(n)=b*Σ(1/a^k,k,0,n)+cste
+T(n)=T(n-1)+b*n:
+T(n)=b*n+b*(n-1)+…+b*2+b+cste
+    =b*Σ(k,k,1,n)+cste
+    =b*n*n(n+1)/2+cste
+    ~b/2*n² = O(n²)
+T(n)=a*T(n/2)+b:
+1) n=2^k:
+   T(2^k)/a^k=T(2^(k-1))/a^(k-1)+b/a^k
+   x(k)=T(2^k)/a^k
+   x(k)=x(k-1)+b*1/a^k
+   x(k)=b*Σ((1/a)^s,s,0,k)+cste
+   a>1: x(k)~b/(1-1/a)
+        T(n)~a^k*b/(1-1/a)
+        a^k=a^(log2(n))
+           =e^(log2(n)*ln(a))
+           =e^(ln(n)*log2(a))
+           =n^(log2(a))
+        T(n)~n^(log2(a))*b/(1-1/a)
+            =O(n^log2(a))
+   a=1: x(k)=b(k+1)+cste^b*log2(n)
+        T(n)~b*log2(n)=O(log2(n))
+2) n quelconque: k tq 2^k≤n<2^(k+1)
+   T(2^k)≤T(n)≤T(2^(k+1))
+   T(n)=O(T(2^(k+1)) (majorat°)
+   a>1: T(n)=O(n^(log2(a))
+   a=1: T(n)=O(log2(n))
+T(n)=2*T(n/2)+f(n):
+si f=O(n^p), on prend f(n)=A*n^p a=2^q
+1) n=2^k: en divisant par a^k=2^(k*q)
+   T(2^k)/2^qk=T(2^(k-1))/2^(q*(k-1))+A*2^kp/2^kq
+   x(k)=T(2^k)/2^qk
+   x(k)=x(k-1)+A*2^(k*(p-q))
+   x(k)=A*Σ((2^(p-q))^s,s,0,k)+cste
+   p>q: x(k)~2^((p-q)*(k+1)) / (2^(p-q)-1)
+        T(n)~2^kp*2^(p-q)/(2^(p-q)-1)
+            =O(2^kp)=O(n^p)
+   p=q: x(k)=A*(k+1)+cste ~ A*k
+            ~A*log2(n)
+   p<q: x(k)~A/(1-(1/2)^(q-p))
+        T(n)~2^kq*A/(1-(1/2)^(q-p))
+            =O(n^q)
+2) n quelconque: k tq 2^k≤n<2^(k+1)
+   T(2^k)≤T(n)≤T(2^(k+1))
+   T(n)=O(T(2^(k+1))) (majorat°)
+
+T(n)=a*T(n-1)+f(n) :
+▶ a=1 =>
+  _ f=O(n^p) → T(n)=O(n^(p+1))
+  _ f=O(b^n),b>1 → T(n)=O(b^n)
+▶ a>1 =>
+  _ f=O(n^α*log(n)^β) → T(n)=O(a^n)
+  _ f=O(a^n) → T(n)=O(n*a^n)
+  _ f=O(b^n) → T(n)=O((max(a,b))^n)
+▶ a<1 => T(n)≤T'(n)=T'(n-1)+f(n)
+T(n)=a*T(n/2)+f(n): f=O(n^p) a=2^q q=log2(a)
+▶ p<q => T(n)=O(n^q)
+▶ p=q => T(n)O(N^q*log2(n))
+▶ p>q => T(n)=O(n^p)
+preuves par recurrence

@@ -1,0 +1,26 @@
+arite d'1 app f a(f)=nb d'args de f
+E non vide, B⊂E non vide, C ens d'apps a args ds E a vals ds E. Ens def inductivemt par (E,B,C) = le + petit sous ens T de E tq B⊂T et pour tt f∈C, pour tt (t1,…,t_a(f))∈T^a(f), f(t1,…,t_a(f))∈T (et stable par les constructeurs)
+Soit T ens def inductivement par (E,B,C)
+T=⋃(Tk,k∈N) où T0=B et T_(n+1)=Tn ⋃ (⋃({f(t1,…,t_a(f))|t1,…,t_a(f)∈Tn} , f∈C))
+Pour t∈T, n0=min{n∈N|t∈Tn} est la complexite du terme t
+Soit T ens def inductivement par (E,B,C) et p 1 predicat sur T. Si pour tt b∈B, p(b) et pour tt f∈C, pour tt (t1,…,t_a(f))∈T^a(f)
+(p(ti) i=1,…,a(f)) => p(f(t1,…,t_a(f)))
+alors pour tt t∈T, p(t)
+Soit T ens def inductivement par (E,B,C) et φ,ψ 2 apps de T ds F. Si pour tt b∈B, φ(b)=ψ(b) et pour tt f∈C, pour tt (t1,…,t_a(f))∈T^a(f)
+(φ(t1)=ψ(t1) i=1,…,a(f)) => φ(f(t1,…,t_a(f)))=ψ(f(t1,…,t_a(f)))
+alors pour tt t∈T, φ(t)=ψ(t)
+
+si predicat vrai pour termes de la bases et si vrai pour termes de complexite n => vrai pour termes de complexite n+1 alors vrai pour tt les termes
+
+E ens muni de la relat° d'ordre ≤.
+(E,≤) bien fonde s'il n'existe pas ds E de suite infinie stmt decroissante
+si (E,≤) bien fonde et F⊂E alors (F,≤) bien fonde
+(E,≤) bien fonde ssi tte partie non vide de E admet 1 elt minimal
+
+soit f fn recursive dont les args appartiennent a 1 ens A. Soit φ 1 app de A vers (E,≤) bien fonde et B sous ens des elts de A dont l'image par φ est minimale ds φ(A). Si f(b) se termine pour tt b∈B et si, pour x∈A, l'execut° de f(x) n'utilise q'1 nb fini d'execut° de la forme f(y) avec φ(y)<φ(x), alors f se termine pour tt x∈A.
+
+(E,≤) bien fonde. si p predicat tq p verifiie sur les elts minimaux de E et pour tt x∈E (pour tt y≤x p(y))=>p(x) alors p(x) pour tt x∈E
+Soit f fn recursive dont les args appartiennent a 1 ens A et p predicat sur les resultats de l'execut° de f. Soit φ 1 app de A vers (E,≤) bien fonde et B sous ens des elts de A dont l'image par φ est minimale ds φ(A). Si
+▶pour x∈A, l'execut° de f(x) n'utilise qu'1 nb fini d'execut° ds la forme f(y) avec φ(y)≤φ(x)
+▶pour tt b∈B p(b) et pour tt x∈A (pour tt y φ(y)≤φ(x) et p(y)) => p(x)
+alors p verifie pour ts les resultats de l'execut° de f sur 1 elt de A

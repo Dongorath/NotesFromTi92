@@ -1,0 +1,14 @@
+*************
+*TYPES SOMME*
+*************
+type xxx =
+  | Abcd
+  | Efgh
+  | Truc of ...
+  | Machin of ...*...
+
+***************
+*TYPES PRODUIT*
+***************
+type xxx = { Abcd : ... ; mutable Efgh : ...}
+a = {Abcd = x ; Efgh = y}

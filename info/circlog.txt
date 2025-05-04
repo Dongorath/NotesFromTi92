@@ -1,0 +1,37 @@
+         |\
+    p ---+ >--- p     relais
+         |/
+
+         |\
+    p ---+ >o-- ¬p    inverseur
+         |/
+
+         |-\
+    p ---+  )
+         |  )-- p ET q  porte et
+    q ---+  )
+         |-/
+
+         |-\
+    p ---+  )
+         |  )o- ¬(p ET q)  porte nand
+    q ---+  )
+         |-/
+
+         |-\
+    p ---+  )
+          )  >-- p OU q  porte ou
+    q ---+  )
+         |-/
+
+         |-\
+    p ---+  )
+          )  >o- ¬(p OU q)  porte nor
+    q ---+  )
+         |-/
+
+         ||-\
+    p ---+|  )
+          ))  >-- p XOR q  porte xor
+    q ---+|  )
+         ||-/

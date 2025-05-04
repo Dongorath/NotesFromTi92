@@ -1,0 +1,17 @@
+NON = ¬
+ET = V a l'envers
+OU = V
+IMP = =>
+EQUIV = <=>
+
+β¬(x) = 1-x
+βet(x,y) = Min(x,y)
+βou(x,y) = Max(x,y)
+β=>(x,y) = 1 si x≤y , 0 sinon
+β<=>(x,y) = 1 si x=y , 0 si x≠y
+
+F => G # (¬F) OU G
+
+forme normale disjonctive = disjonct° des conjonct° obtenues en gardant les valuat° tq F est vrai et en se debrouillant pour que la conjonct° des formules atomiques soit vraie
+
+forme normale conjonctive = conjonct° des disjonctd obtenues en gardant les valuat° tq F est faux et en se debrouillant pour que la disjonct° des formules atomiques soit fausse

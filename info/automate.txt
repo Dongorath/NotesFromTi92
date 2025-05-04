@@ -1,0 +1,62 @@
+sans memoire
+deterministe: etat initial unique et de chaque etat par au + 1 fleche d'ettiquette donnee
+complet: chaque etat est origine de tt evenemt elementaire
+emonde: on peut arriver a chaque etat et de tt etat on peut arriver a l'etat acceptant
+
+lettre=evt elementaire
+mot=seq de lettre
+alphabet=ens de lettres (abrev: αβ)
+langage=ens de mots
+
+longueur du mot m |m|=nb de lettres
+A* ens des mots ecrits sur l'αβ A (y compris le mot vide ε)
+A^n ens des mots de longueur n
+A+=A*\{ε}
+A* muni de la concatenat° est 1 monoïde dit monoïde libre sur l'αβ A
+1 langage sur l'αβ A est 1 partie de l'ens A*
+ops sur les langages:
+▶union: K⋃L (ou K+L)
+▶intersect°: K⋂L
+▶difference ensembliste: K\L
+▶complementaire: ¬L=A*\L
+▶difference symetriq: KΔL=(K\L)⋃(L\K)
+▶concatenat° ou prod: K.L={uv|u∈K,v∈L}
+▶puiss n-eme: L^n=L.L^(n-1)
+▶iterat°: L*=⋃(L^n,n∈N)
+▶L+=⋃(L^n,n>0)
+▶(K*)*=K*
+▶(K⊂B et L⊂B) => K.L⊂B*
+▶K⊂L => K*⊂L*
+▶(K⋃L)*=(K*L*)*
+
+Soit A αβ. 1 automate fini sur l'αβ A est 1 quadruplet M=(E,T,I,F) où E=ens des etats, T=partie de ExAxE ens des transit°, I=partie de E ens des etats initiaux, F=partie de E ens des etats acceptants
+1 chemin est 1 suite d'aretes consecutives c=(qi,ai,q(i+1))(q(i+1),a(i+1),q(i+1))…(q(j-1),a(j-1),qj)
+le mot w=aia(i+1)…a(j-1) est l'etiquette du chemin c
+c est 1 chemin de qi à qj de longueur |w|, etiqute par w, d'origine qi et d'extremite qj   c:qi-w→qj
+chemin reussi si va d'1 etat initial a 1 etat acceptant
+w est reconnu s'il existe 1 chemin reussi etiqute w
+le langage reconnu par M est l'ens L(M) des mots reconnus par M
+1 langage est reconnu par M s'il est inclus ds L(M)
+2 automates sont equivalents ssi L(M)=L(M')
+1 langage L est reconnaissable s'il existe 1 automate fini M qui le reconnait (ie L⊂L(M))
+Rec(A*)=famille des langages sur l'αβ A reconnaissables
+
+M=(E,T,I,F) complet ssi pour tt etat q∈E, pour tte lettre a∈A il existe au - 1 transit° de la forme (q,a,q')
+le complete M' de M est deduit de M par l'ajout d'1 etat puit explicite destinataire de ttes les transit° manquantes. Alors L(M)=L(M')
+
+etat q accessible ssi il existe 1 chemin partant d'1 etat initial arrivant a q
+q co-accessible ssi il existe 1 chemain partant de q arrivant a 1 etat final
+M (co-)accessible si ts ses etats sont (co-)accessibles
+M emonde ssi M accessible et co-…
+
+emonde d'1 automate s'obtient en supprimant ts les etats ni accessibles ni co-… ainsi que les transit° qui les concernent
+1 automate et son emonde sont equiv
+
+M=(E,T,I,F) deterministe ssi il y a 1 unique etat initial et T correspond a 1 relat° fonctionnelle de ExA vers E (cad (q,a,q')∈T et (q,a,q'')∈T => q'=q'')
+si pas q'1 etat initial alors automate fonctionnel
+si w mot, pour tt etat e il existe o + 1 chemin etiquete par w partant de e
+si w∈L(M) alors w etiquette d'1 seul chemin reussi
+
+l'automate des parties de M=(E,T,I,F) est Mpar=(E',δ',i',F') ou E'=P(E), i'=I, F'={X⊂E|X⋂F non vide}, δ':P(E)*A→P(E) def par δ'(G,a)=⋃(δ_(e,a),e∈G)=a(G) où δ_:ExA→P(E) δ_(p,a)={q∈E|(p,a,q)∈T}
+pour w∈A* et G⊂E, δ'*(G,w)=⋃(δ_*(p,w),p∈G)
+le determinise de M est l'emonde Mdet de Mpar

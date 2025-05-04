@@ -1,0 +1,31 @@
+let a=... and b=... and ...
+let a = ref ...
+&,or
+match expr with
+  |m n when m=n
+print_int(...); print_newline()
+for i=.. to .. do ..... done
+while ... do ....... done
+[|..;..|]=vecteur
+[..;..]=t::suite=liste
+list_length 'a list -> int
+map ('a→'b)→'a list→'b list
+
+Type somme:
+type peinture =
+  | Bleu
+  | Blanc
+  | Rouge
+  | Numero of int
+  | Melange of peinture * peinture
+type machin = | truc of bidule
+
+Type produit:
+type complexe =
+  { Re : float ; Im : float } ;;
+si z de type complexe: Re(z)=z.Re
+type monome_c =
+  { coef : complexe ; expo : int } ;;
+type compte =
+  {Numero:int; mutable Somme:float};;
+compt.Solde <- montant +. compt.Solde

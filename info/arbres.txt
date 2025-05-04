@@ -1,0 +1,26 @@
+arité ou degre (sortant) =nb de fils
+arbre complet d'arité k = arbre pour lequel ttes les feuilles ont la meme profondeur et ts les noeuds internes sont de degre k
+hauteur=plus gde longueur d'1 chemin allant de la racine à une feuille
+
+un arbre a n sommets possede exactement n-1 aretes
+
+un arbre binaire heterogene a n noeuds internes possede n+1 feuilles
+un arbre d'arite fixe k à n noeuds internes a (k-1)*n+1 feuilles
+
+ds 1 arbre ayant n noeuds internes ts de degre ≤ a 2 et de hauteur h, on a h ≤ n ≤ 2^h-1  (ou log2(n+1) ≤ h ≤ n)
+
+1 arbre binaire de hauteur h est dit strictement equilibre si ts les chemins menant de la racine a une feuille ont pour longueur h ou h-1
+si ts les chemins menant de la racine a 1 feuille ont pour longueur h, l'arbre est dit complet (ts les niveaux sont remplis)
+
+ds 1 arbre binaire strictement equilibre de hauteur h à n noeuds internes et p feuilles on a
+2^(h-1) ≤ n ≤2^h-1
+2^(h-1) ≤ p ≤ 2^h
+log2(n+1) ≤ h ≤ log2(n)+1
+(si complet: n=2^h-1)
+ds 1 arbre binaire strictement equilibre à n noeuds internes de hauteur h=h(n)
+h(n) ~ log2(n)
+(+ precis que h(n)=O(ln(n))
+
+1 arbre binaire est dit H-equilibre si pour tt noeud, la difference de hauteur entre les arbres fils gauche et fils droit est au plus 1
+
+ds 1 arbre binaire H-equilibre de hauteur h à noeuds internes on a h ≤ 2.08*log(n+1)

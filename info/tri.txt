@@ -1,0 +1,75 @@
+let echange a i j =
+  let temp = a.(i) in
+    a.(i) <- a.(j); a.(j) <- temp ;;
+let tri_bulle infe a =
+  let n=vect_length a and k=ref 0 and fini=ref false in
+    while not !fini do
+      incr k; fini:=true;
+      for i=0 to n-1 - !k do
+        if not(infe a.(i) a.(i+1))
+          then (echange a i (i+1); fini:=false)
+      done
+    done;;
+▶ O(n²) comparaisons et échanges
+let tri_selection infe a =
+ let n=vect_length a and mini=ref 0 in
+   for i=0 to n-2 do
+     mini:=i;
+     for j=i+1 to n-1 do
+       if not(infe a.(!mini) a.(j))
+         then mini:=j
+     done;
+     echange a i !mini
+   done;;
+▶ θ(n²) comparaisons, θ(n) échanges
+let rec insere_liste infe e = function
+  | []       -> [e]
+  | a::suite -> if infe e a
+                  then e::a::suite
+                  else a::(insere_liste infe a suite) ;;
+▶ O(n) comp et échanges
+let rec tri_insertion infe = function
+  | []       -> []
+  | [a]      -> [a]
+  | a::suite -> insere_liste infe a (tri_insertion infe suite) ;;
+▶ O(n²) comp et échanges
+let rec fus°lst infe = fun
+  | [] l -> l
+  | l [] -> l
+  | (a::suite1) (b::suite2) ->
+    if infe a b
+      then a::(fus°lst infe suite1 (b::suite2))
+      else b::(fus°lst inge (a::suite1) suite2) ;;
+let rec partage_liste = function
+  | [] -> ([],[])
+  | [x] -> ([x],[])
+  | a::b::suite -> let (l1,l2) =
+  partage_liste suite in (a::l1,b::l2) ;;
+let rec tri_fusion infe = function
+  | [] -> []
+  | [x] -> [x]
+  | l -> let (l1,l2)=partage_liste l in
+           fusion_liste infe
+                   (tri_fusion infe l1)
+                   (tri_fusion infe l2)
+;;
+▶ θ(n*log2(n)) comp et ::
+let cherche_pivot a g d =
+  (let k=g+random__int (d-g+1) in
+     echange a g k;)
+  let ob = a.(g) and i=ref g in
+    for j=g+1 to d do
+      if ob > a.(j)
+        then (incr i; echange a !i j)
+    done;
+    echange a g !i;
+    !i ;;
+let tri_rapide a =
+  let rec tri_rap g d =
+    if d-g >= 1 then
+      let i=cherche_pivot a g d in
+        tri_rap g (i-1);
+        tri_rap (i+1) d
+  in tri_rap 0 (vect_length a - 1) ;;
+▶ coût moyen: O(n*log2(n))
+  pire des cas: O(n²)

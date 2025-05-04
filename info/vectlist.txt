@@ -1,0 +1,17 @@
+vecteurs:
+make_vect n e
+vect_length v
+v.(i)=vect_item v i
+v.(i)<-e = vect_assign v i e
+
+listes:
+[]=vide
+a::suite
+hd(l)=a
+tl(l)=suite
+[...;...]
+[a1;a2;a3;a4]=a1::a2::a3::a4::[]
+map f l
+list_length l
+rev l = liste mirroir
+l1@l2 = l1 et l2 concatene

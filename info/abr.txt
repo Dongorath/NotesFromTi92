@@ -1,0 +1,10 @@
+ABR = arbre binaire de recherche
+
+ds 1 ABR à n noeuds internes la profondeur moyenne (ou cout moyen de la recherche d'1 element) est en O(log(n))
+plus précisement la profondeur moyenne Pmoy verifie Pmoy ~ 2*log(n)
+ds 1 arbre binaire quelconque: la complexite max de la recherche est egale a la profondeur max càd h=n  la complexite moyenne de la recherche est un O(log(n)), + precisement marjoree par 4*log(n)
+ds 1 arbre binaire equilibre la complexite max de la recherche est la profondeur max càd h~1/log(2)*log(n)
+
+les ops usuelles sur 1 ABR de hauteur h (recherche insert° suppr min max successeur predecesseur) s'effectuent en 1 tps max O(h)
+ds le pire des cas (arbre peigne) h=n
+ds le meilleur des cas (arbre equilibre) h ~ log2(n)

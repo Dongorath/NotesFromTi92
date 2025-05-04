@@ -1,0 +1,7 @@
+Si p,n∈N, si p≥1, si 2^p≤n≤2^(p+1) et si m=n/2 (entier), alors:
+▶ si n pair, n=2m et 2^(p-1) ≤ m ≤ 2^p
+▶ si n impair, n=2m+1 et 2^(p-1)≤m<m+1≤2^p
+θ=de meme ordre que
+f(n)=θ(g(n)) ssi f(n)=O(g(n))
+              et g(n)=O(f(n))
+f(n)~g(n) implique f(n)=θ(g(n))

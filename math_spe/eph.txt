@@ -1,0 +1,120 @@
+Cauchy-Schwartz: |(x|y)|≤√((x|x)(y|y))=||x||*||y||
+2(||x||²+||y||²)=||x+y||²+||x-y||²
+||x||²+||y||²=2*||(x+y)/2||² + 1/2*||x-y||²
+Th de pythagore de Samos: x¬y ssi ||x+y||²=||x||²+||y||²
+si (ei,i∈J) J fini famille orthogonale alors ||Σ(ei,i∈J)||²=Σ(||ei||²,i∈J)
+F⊂G => G¬⊂F¬     F⊂(F¬)¬
+eve = ephr de dim finie = evn complet
+φ:E→E* x|-→ φx:E→R y+→(x|y)
+φ lineaire bij isomorphisme canonique de E sur son dual
+si θ∈E*, il existe u∈E unique tq θ(x)=(u|x)
+(e1,…)en) bon de F sev de E ephr. La proj orthogonale de x sur F est p(x)=Σ((ei|x)ei,i,1,n)
+dist de x a F atteinte en 1 unique y∈F p.o. de x sur F caracterise par y∈F et x-y∈F¬
+Inegalite de Bessel: Σ((ei|x)²,i,1,n)≤||x||²
+
+f∈L(E) il existe 1 unique f* tq pour tt x,y∈E: (f(x)|y)=(x|f*(y))
+f* = adjoint de f
+(f+g)*=f*+g*        (λf)*=λf*
+(g°f)*=f*°g*        (f*)*=f
+Ker(f*)=Im(f)¬    Im(f*)=Ker(f)¬
+rg(f)=rg(f*)
+si F sev stable de E par f alors F¬ stable par f*
+mat de f* = transposee de mat de f
+
+f autoadjoint si f*=f
+mat de f symetrique ds 1 bon
+1 endomorphisme diagonalisable ds 1 bon est autoadjoint
+ens des endom autoadj ev de dim n(n+1)/2
+Th spectral:
+1 endom autoadj est diagonalisable ds 1 bon
+si f autoadj, E somme directe orthog des sev propres
+mat sym est diagonalisable ds 1 bon
+
+Equivalences entre:
+▶ f bij et f*=f⁻¹
+▶ ||f(x)||=||x||
+▶ (f(x)|f(y))=(x|y)
+f orthogonal ssi mat M de f ds 1 bon tq ᵀMM=In ou ᵀM=M⁻¹
+Equivalences entre:
+▶ f orthogonal
+▶ f transforme 1 bon en 1 bon
+▶ f transforme tte bon en 1 bon
+mat de passage P d'1 bon a 1 autre orthogonale donc ᵀP=P
+ens O(E) des end orthogonaux groupe pour la composit°
+si f∈O(E), |det(f)|=1
+SO(E) grp special orthog des en f∈O(E) tq det(f)=1
+O-(E)=O(E)\SO(E), SO(E) ens des rotations
+soit s∈L(E) sym (s°s=Id) alors s sym orthog ssi s end orthog
+f∈O(E), λ∈Sp(f) alors |λ|=1
+[[a,-b][b,a]]∈SO2(R)
+[[a,b][b,-a]]∈O-2(R)
+SO2(R) commutatif
+mat de f∈SO(E) ne depend que de l'orientat° de la bon choisie et Tr(f)=2cos(θ)
+M=[[a,b][b,-a]] a²+b²=1, M diagonalisable, vap λ,μ tq |λ|=|μ|=1 et λ+μ=Tr(M)=0 dc λ=0 et μ=-1 => sym orthog par rapport a 1 droite.
+Inversemt 1 sym orthog par rapport a 1 droite est ds O-2(E)
+dim(E)=3, f∈O(E), E1=Ker(f-Id), E-1=Ker(f+Id), dim(E1)+dim(E-1) impair
+si f∈O(E) et F stable par f alors F¬ stable par f⁻¹ donc par f, E1(+¬)E-1=F, F(+)F¬=E et f|F¬ n'a pas de vap
+#|dim|dim| mat. reduite |±|nature
+-+---+---+--------------+-+-----------
+1| 3 | 0 |     I3       |+|identite
+-+---+---+--------------+-+-----------
+ |   |   |  (1 0  0)    | |sym orthog
+2| 2 | 1 |  (0 1  0)    |-|plane
+ |   |   |  (0 0 -1)    | |
+-+---+---+--------------+-+-----------
+ |   |   |  (-1  0 0)   | |retournemt
+3| 1 | 2 |  ( 0 -1 0)   |+|ou sym
+ |   |   |  ( 0  0 1)   | |droite
+-+---+---+--------------+-+-----------
+ |   |   |(1  0     0  )| |rotat°
+4| 1 | 0 |(0 cosθ -sinθ)|+|d'axe e1
+ |   |   |(0 sinθ  cosθ)| |θ=kπ
+-+---+---+--------------+-+-----------
+5| 0 | 3 |    -I3       |-|- identite
+-+---+---+--------------+-+-----------
+ |   |   |(-1 0     0  )| |sym-rotat°
+6| 1 | 0 |(0 cosθ -sinθ)|+|f=s°r=r°s
+ |   |   |(0 sinθ  cosθ)| |
+1,2,3 et 5 sont des symetries
+f de mat M∈M3(R) ds la bon (e1,e2,e3).
+Nature de f et elts caracteristiques:
+▶ verifier que ᵀMM=I3 (en fait mq les vects cols V1,V2,V3 forment 1 bon de R³)
+▶ ᵀM=M? +- oui -+
+  +-----+       |
+  |+------------+
+  |+- Trf=1 -→ sym orth plane
+  || → calcul de Ker(f-Id)=plan de sym
+  ||
+  |+- Trf=-1 -→ retournement
+  |  → Ker(f+Id) plan orth a droite de sym → axe de sym
+  +- non -+
+   +------+
+   +- V1ΔV2=V3 -→ rotat°
+   | → Ker(f-Id)=axe, Tr(f)=1+2cos(θ)
+   +- V1ΔV2=-V3 -→ sym-rotat°
+     → Ker(f+Id)=axe, Tr(f)=2cos(θ)-1
+Determinat° de θ: il faut orienter le plan P de la rotat°. Soit u∈P¬. On va dire que la base (v,w) de P est direct ssi (u,v,w) ou (v,w,u) est directe. Si on remplace u par -u, on modifie l'orientat°. On choisit u sur l'axe. Soit v∈P (v¬u), f(v)∈P. On sait que (v,f(v),vΔf(v)) est directe. vΔf(v)=λu
+Si λ>0 θ∈]0,π[, si λ<0 θ∈]-π,0[.
+
+q_f:x -→ (f(x)|x) est 1 fq
+Soit q fq sur E, il existe f end autoadj unique tq q(x)=(f(x)|x)
+ds 1 bon, 1 fq et son end autoadj associe ont la meme mat
+Th spectral (ver fq):
+Soit q fq sur l'eve E. Il existe 1 bon orthogonale pour q.
+Pour trouver 1 bog pour q, on cherche les vap et vep de sa mat
+
+E ephc
+f forme sesquilineaire sur E f:ExE→C y→f(x,y) lilneaire et x→f(x,y) semilin cad f(λx,y)=λ~f(x,y) (λ~=λ conjugue)
+fsl hermitienne si f(x,y)=(f(y,x))~
+Cauchy-Schwartz: |(x|y)|≤√((x|x)(y|y))
+||x+y||²+||x-y||²=2(||x||²+||y||²)
+(x|y)=1/4*(||x+y||²-||x-y||²+i||x-iy||²-i||x+iy||²)
+Re((x|y))=1/4*(||x+y||²-||x-y||²)
+Im((x|y))=1/4*(||x-iy||²-||x+iy||²)
+Th de Pythagore:
+Si x¬y alors ||x+y||²=||x||²+||y||²
+θ∈E*. Il existe u∈E unique tq θ(x)=(u|x)  (u en 1e posit°)
+espace hermitien = ephc de dim finie
+(e1,…,en) bon de F sev de E ephc. La p.o. de x sur F est p(x)=Σ((ei|x)ei,i,1,n)
+si (u1,…,un) base qcq de F, y=Σλiui, y=p(x), (uj|x)=(uj|y) ce qui donne (uj|x)=Σ(λi(uj|ui),i,1,n) → n eqs a n inconnus, syst de Cramer
+Inegalite de Bessel: Σ|(en|x)|² CV et Σ(|(en|x)|²,n,1,∞)≤||x||²

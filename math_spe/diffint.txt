@@ -1,0 +1,49 @@
+  *********************************
+  *CALCUL DIFFERENTIEL ET INTEGRAL*
+  *********************************
+
+F:I→E primitive de f:I→E si F derivable en F'=f
+integrale indefinie: ∫(f,a,x)
+f:I→E cpm, a∈I, F:x→∫(f,a,x) derivable a droite et Fd'(x)=f(x0+)
+f cpm, F(x)=∫(f,a,x). F continue et Ci par mx
+f cpm admet des primitives continues
+f,g continues et C1 par mx:
+∫(f*g',a,b) = f(b)*g(b)-f(a)*g(a)-∫(f'*g,a,b)
+f:I→E evn de dim finie continue, φ:J→R de classe C1 tq φ(J)⊂I. Pour tt α,β∈J: ∫(f(φ(t))*φ'(t),t,α,β)=∫(f,φ(a),φ(b))
+I=∫((ax*b)/(x²+cx+d),x):
+(ax+b)/(x²+cx+d)=a/2*(2x+c)/(x²+cx+d)+(b-a*c/2)/(x²+cx+d)
+I=a/2*ln(x²+cx+d) + ∫(A/((x+c/2)²+d-c²/4),x)
+J=∫(A/((x+c/2)²+m²),x)
+y=x+c/2   dy/dx
+J=∫(A/(y²+m²),y)=A/m*tan⁻¹(y/m)+K
+I=∫(F(e^t),t) F frac rationelle
+x=e^t  dx=e^t*dt  dt=dx/x
+I=∫(F(x)/x,x)
+I=∫(F(t,((at+b)/(ct+d))^(1/n)),t)
+u=((at+b)/(ct+d))^(1/n)
+t=(b-u^n*d)/(u^n*c-a)
+dt=(ad-bc)*n*u^(n-1)/(uπn*c-a)²*du
+I=∫((b-u^n*d)/(u^n*c-a),u) * (ad-bc)*n*u^(n-1)/(u^n*c-a)²,u)
+I=∫(F(cos(x),sin(x)),x)
+t=tan(x/2)  dx=2/(1+t²)*dt
+cos(x)=(1-t²)/(1+t²)  sin(x)=2t/(1+t²)
+I=∫(F((1-t²)/(1+t²),2t/(1+t²)) * 2/(1+t²),t)
+I=∫(cos(x)^p*sin(x)^q,x) p,q∈Z
+p impair: y=sin(x)
+q impair: y=cos(x)
+p,q pair: y=tan(x)
+f:I→E cpm, φ:J→R C1 strictemt monotone tq φ(J)⊂I. Pour α,β∈J on a
+∫(f(φ(t))*φ'(t),t,α,β)=∫(f,φ(α),φ(β))
+f cpm et φ continue strictemt monotone => f°φ cpm
+f:[-a,a]→E cpm, a∈R*+
+f paire: ∫(f,-a,a)=2*∫(f,0,a)
+f impaire: ∫(f,-a,a)=0
+f:R→E periodique cpm, p periode, a∈R: ∫(f,a,a+p) ne depend pas de a
+
+f continue alors f est injective ssi elle est strictement monotone
+f continue stmt monotone sur I alors J=f(I) intervalle donc f bijective de I sur J et f⁻¹ continue
+f continue stmt monotone, x0 tq f derivable en x0 et f'(x0)≠0 alors f⁻¹ derivable en y0=f(x0) et f⁻¹'(y0)=1/f'(f⁻¹(y0))
+f C1, f' ne s'annule pas alors f stmt monotone et f⁻¹ de classe C1
+f Ck, f' ne s'annule pas alors f stmt monotone et f⁻¹ de classe Ck en particulier f diffeomorphisme de classe Ck
+Th de Fubini:
+si f continue sur [a,b]*[c,d] alors ∫(∫(f(x,y),x,a,b),y,c,d) = ∫(∫(f(x,y),y,c,d),x,a,b)

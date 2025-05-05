@@ -1,0 +1,2 @@
+(fn) C1|k CVS vers f, si (fn'|(k)) CVU sur tt compact vers g alors (fn) CVU sur tt compact vers f C1|k et f'|(k)=g
+Σfn C1|k CVS vers S, si Σfn'|(k) CVU sur tt compact vers g alors Σfn CVU sur tt compact vers S C1|k et S'|(k)=g

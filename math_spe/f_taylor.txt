@@ -1,0 +1,11 @@
+Formule de Taylor avec reste integral:
+f de classe C(n+1):
+f(b)=f(a)+Σ((b-a)^k/k!*f(k)(a),k,1,n)+
+     ∫((b-x)^n/n!*f(n+1)(x),x,a,b)
+Inegalite de Taylor-Lagrange:
+M(n+1) majorant de f(n+1)(x):
+||f(b)-f(a)-Σ((b-a)^k/k!*f(k)(a),k,1,n)|| ≤ M(n+1)*(b-a)^(n+1)/(n+1)!
+Formule de Taylor-Young:
+f de classe Cn:
+f(x)=f(a)+Σ((x-a)^k/k!*f(k)(a),k,1,n)+
+     o((x-a)^n)

@@ -1,0 +1,16 @@
+f:I→E derivable en a∈I° si lim((f(x)-f(a))/(x-a),x,a,x≠a) = lim((f(a+h)-f(a))/h,h,0,h≠0) = f'(a) existe
+derivable en a => continue en a
+derivable a droite si lim((f(a+h)-f(a))/h,h,0,h>0) existe
+derivable en a => derivable a droite et a gauche en a
+h -→ h*f'(a) differentielle de f en a
+u∈L(E,F) , f:I→E. Si f derivable en a∈I alors (u°f)'(a)=u(f'(a))
+b:E*F→G bilineaire, f:I→E, g:I→F.
+Si f,g derivables en a alors
+φ=t→b(f(t),g(t)) letossi ehonah
+φ'(a)=b(f'(a),g(a))+b(f(a),g'(a))
+f=Σ(fi*ei,i,1,n) derivable en a ssi fi derivable en a et on a f'(a)=Σ(fi'(a)*ei,i,1,n)
+Ck(I,E) ev
+f,g:I→C de classe C(n-1) et n fois derivables alors f*g n fois derivable et on a (f*g)^(n)(a)=Σ(nCr(n,k)*f^(k)(a)*g^(n-k)(a),k,0,n)
+Ck(I,C) algebre
+Cmxk([a,b],E) ens des fns Ck par mx est 1 ev. Si E=R ou C c'est 1 algebre
+φ:I→J diffeomorphisme de classe Ck si φ bijective, φ et φ⁻¹ de classe Ck

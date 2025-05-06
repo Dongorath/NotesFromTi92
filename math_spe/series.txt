@@ -1,0 +1,75 @@
+*****************************
+* |a*b| ≤ 1/2 * (a^2 + b^2) *
+*****************************
+
+Critere de Cauchy:
+Σu(n) CV ssi pour tt ε>0 il existe N tq N≤p<q => |u(p)+…+u(q)|<ε
+
+si u(n)≥0, Σu(n) CV ssi les S(n) sont majorees
+
+Soit 0≤u(n)≤v(n)
+si Σv(n) CV alors Σu(n) CV
+si Σu(n) DV alors Σv(n) DV
+
+Σ1/n^α CV ssi α>1
+
+Critere de Rieman:
+s'il existe α>1 tq n^α*u(n)-→0 alors Σu(n) est absolumt CVte
+si n*u(n)-→l≠0 alors Σu(n) DV
+
+si v(n)=O(u(n)) et Σu(n) CV alors Σv(n) CV absolumt
+si u(n)~v(n) alors Σu(n) et Σv(n) sont de meme nature
+
+Critere de comparaison logartihmique:
+u(n),v(n)>0  si pour n≥N on a u(n+1)/u(n)≤v(n+1)/v(n) et si Σv(n) CV alors Σu(n) CV et si Σu(n) DV alors Σv(n) DV
+Regle d'Alembert:
+u(n)>0 et u(n+)/u(n)-→l
+si l<1 Σu(n) CV
+si l>1 Σu(n) DV grossieremt
+
+Critere de Bertrand:
+Σ1/(n^α*ln(n)^β) CV si α>1 ou α=1 et β>1    DV si α<1 ou α=1 et β≤1
+CV si (α,β)>(1,1) (     ordre     )
+DV si (α,β)≤(1,1) (lexicographique)
+
+Critere de Raabe-Duhamel:
+u(n)>0 et u(n+1)/u(n)=1-α/n+o(1/n)
+si α>1 Σu(n) CV
+si α<1 Σu(n) DV
+refaire comparaison log avec v(n)=1/n^β
+
+(u(n)) alternee si u(n)*u(n+1)≤0 alors
+u(n)=(-1)^n*|u(n)|     si u(0)>0
+u(n)=(-1)^(n+1)*|u(n)| si u(0)<0
+critere des series alternnes (CSA):
+(u(n)) alternee et (|u(n)|) ↓ de lim 0 alors Σu(n) CV
+
+si u(n)=O(1/n^α)
+si α>1 Σu(n) CV absolumt
+si α≤1 on ne peut conclure
+
+u(n)=(-1)^n*v(n) (v(n)) ↓ de lim nulle
+R(n)=S-S(n)=Σ(u(k),k,n+1,∞)
+|R(n)|≤|u(n+1)|=v(n+1) et R(n) du signe de u(n+1)
+si Σu(n) verifie le CSA on a 0≤S≤u(0)
+
+si Σu(n) DV alors
+si v(n)=o(u(n)) alors V(n)=o(U(n))
+        O                  O
+       ~~                 ~~
+si Σu(n) CV alors idem pr les restes
+
+A denombrable s'il est en bij avec N
+si I denombrable, il existe (J(n)) parties finies strictemt croissante de reunion egale a I
+P partie infinie de N, il existe 1 unique bij strictement croissante de N sur P
+(J(n)) suite strictement croissante de parties finies de N de renion egale a N soit K partie finie de N alors il existe n∈N tq K⊂J(n)
+
+u(n)≥0 sommable si {Σ(u(k),k∈J)|J∈Pf(n)} majoree et la borne sup est la somme de la suite sommable
+(J(n)) suite croissante de parties finies de N de reunion egale a N u(n)≥0 S(p)=Σ(u(k),k∈J(p))
+S(p) majoree ssi (u(n)) sommable et alors S=lim(S(p),p,∞)
+(u(n))≥0 sommable ssi Σu(n) CV et la somme de la suite sommable est Σ(u(n),n,0,∞)
+(u(n))≥0, α:N→N app strictement ↑
+v(k)=Σ(u(p),p,α(k-1)+1,α(k))
+Σu(n) CV ssi Σv(k) CV et alors Σ(u(n),n,0,∞)=Σ(v(n),n,0,∞)
+φ:N→N bij  (u(n))≥0
+Σu(n) CV ssi Σu(φ(n)) et alors les sommes sont les memes

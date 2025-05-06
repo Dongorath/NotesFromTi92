@@ -1,0 +1,6 @@
+u=e^(iθ)=x+iy ∈ U\{-1}, θ∈]-π,π[ alors θ=2*arctan(y/(x+1))
+θ |--→ e^(iθ) homeomorphisme
+Th de relevemt:
+F de classe Ck (k≥1) de I ds U
+il existe φ de classe Ck tq
+F(t)=e^(i*φ(t)) et si ψ le verifie aussi ssi ψ-φ=2pπ p∈Z

@@ -1,0 +1,12 @@
+q fq issue de f, alors
+f(x,y)=1/2*(q(x+y)-q(x)-q(y))
+f(x,y)=1/4*(q(x+y)-q(x-y))
+f(x,y)²≤q(x)*q(y) egalite si x,y lies
+f(x,y)=ᵀX*M*Y
+mat N de q ds la new base tq N=ᵀP*M*P ou M mat de q ds ancienne base et P mat de passage
+M et N symetriques sont congruentes s'il existe P∈GLn(D) tq N=ᵀP*M*P
+q=Σ(λi*φi²,i,1,p) ou (φ1,…,φp) fam libre du dual et λi≠0 est 1 fq de rang p
+Th d'inertie de Sylvester:
+q fq sur E, il existe 1 base de E ds lakelle mat de q diag avec s 1, t -1 et des 0 alors (s,t) depend pas de base et s'appelle la signature
+e1 tq q(e1)≠0, re sur H={x∈E|f(e1,x)=0} puis ui=±e1/√(q(ei)) (u1,…,un) la base de Sylvester
+q degeneree si rg(q)<n=dim(E)

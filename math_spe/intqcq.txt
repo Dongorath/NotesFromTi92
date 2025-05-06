@@ -1,0 +1,29 @@
+*********
+*:f:I→R+*
+*********
+f integrable sur I s'il existe M tq pour tt a<b∈I: ∫(f,a,b)≤M
+Sup(∫(f,a,b)|a<b∈I)=∫(f,I)
+(Jn)↑ ⋃Jn=I tq ∫(f,Jn)≤M alors ∫(f,I)=lim(∫(f,Jn),n,∞)
+si 0≤f≤g cpm et g integrable alors f integrable et ∫(f,I)≤∫(g,I)
+f,g cpm sur [a,b[ si f=O(g,b-) et g integrable alors f integrable
+f~g en b- alors f integrable ssi g integrable
+c∈I, I1=I⋂]-∞,c] I2=I⋂[c,∞[, f integrable sur I ssi f integrable sur I1 et I1 alors ∫(f,I)=∫(f,I1)+∫(f,I2)
+f integrable ssi F:x|→∫(f,a,x) admet une lim qd x→b- et ∫(f,I)=lim(F(x),x,b-)
+Critere de Riemann:
+t→1/t^α integrable sur [1,∞[ ssi α>1
+   "         "      "  ]0,1] ssi α<1
+Comparaison a 1 serie:
+f : R+ → R+ decroissante
+f integrable ssi Σf(n) CV
+
+*******
+*f:I→K*
+*******
+f cpm integrable ssi |f| integrable
+f:I→K cpm et φ:I→R+ cpm et |f|≤φ et φ integrable alors f integrable et |∫(f,I)|≤∫(φ,I)
+si f integrable |∫(f,I)|≤∫(|f|,I)
+f:I→K cpm et φ:I→R+ cpm integrable et f=O(φ,b-) alors f integrable
+Critere de Riemann:
+▶s'il existe α>1 tq t^α*f(t) -(t→∞)→ 0 alors f integrable sur [a,∞[
+▶si t → |t*f(t)| tend vers l≠0 alors f pas integrable
+▶si t|f(t)| → l>0 alors f n'est pas integrable

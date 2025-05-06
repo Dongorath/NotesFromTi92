@@ -1,0 +1,16 @@
+φ en esc, σ=(x0,…,xn) subd adaptee, φ(x)=λi pour x∈]x(i-1),ix[.
+I(φ)=Σ((xi-x(i-1))*λi,i,1,n)
+(φn) suite de fns en esc qui CVU vers f cpm, ∫(f,[a,b])=lim(I(φn),n,∞)
+f continue, σ=(x0,…,xn) subd de [a,b], ξi∈[x(i-1),xi],
+R(f,σ,(ξi))=Σ(f(ξi)*(xi-x(i-1)),i,1,n)
+∫(f,[a,b])=lim(R(f,σ,(ξi)),π(σ),0)
+f continue sur [0,1].  ∫(f,[0,1]) = lim(Σ(1/n+f(k/n),k,1,n),n,∞)
+E,F evn de dim finie, ψ∈L(E,F), f∈Cmx([a,b],E). ψ°f∈Cmx([a,b],F) et ∫(ψ°f,[a,b]) = ψ(∫(f,[a,b]))
+∫(f,[a,b])=Σ(∫(fk,[a,b])*ek,k,1,n)
+||∫(f,[a,b])||≤∫(||f||,[a,b])≤||f||∞*(b-a)
+si (fn) continues CVU vers f, alors lim(∫(fn,[a,b]),n,∞)=∫(f,[a,b])
+si Σfn continues CVU vers f, alors ∫(f,[a,b])=Σ(∫(fn,[a,b]),n,0,∞)
+Inegalite de SCHWARZ:
+f,g:[a,b] → R ou C cpm
+|∫(f*g,a,b)| ≤ (∫(|f|²,a,b))^(1/2) *
+               (∫(|g|²,a,b))^(1/2)

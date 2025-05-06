@@ -1,0 +1,43 @@
+λ¬ = λ conjugue
+pol trigo: P(x)=Σ(ck*e^(ikx),k,-n,n)
+Th de Weierstrass: tte fn continue est lim uniforme de fns trigo
+1 elt de Cmx2π(K) est borne
+(f|g)=1/(2π)*∫(f(t)¬*g(t),t,0,2π)
+(φn:t→e^(int)) famille orthogonale
+ck=1/2π*∫(f(t)*e^(-ikt),t,0,2π) k∈Z
+ak=ck+c(-k)=1/π*∫(f(t)*cos(kt),t,0,2π)
+bk=i(ck-c(-k))=1/π*∫(f(t)*sin(kt),t,0,2π)
+a0=2*c0=1/π*∫(f(t),t,0,2π)
+ck=(ak-ibk)/2   c(-k)=(ak+ibk)/2
+g(t)=f(t+a) → ck(g)=e^(ika)*ck(f)
+ck(f¬)=(c(-k)(f))¬
+f paire: bn=0
+         an=2/π*∫(f(t)*cos(nt),t,0,π)
+f impaire: an=0
+         nb=2/π*∫(f(t)*sin(nt),t,0,π)
+ck(f')=ik*ck(f
+F:C2π→C^Z f→(cn(f),n∈Z)=f^ lineaire, f^ bornee et ||f^||∞≤||f||1 ou ||f||1=1/2π*∫(|f(t)|,t,0,2π)
+F continue et |||F|||=1
+c0+Σ(cn*e^(int)+c(-n)*e^(-int)) =serie de Fourier de f et si pour tt t la serie CV, on dit que la serie de Fourier est convergente
+f^=(cn(f)) de carre sommable et Σ(|cn|²,n,-∞,∞)≤||f||2²
+Lemme de Riemann: les suites (cn(f)) et (c(-n)(f)) tendent vers 0 en ∞
+Si g∈C2π(C) ||g||2≤||g||∞
+si f∈C2π, Σ(ck(f)*e^(ikt),k,-n,n) CV vers f pour la norme ||.||2
+Egalite de Bessel-Parseval: f∈Cmx2π(C)
+Σ(|cn(f)|²,n,-∞,∞)=1/2π*∫(|f(t)|²,t,0,2π)
+a0²/2+Σ(an²+bn²,n,1,∞)=1/π*∫(f(t)²,t,0,2π)
+Les coeffs de Fourier (cn(f),n∈Z) d'1 fn f∈C2π de classe C1 par mx sont 1 famille sommable
+Kn(t)=Σ(e^(ikt),k,-n,n)
+▶ Kn(t)=sin((2n+1)t/2)/sin(t/2) t≠2kπ
+▶ 1/2π*∫(Kn(t),t,-π,π)=1
+f∈C2π C1 par mx. La serie de Fourier de f CVU sur R vers f
+Th de Dirichlet:
+f:R→C C1 par mx de periode 2π. Alors la serie de Fourier CV en tt point x∈R vers la regularise f▾(x)=1/2*(f(x+)+f(x-))
+(f▾=f si f continue)
+
+f de periode T:
+cn(f)=1/T*∫(f(u)*e^(-2iπ/T*nu),u,0,T)
+an(f)=2/T*∫(f(u)*cos(2π/T*nu),u,0,T)
+bn(f)=2/T*∫(f(u)*sin(2π/T*nu),u,0,T)
+Bessel-Parseval:
+Σ(|cn(f)|²,n,-∞,∞)=1/T*∫(|f(u)|²,u,0,T)

@@ -1,0 +1,6 @@
+f continue de U*I ds G, U ouvert de E et I=[a,b]
+F:U→G, x|-→F(x)=∫(f(x,t),t,a,b)
+si f est continue sur U*I alors F est continue
+Th de derivat° sous le signe somme ou th de Leibniz:
+si f continue sur U*I et si df/dx def et continue sur U*I alors F est C1 et F'(x)=∫((df/dx)(x,t),t,a,b)
+pour 0≤p≤k, si (d^p/dx^p)(f) existe et est continue sur U*I alors F est de classe Ck et F(k)(x)=∫((d^k/dx^k)(f)(x,t),t,a,b)

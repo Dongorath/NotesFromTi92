@@ -1,0 +1,43 @@
+Σf_n CVS si (S_n) CVS
+Σf_n CVU si (S_n) CVU
+si Σf_n CVU alors elle CVS vers le meme fn
+si Σf_n CVU alors (f_n) CVU vers 0
+Σf_n CVU ssi (R_n) CVU vers 0
+Σf_n CV normalement si f_n bornéé et Σ||f_n||∞ CV
+si (a_n)>0 tq ||f_n||∞≤a_n et Σa_n CV alors Σf_n CVN
+CVN => CVU
+si Σf_n CVU et f_n continues en a alors somme S continue en a
+si Σf_n CVU sur tt compact de A et f_n continue sur A alors S continue sur A
+A⊂E evn, F evn complet. Si Σf_n CVU sur A et si lim(f_n(x),x,a)=l_n (a∈A¬) alors Σl_n CV et lim(S(x),x,a)=Σ(l_n,n,0,∞)
+A algebre normee. Si u∈B(0,1) alors 1-u inversible et (1-u)⁻¹=Σ(u^n,n,0,∞)
+φ:B(0,1) -→ A u |--→ (1-u)⁻¹ continue
+u∈A Σu^n/n! CV de somme epx(u)
+
+si uv=vu alors exp(u+v)=exp(u)*exp(v)
+u |--→ exp(u) continue
+a<b∈R subdivision de [a,b] tte suite finie (x0,x1,…,xn) tq a=x0<x1<…<xn=b
+σ=(x0,x1,…,xn) et σ'=(y0,y1,…,yn)
+σ' + fine que σ si {x0,…,xn}⊂{y0,…yn}
+σ,σ' 2 subd de [a,b] il existe 1 subd σ" + fine que σ et σ'
+pas de σ: π(σ)=Max(xi-x(i-1),i=1…n)
+fn en escalier de [a,b] ds E adaptee a la subd σ 1 fn cst sur ]x(i-1),xi[
+si f adaptee a σ et σ' + fine que σ alors f adaptee a σ'
+si 2 fns en esc sur [a,b] alors il existe 1 subd adaptee aux 2 fns
+Esc([a,b],E) ev
+
+f en esc de R ds E s'il existe a<b tq f|[a,b] en esc sur [a,b] et nulle ailleurs
+f:[a,b]→E cpm s'il existe 1 subd σ tq f restreint a ]x(i-1),xi[ est egale a la restrict° d'1 fn continue de [x(i-1),xi] ds E
+1 fn cpm sur [a,b] est bornee
+Cmx([a,b],E) ev
+Exc ⊂ Cmx et C⊂Cmx
+I intervalle de R f:I→E xpm sur I si sa restrict° a tt segmt inclus ds I est cpm
+tte fn continue de [a,b] ds E est lim uniforme de fns en esc
+tte fn cpm de [a,b] est lim uniforme de fns en esc
+f affine par morceaux de [a,b] ds E s'il existe 1 subd σ tq f(x)=ui+x*vi avec ui,vi∈E et x∈]x(i-1),xi[
+elle est continuesi pour tt xi, f(xi)=ui+xi*vi=u(i+1)+xi*v(i+1)
+tte fn continue est lim uniforme de fns affines par morceaux continues
+Th de Weierstrass:
+tte fn continue de [a,b] ds E est lim uniforme de fns polynomiales
+On appelle pol trigonometrique tte fn de la forme φ(t)=Σ(ak*e^(ikt),k,-p,n)
+Th de Weierstrass bis:
+tte fn continue de R ds E de periode 2π est lim uniforme de pols trigo

@@ -1,0 +1,22 @@
+suite (f_n) CV simplemt vers f si pour tt x∈X (f_n(x)) CV et f est la lim simple de (f_n)
+suite (f_n) CV uniformemt vers f si pour n≥N f_n-f bornee et limit(||f_n-f||∞,n,∞)=0
+si f_n bornees, alors f letossi
+si (f_n) CVU vers f alors (f_n) CVS vers f
+CVS? -non→ pas CVU
+     -oui→ ||g_n||∞=u_n -(u_n→0)→ CVU
+         |        -(u_n-\→0)→ pas CVU
+         → ||g_n||∞≤u_n -(u_n→0)→ CVU
+                  -(u_n-\→0)→ ¿?
+si f_n continues et f non continue alors pas CVU
+S'il existe (x_n) tq f_n(x_n)-\→0 alors (f_n) ne CV pas uniformemt vers la fn nulle (a appliquer a g_n=f_n-f)
+(f_n) CVU sur tt compact vers si pour tt compact K⊂X (f_n|K) CVU vers f|K
+alors f_n CVS vers f
+la lim uniforme d'1 suite de fns bornees est bornee
+si (f_n) continues en a et CVU fers f alors f continue en a
+(f_n) CVU vers f et lim(f_n(x),x,a)=l_n alors (l_n) CV vers l et lim(f(x),x,a)=l cad lim(lim(f_n(x),n,∞),x,a)=lim(lim(f_n(x),x,a),n,∞)
+si (f_n) CVU vers f et lim(f_n(x),x,+∞)=l_n alors (l_n) CV vers l et lim(f(x),x,+∞)=l cad lim(lim(f_n(x),n,∞),x,+∞)=lim(lim(f_n(x),x,+∞),n,∞)
+(f_n) continues CVU sur tt compact vers f alors f continue
+(x_n) CV vers l alors {x_n|n∈N}⋃{l} compact
+si B⊂A et (f_n) CVU vers f sur A alors (f_n) CVU vers f sur B
+si (f_n) CVU vers f sur A1 et A2 alors (f_n) CVU vers f sur A1⋃A2 (faux pour une reunion infinie)
+B(A,F) munie de ||.||∞ A compact alors C(A,F) ferme

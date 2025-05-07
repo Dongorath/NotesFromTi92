@@ -1,0 +1,23 @@
+(fn) cpù CVU ver f cpm sur I borné, alors ∫(fn,I) --→ ∫(f,I)
+
+(fn) integrables croissante CVS ver f cpm. f integrable ssi (∫(fn,I)) bornee et alors ∫(f,I)=lim(∫(fn,I),n,∞)
+
+(fn) ≥0 integrables de I ds R.
+Sn(x)=Σ(fk(x),k,0,n). Si Σfn CVS vers S cpm alors S integrable ssi Σ∫(fn,I) CV et alors ∫(S,I)=Σ(∫(fn,I),n,∞)
+
+(fn) integrables et (fn) CVS vers f cpm et φ∈L1(I,R) ≥0 integrable tq |fn(t)|≤φ(t) alors f integrable et lim(∫(fn,I),n,∞)=∫(f,I)
+
+Σfn:I→K integrables sur I CVS vers S cpm. Si Σ∫(|fn|,I) CV alors S integrable ∫(S,I)=Σ(∫(fn,I),n,∞)
+
+φ:I→R+ integrable tq |f(x,t)|≤φ(t) alors  t→f(x,t) integrable et F(x)=∫(f(x,t),t,I) continue
+idem si sur tt compact de I
+
+f:AxI→K continue, φ integrable, |f(x,t)|≤φ(t), df/dx continue sur AxI, ψ integrable, |df/dx(x,t)|≤ψ(t). Alors t→df/dx(x,t) integrable, F de classe C1 et F'(x)=∫(df/dx(x,t),t,I)
+meme genre avec |d^k/dx^k(f(x,t))|≤ψk(t)
+
+Γ(x)=∫(t^(x-1)*e^(-t),t,0,+∞)
+Γ C∞ sur ]O,∞[,      Γ^(k)(x)=
+   ∫((ln(t))^k*t^(x-1)*e^(-t),t,0,+∞)
+Γ(x) ~0+~ 1/x
+Γ(n)=(n-1)!
+Γ(x+1)=x*Γ(x)

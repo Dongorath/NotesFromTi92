@@ -1,0 +1,47 @@
+groupe abelien = groupe commutatif
+
+soit (G,x)(resp (G,+)) un groupe
+sous groupe:
+inclus dans le groupe
+contient l'element neutre(eG)(resp 0G)
+stable par x (resp par +)
+stable par passage au symetrique
+
+soit (G,γ) et (G',δ) des groupes
+morphisme de groupe de G dans G':
+pour tt x,y ∈ G: f(x γ y)=f(x) δ f(y)
+
+anneau(A,+,x)
+anneau commutatif: x est commutative
+anneau integre:
+anneau commutatif
+non nul
+sans divisieur de zeros
+
+sous-anneau S:
+1A∈S
+S stable par + et x
+pour tout x∈S, -x∈S
+
+element inversible dans l'anneau A:
+il existe b∈A tel que a*b=b*a=1A
+
+(x+y)^n=Σ(nCr(n,p)*x^(n-p)*y^p,p,0,n)
+
+x^n-y^n=(x-y)*Σ(x^(n-1-i)*y^i
+
+corps:
+anneau commutatif
+non nul
+tout element non nul est inversible
+
+sous-corps S de K:
+1K∈S
+S stable par + et x
+pour tout x∈S, -x∈S
+pour tout x∈S\{0}, 1/x∈S
+
+sous-algebre de A:
+sev S de l'ev A contenant 1A et stable par la multiplication de A
+
+involution lineaire f: fof=Id, f=f⁻¹

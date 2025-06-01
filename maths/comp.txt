@@ -1,0 +1,49 @@
+f=O(g) au vois de a s'il existe M≥0 tq |f(x)|≤M*|g(x)|
+f=o(g) au vois de a si pour tt ε>0 |f(x)|≤ε|g(x)|
+f=O(g) ssi il existe 1 fn φ bornee au vois de a tq f(x)=g(x)*φ(x)
+f=o(g) ssi il existe 1 fn ω avec lim 0 en a tq f(x)=g(x)*ω(x)
+si g≠0 f=O(g) ssi f/g bornee et f=o(g) ssi lim f/g =0 en a
+si f=g*φ au vois de a si lim φ fini en a, alors f=O(g)
+caracterisat° par suite
+si α<β, x^β=o(x^α) en 0+
+        1/x^β=o(1/x^α) en +∞
+        x^α=o(x^β) en +∞
+si α>0, x^β=o(e^(αx)) en +∞
+        ln(x)^β=o(x^α) en +∞
+        |ln(x)|^β=o(1/x^α) en 0+
+        e^(αx)=o(1/|x|^β) en -∞
+a^n=o(n!)
+si α<β, n^α=o(n^β) en ∞
+        1/n^β=o(1/n^α) en ∞
+si a>1, n^β=o(a^n)
+si |a|<1, a^n=o(1/n^β)
+f=O(1) ssi f bornee au vois de a
+si f=O(0) f cst en 0 au vois de a
+si f=O(h) et g=O(h), (λf+μg)=O(h)
+si f=O(g), fh=O(gh)
+si f=O(g) et g=O(h), f=O(h)
+f=o(1) ssi lim f = 0 en a
+f=o(0) ssi f cste en 0 au vois de a
+si f=o(h) et g=o(h), (λf+μg)=o(h)
+si f=o(g), fh=o(gh)
+si f=O(g) et g=o(h), f=o(h)
+si f=o(g) et g=O(h), f=o(h)
+si f=O(g) et lim g=0, alors lim f=0
+si f1=g1+Oo(h) et f2=g2+Oo(h), alors λf1+μf2=λg1+λg2+Oo(h)
+si f=g+Oo(φ), fh=gh+Oo(φ)
+**************
+*TAYLOR-YOUNG*
+**************
+si f'(x)=Oo((x-a)^n), alors
+   f(x)-f(a)=Oo((x-a)^(n+1))
+th de T-Y a l'ordre n
+f(x)=Σ(f(p)(a)/p!*(x-a)^p,p,0,n)
+     +o((x-a)^n)
+f(a+h)=Σ(f(p)(a)/p!*(x-a)^p,p,0,n)
+       +(x-a)^n*ω(x)
+si lim ω=0 en a alors:
+f(x)=Σ(f(p)(a)/p!*(x-a)^p,p,0,n)
+     +(x-a)^n*ω(x)
+si lim θ=0 en 0 alors:
+f(a+h)=Σ(f(p)(a)/p!*h^p,p,0,n)
+       +h^n*θ(h)

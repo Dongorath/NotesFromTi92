@@ -1,0 +1,64 @@
+dim(V~)=n-dim(V)
+si E=V+W et V¬W, W=V~
+πV~=Id-πV
+V et W perpendiculaires si (V~)¬(W~)
+(x|y)=Σ(xi*yi,i,1,n)
+si (e1,…,en) bon, xi=(x|ei)
+e^(*i)=(ei|.)
+si φ forme lineaire, φ=(a|.)
+reunion de bon de V et V~ → bon de E
+ᵀA*A=((ai|aj))
+A orthogonale si ᵀA*A=A*ᵀA=In
+(I) A orthogonale (II) A⁻¹=ᵀA
+(III) ᵀA*A=In (IV) A*ᵀA=In
+si B bon, A=matB(a1,…,an) orthogonale ssi (a1,…,an) bon
+si A base, A bon ssi mat de passage de B a A orthogonale
+si A orthogonale, |detA|=1
+diag(α1,…,αn) orthogonale ssi αi=±1
+
+SO(2)={R(θ)}, R(θ)=[[cos(θ),-sin(θ)]
+                    [sin(θ),cos(θ) ]]
+O-(2)={S(θ)}, S(θ)=[[cos(θ),sin(θ) ]
+                    [sin(θ),-cos(θ)]]
+R(α)*R(β)=R(α+β)
+S(α)*S(β)=R(α-β)
+(R(θ))⁻¹=ᵀR(θ)=R(-θ)
+(S(θ))⁻¹=ᵀS(θ)=S(θ)
+R(α)=R(β) ssi α=β (mod 2π)
+
+endom orthogonal: (f(x)|f(y))=(x|y)
+                  ssi ||f(x)||=||x||
+                  => f autom de E
+(I) f∈O(E) (II) (f(b1),…,f(bn)) bon
+(III) MatB(f)=A∈O(n)
+si V stable par f∈O(E): f|V∈O(V), V~ stable par f
+Si k>0, f∈L(E): (I) g∈O(E) tq f=kg
+(II) (f(x)|f(y))=k²(x|y)
+(III) ||f(x)||=k||x||
+f similitude si f=kg, k>0, g∈O(E)
+k=rapport de la similitude
+directe si g∈SO(E)
+indirecte si g∈O-(E)
+det(f)=±k^n
+f1of2 de rapport k1*k2
+f⁻¹ de rapport 1/k
+f respecte orthogonalite (tout)
+symetrie orthogonale σV = symetrie par rapport a V //ment a V~
+σV∈GL(E), σV²=Id, σV⁻¹=σV, πV~=Id-πV, σV=2πV-Id, σV~=-σV
+V=Ker(σV-Id), V~=Ker(σV+Id)
+x∈V ssi σV(x)=x
+x∈V~ ssi σV(x)=-x
+σV∈O(E) et det(σV)=(-1)^(n-dim(V))
+σE=Id, σ{0}=-Id
+f sym orthogonale ssi MatB(f) symetrique et orthogonale
+Si ||a||=1 et D=Ra, πD(x)=(a|x)*a et σD=2(a|x)*a-x
+si H=a~, πH(x)=x-(a|x)a  σH=x-2(a|x)a
+reflexion=symetrie par rapport a un hyperplan
+Si ||a||=||b|| et a≠b, H=(a-b)~ hyperplan et s=σH unique reflexion tq s(a)=b
+
+Si B=(i→,j→) bon de E2:
+▶ si d→=cos(θ)*i→+sin(θ)*j→ et D=Rd→, MatB(σD)=S(2θ)
+▶ si MatB(f)=R(θ), f=σDoσD0 où d0=Ri→ et D engendree par d→=cos(θ/2)*i→+sin(θ/2)*j→
+Si f rotaion vectorielle de E3, il existe a→ unitaire tq f(a→)=a→
+Si det(f)=ε=±1, il existe B=(i→,j→,k→) bon et θ tq MatB(f)=diag((ε),R(θ)
+si B=(i→,j→,k→) bon de E3 et f tq MatB(f)=diag((1),s(θ)), si u→=cos(θ/2)*j→+sin(θ/2)*k→, P=Vect(i→,u→), P plan et f=σP

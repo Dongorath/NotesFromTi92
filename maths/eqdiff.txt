@@ -1,0 +1,33 @@
+Soit à résoudre, sur l'intervalle I: (E)|y'+a(x)*y=b(x).
+1) On détermine, sur I, ∫a(x)dx=A(x), d'où la fn x→φ(x)=e^(-A(x)).
+2) Les solutions sur I de [(E0)|y'+a(x)*y=0] sont les applications x→f(x)=λ*φ(x) où λ est une constante appartenant à K.
+3) f∈C1(I,K) est une solution de (E) sur I si, et seulement si, sur I: d/dx(f(x)/φ(x))=b(x)/φ(x)=g(x), ce qui équivaut à: f(x)/φ(x)=∫g(x)dx=G(x).
+4) Une solution particulière de (E) sur I est l'application: f0:x→f0(x)=φ(x)*G(x) et les solutions de (E) sur I sont les applications x→f(x)=f0(x)+λ*φ(x) où λ est une constante appartenant à K
+REMARQUES:
+a) Si (E) est homogène (c'est-à-dire b=0), on se contente des étapes 1) et 2).
+b) Pour la conclusion de l'étape 2) et pour les étapes 3) et 4), on peut remplacer φ par ψ=α*φ où α est n'importe quelle constante non nulle appartenant à K.
+
+(E)|a*y"+b*y'+c*y=d(x)
+(E0)|a*y"+b*y'+c*y=0
+R=a*X²+b*X+c
+On suppose que le discriminant Δ=b²-4ac de R est un carré dans K.
+a) L'ensemble S0 des solutions de (E0) surI est un plan vectoriel de C²(I,K) dont une base (u,v) est le couple définie par:
+   ▶ Si Δ≠0, alors u:x→u(x)=e^(r*x) et v:x→v(x)=e^(r'*x) où (r,r') est une liste des racines de R dans K
+   ▶ Si Δ=0, alors u:x→u(x)=e^(r*x) et v:x→x*v(x)=e^(r*x) où r=-b/(2*a) est la racine double de R
+   Si Δ≠0 (resp. Δ=0), les solutions de (E0) sur I sont les applications de I dans K
+   f:x→f(x)=λ*e^(r*x)+μ*e^(r'*x) (resp. f:x→f(x)=(λ+μ*x)*e^(r*x)) où λ et μ sont des constantes appartenant à K.
+b) Si f0 est une solution particulière de (E) sur I, les solutions de (E) sur I sont les applications de I dans K x→f(x)=f0(x)+λ*u(x)+μ*v(x) où λ et μ sont des constantes appartenant à K.
+Si P est un polynôme de degré n∈N et α une constante, une solution particulière sur I de (E)|a*y"+b*y'+c*y=P(x)*e^(α*x) est l'application f0:x→f0(x)=Q(x)*e^(α*x) où Q est un polynôme:
+▶ de degré n si α n'est pas une racine de R
+▶ de degré n+1 si α est une racine simple de R
+▶ de degré n+2 si α est une racine double de R
+Le polynôme Q est une solution dans K[X] de l'équation (F)|a*Q"+R'(α)*Q'+R(α)*Q=P
+On suppose que le corps de base est le corps des réels et que Δ=b²-4ac<0. Les racines de R dans C sont r=α-i*ω où α,ω sont des réels et ω>0.
+a) L'ensemble S0 des solutions de (E0) sur I est un sous-espace vectoriel de dimension 2 de C²(I,R) dont une base est le couple (u,v) définie par:
+   {u:x→u(x)=e^(α*x)*cos(ω*x)
+   {v:x→v(x)=e^(α*x)*sin(ω*x).
+   Les solutions de (E0) sur I sont les applications de I dans R:
+   f:x→f(x)=(λcos(ωx)+μsin(ωx))*e^(α*x)
+           =A*e^(α*x)*cos(ω*x-φ)
+   où λ,μ,A et φ sont des constantes réelles et A≥0.
+b) Si f0 est une solution particulière de (E) sur I, les solutions de (E) sur I sont les applications de I dans R x→f(x)=f0(x)+λ*u(x)+μ*v(x) où λ,μ sont des constantes rélles.

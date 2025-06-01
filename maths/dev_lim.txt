@@ -1,0 +1,19 @@
+Développements limités usuels, pour x proches de zero:
+
+Les fonction ε(x^n) sont telles que
+lim ε(x^n)=0 quand x tend vers 0.
+1/(1-x)=1+x+…+x^n+ε(x^n)
+1/(1+x)=1-x+…+(-1)^n*x^n+ε(x^n)
+1/(1-x^2)=1+x^2+…+x^2n+0(x^(2n+2))
+1/(1+x^2)=1-x^2+…+(-1)^n*x^2n+0(x^(2n+2))
+ln(1+x)=x-x^2/2+x^3/3…+(-1)^(n-1)*x^n/n+ε(x^n)
+ln(1-x)=-x+x^2-2+…+x^n/n+ε(x^n)
+e^(x)=1+x+x^2/2!+…+x^n/n!+ε(x^n)
+e^(cx)=1+cx+(cx)^2/2!+…+(cx)^n/n!+ε(x^n)
+sin(x)=x-x^3/3!+x^5/5!+…+ε(x^n)
+sh(x)=x+x^3/3!+…+x^(2n+1)/(2n+1)!+O(x^(2n+3))
+cos(x)=1-x^2/2!+x^4/4!+…+ε(x^n)
+ch(x)=1+x^2/2!+…+x^2n/2n!+O(x^(2n+2))
+(1+x)^n=1+nx+n(n-1)x^2/2!+…+ε(x^n)
+tan⁻¹(x)=x-x^3/3+x^5/5+…+(-1)^n*x^(2n+1)/(2n+1)+O(x^(2n+3))
+sin⁻¹(x)=x+x^3/6+…+1/2(1/2-1)…(1/2-n+1)/(n+1)!*x^(n+1)+O(x^(n+2))

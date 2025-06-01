@@ -1,0 +1,184 @@
+ *********************************
+ * EsPaCeS VeCtOrIeLs eUcLiDiEnS *
+ *********************************
+
+V sev de E, ev euclidien (prod scal et dim(E)=n):
+E=V(+)V~ (V~)~=V dim(V~)=n-dim(V)
+
+V,W sev de E si E=V(+)W et si V¬W dc W=V~
+
+proj orthog Πv~ sur V~ parallᵀ à V:
+ Πv~=Id-Πv
+
+si (v1,…,vp) b.o.n. de V:
+ Πv(x)=Σ((vi|x)vi,i,1,p)
+et en notant D1=R.vi:
+ Πv=ΠD1+…+ΠDp  où ΠD1=(vi|x)vi
+
+(Πv(x)|y)=(x|Πv(y))
+Si f projecteur de E:
+ (f(x)|y)=(x|f(y)) et f=Πv où V=Im(f)
+
+V et W perpendiculaire si V~¬W~ ce qui équivaut à: V~⊂W ou W~⊂V
+
+(x|y)=Σ(xi*yi,i,1,n)=x1y1+…+xnyn
+
+N(x)=√(x1²+…+xn²)
+
+E=(ei)(1≤i≤n) b.o.n. de E
+x∈E s'écrit x=x1e1+…+xnen, on a:
+ xi=(ei|x) pour i=1,…,n
+
+B(*) base duale de B:
+ e(*i)=(ei|.)
+
+Si φ forme linéaire il existe un et un seul vecteur a tq φ=(ai|.)
+
+Si (v1,…,vp) est une b.o.n. de V et si (w1,…,w(n-p)) est une b.o.n. de V~, (v1,…,vp,w1,…,w(n-p)) est une b.o.n. de E=V(+)V~
+
+Th de la b.o.n. incomplète
+
+MATRICES et BASES ORTHOGONALES
+
+B b.o.n. de E, si a1,…,an∈E et si
+ A=matB(a1,…,an), alors
+ ᵀA*A=((ai|aj))(1≤i,j≤n)
+
+matrice orthog si ᵀA*A=A*ᵀA=In (A⁻¹=ᵀA)
+=> detA=±1
+
+B b.o.n. de E
+a1,…,an∈E et A=matB(a1,…,an)
+(a1,…,an) base orthog ssi A orthog
+
+O(n) ensemble matrice orthog carrée n
+gpe orthog d'ordre n
+
+SO(n)=O+(n)={A∈O(n)|detA=+1}(spécial orthog)
+      O-(n)=       …    =-1}
+
+O(n) ss gpe * de GLn(R)
+SO(n) ss gpe * de O(n)
+
+R(θ)=(cosθ -sinθ)  S(θ)=(cosθ  sinθ)
+     (sinθ  cosθ)       (sinθ -cosθ)
+
+SO(2)={R(θ)|θ∈R} et O-(2)={S(θ)|θ∈R}
+
+R(α)*R(β)=R(α+β)
+S(α)*S(β)=R(α-β)
+
+R(0)=I2
+R(π)=-I2
+S(0)=(1  0)
+     (0 -1)
+R(θ)⁻¹=ᵀR(θ)=R(-θ)
+S(θ)⁻¹=ᵀS(θ)=S(θ)
+S(θ)²=I2
+R:θ → R(θ)  Ker(R)=2πZ
+
+ENDOMORPHISMES ORTHOGONAUX
+(f(x)|f(y))=(x|y)
+det f=±1
+
+eq entre prop:
+ (I)  f endo orthog
+ (II) f endo et N(f(x))=N(x)
+
+un endo orthog est un automorphisme
+
+O(E) ensemble des endo orthog
+gpe orthogonal de E
+
+B b.o.n. de E f endo et A=MatB(f)
+ (I)   f∈O(E)
+ (II)  f(b1,…,bn) b.o.n. de E
+ (III) A∈O(n)
+
+un endo orthog transforme toute b.o.n. en b.o.n.
+
+SO(E)=O+(E)={f∈O(E)|det f=+1}
+      O-(E)=      …      =-1}
+
+eq entre prop:
+ (I)  f∈SO(E)
+ (II) A=MatB(f)∈SO(n) (B b.o.n.)
+
+f endo de E et V sev de E
+Si V stable par f, f|v∈O(V)
+                   V~ stable par f
+
+SIMILITUDE VECTORIELLE
+
+f=k*g o* g∈O(E) et k>0
+det f=k^n directe
+det f=-k^n indirecte
+
+(f(x)|f(y))=k²(x|y)
+N(f(x))=k*N(x)
+
+f1of2 similit de rap k1+k2
+
+f⁻¹ similit de rap 1/k
+
+Simv(E) ensemble des similit vect
+Simv(E)+ semble des similit directe
+
+si x¬y, f(x)¬f(y)
+
+SYMETRIE ORTHOGONALE
+
+E=V(+)V~
+x=x0+ x1
+Πv(x)=x0 proj orthog sur V
+σv(x)=x0-x1 sym orthog par rap à V
+
+σv∈GL(E)
+σv²=Id
+σv⁻¹=σv
+Πv~=Id-Πv
+σv=2Πv-Id
+σv~=-σv
+
+V=Ker σv-ID    V~=Ker σv+Id
+
+x∈V ssi σv(x)=x
+x∈V~ ssi σv(x)=-x
+
+σv∈O(E) et det σv=(-1)^(n-dim(V))
+
+si f endo orth et f²=Id,
+ f=σv où V=Ker(f-Id)
+
+f sym orthog ssi A=MatB(f) est sym et orthog (ᵀA=A et ᵀA*A=In)
+
+dte vectorielle D=R.a
+ΠD(x)=(a|x)a
+σD(x)=2(a|x)a-x
+
+H hyperplan et a unitaire orthog à H,
+σH∈O-(E)
+ΠH(x)=x-(a|x)a
+σH(x)=x-2(a|x)a
+
+GROUPES ORTHOGONAUX de E2 et de E3
+
+**E2
+
+d→=cos(θ/2)i→+sin(θ/2)j→ et D=R.d→
+alors matrice représent σD est S(θ)
+f endo de E2
+si MatB(f)=S(θ) f=σD où D=R.d→
+        =R(θ) f=σDoσD0 D=R.d→ D0=R.i→
+
+toute rot de E2 est Σ de 2 refl vect
+
+**E3
+
+Si f rot vect exist vect unit a→ tq f(a→)=a→
+
+si f∈O(E3) et det f=ε(=±1) existe une b.o.n. B et θ tq
+         (ε |0  0)
+         (--+----)
+ MatB(f)=(0 |R(θ))
+         (0 |    )

@@ -1,0 +1,23 @@
+f(x)-f(a)~f'(a)*(x-a)   x→a
+f(x)-f(a)~f^(n)(a)/n!*(x-a)^n   x→a
+f(a+t)-f(a)~f'(a)*t    t→a
+f(a+t)-f(a)~f^(n)(a)/n!*(t^n)   t→a
+e^(x)-1~x   x→0
+a^x-1~x*ln(a)    x→0
+ln(x)~x-1     x→1
+ln(1+x)~x     x→0
+sin(x)  }
+tan(x)  }
+sh(x)   } ~ x    x→0
+tan⁻¹(x)}
+sin⁻¹(x)}
+(1+x)^α-1~α*x     x→0
+cos(x)-1~-x^2/2   x→0
+ch(x)-1~x^2/2     x→0
+
+f~0 <=> f=0   (en a)
+f~λ  si lim(f)=λ et λ≠0
+
+si f~g et g>0 alors f>0 et si lim(g)=λ et λ≠1, ln(f)~ln(g)
+
+e^(f)~e^(g) ssi lim(f-g)=0

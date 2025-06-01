@@ -1,0 +1,88 @@
+Δ={(i,j)|1≤i<j≤n}
+ε(σ)=Π((σ(j)-σ(i))/(j-i),(i,j)∈Δ)
+ε(σ⁻¹)=ε(σ)
+si σ est le produit de p transposit°, ε(σ)=(-1)^p
+Si f est 1 app symetrique (resp. antisymetrique) et σ 1 permutat° de [|1,n|], alors f(xσ(1),…,xσ(n))=f(x1,…,xn) (resp. f(xσ(1),…,xσ(n))=(-1)^p*f(x1,…,xn))
+Si f n-lineaire:
+a) f(λ1*x1,…,λn*xn)=λ1*…*λn*f(x1,…,xn)
+b) s'il existe i∈{1,…,n} tq xi=0Ei, f(x1,…,xn)=0F
+c) f(Σ(λ1i*x1i,i∈I1),,Σ(λni*xni,i∈In))=Σ(λ1i1*…*λnin*f(x1i1,…,xnin),(i1,…in)∈I1x…In)
+Si f n-lineaire alternee:
+a) f(xσ(1),…,xσ(n))=ε(σ)*f(x1,…,xn)
+b) f(x1,…,xk+Σ(λi*xi,i≠k),…,xn)=f(x1,…,xn)
+c) Si xk∈Vect(x1…,xk^,…,xn), alors f(x1,…,xn)=0F
+d) Si (x1,…,xn) liee, f(x1,…,xn)=0F
+xi<->xj donne -f(x1,…,xn)
+xi<-λxi donne λ*f(x1,…,xn)
+xi<-xi+λ*xj donne f(x1,…,xn)
+antisymetrisee: f_(x1,…,xn)=Σ(ε(σ)*f(xσ(1),…,xσ(n)),σ∈Sn)
+det(U)(u1,…,un)=Σ(ε(σ)Π(xσ(i)i,i,1,n),σ∈Sn)
+               =Σ(ε(σ)Π(xiσ(i),i,1,n),σ∈Sn)
+det(U)(u1,…,un)=1
+φ(x1,…,xn)=φ(u1,…,un)*det(U)(x1,…,xn)
+L'ev λ^*n(E) des formes n-lineaires alternees sur E est de dim 1 est (det(U)) en est 1 base (U base de E)
+
+Formule de changement de base:
+det(V)(x1,…,xn)=det(V)(u1,…,un)*det(U)(x1,…,xn)
+
+(a1,…,an) base (resp liee) ssi det(U)(a1,…,an)≠0 (resp =0)
+
+Formule de Cramer:
+A=(a1,…,an) base de E, x=x1*a1+…+xn*an où, pour i=1,…,n:
+xi=det(A)(a1,…,a(i-1),x,a(i+1),…,an)
+  =det(U)(")/det(U)(a1,…,an)
+
+det(U)(f(x1),…,f(xn))=det(f)*det(U)(x1,…,xn)
+det(f)=det(U)(f(u1),…,f(un))
+det(IdE)=1
+det(fog)=det(f)*det(g)
+det(λf)=λ^n*det(f)
+det(λ*IdE)=λ^n
+f automorphisme ssi det(f)≠0 et alors det(f⁻¹)=1/det(f)
+
+det(ᵀA)=det(a)
+sur une matrice A∈Mn(K):
+Ci<->Cj ou Li<->Lj donne -det(A)
+Ci<-λCi ou Li<-λLi donne λdet(A)
+Ci<-Ci+λCj ou Li<-Li+λLj donne det(A)
+det(In)=1
+det(A*B)=det(A)*det(B)
+det(λ*A)=λ^n*det(A)
+det(λ*In)=λ^n
+A inversible ssi det(A)≠0, et alors det(A⁻¹)=1/det(A)
+
+det([[a,c][b,d]])=ad-bc
+si A=(aij)∈M3(K): det(A)=(a11*a22*a33+a12+a23*a31+a13*a21*a32)-(a11*a23*a32+a12*a21*a33+a13*a22*a31)
+si A triangulaire par bloc, det(A)=produit des det de chaque bloc diagonal
+si A triangulaire det(A)=Π(aii,i,1,n)
+
+Apq= A privee de ligne p et col q
+mineur d'indice (p,q) = det(Apq)
+cofacteur = γpq=(-1)^(p+q)*det(Apq)
+comatrice  ou matrice des cofacteurs: com A=(γij)
+mat complementaire: Ã=ᵀ(com A)
+det(A)=Σ(apq*γpq,p,1,n)   (col q)
+      =Σ(apq*γpq,q,1,n)   (ligne p)
+A*Ã=Ã*A=det(A)*In
+A⁻¹=1/det(A)*Ã
+
+Resolut° par les formules de Cramer:
+(S)|AX=B syst de Cramer → X0=(x1,…,xn) unique sol° (mat col) où xi=det(β)(A1,…,A(i-1),B,A(i+1),…,An)/det(A)
+
+(S)|{ax+by=α   cad (s)|(a b)(x)=(α)
+    {cx+dy=β           (c d)(y) (β)
+syst de Cramer ssi δ=ad-bc≠0 et si δ≠0
+X0=ᵀ(x0 y0) unique solution où
+X0=1/δ*|α b| et y0=1/δ*|a α|
+       |β d|           |c β|
+
+det(Vn(x1,…,xn))=Π(xj-xi,1≤i<j≤n)
+
+Si U,V bases de E,
+Δ(U,V)=det(U)(v1,…,vn) ≠0 donc >0 ou <0. U et V de m^ sens (U~V) si Δ(U,V)>0
+(U)~ classe d'equivalence de U modulo ~, cad l'ensemble des bases de E de M^ sens que U
+U_=(u1,…,-un)
+Δ(U,U_)=-1 → U et U_ de sens contraire donc (U)~ et (U_)~ classes distinctes, donc disjointes: (U)~⋂(U_)~=vide
+que 2 classes: (B)~ et (B_)~
+Orienter E, c'est choisir l'1 de ces 2 classes d'equivalences, qu'on appelle alors la classe des bases directes, l'autre etant la classes des bases indirectes.
+Pour orienter l'ev réel E, on choisit 1 bases B de E que l'on decrete directe. Les bases direcets (resp. indirectes) de E sont alors les bases U=(u1,…,un) tq det(B)(u1,…,un)>0 (resp. <0).

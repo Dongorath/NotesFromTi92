@@ -1,0 +1,26 @@
+diffract°: sin(θ)=λ/d
+opt geom: neglige diffract° → λ<<d
+milieu homogene: meme composit° partt
+milieu isotrope: meme props ds ttes les direct°
+Ds milieu homogene isotrope: lumiere se propage rectilignemt
+Trajet independant du sens
+***********
+*REFLEXION*
+***********
+plan d'incidence: plan avec rayon incident, pt incident et normale au plan tangent
+1ere loi de Descartes: rayon reflechi ds le plan d'incidence
+2e loi de Descartes: i=-r (angles)
+************
+*REFRACTION*
+************
+1ere loi de Descartes: rayon refracte dans le plan d'incidence
+2e loi de Descartes: n=c/v, n>1, n1*sin(i1)=n2*sin(i2)
+sin(i1)≤n2/n1
+si n2<n1, i1≤λ=sin⁻¹(n2/n1)
+********
+*PRISME*
+********
+prisme: milieu homogene isotrop transparent limite par 2 dioptres plans formant 1 dièdre
+arete: intersect° des 2 plans
+plan de sect° principal: plan orthogonal a l'arete
+angle du prisme: angle delimite par les dioptres plans dans le plan de sect° principal

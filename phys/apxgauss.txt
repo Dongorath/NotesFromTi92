@@ -1,0 +1,14 @@
+Objet (image) reel si rayons incidents (emergents) se croisent effectivemt.
+Virtuel si prolongemts se croisent.
+Stigmatique rigoureux si l'image d'1 point est 1 point, approche si image dans 1 zone de faible dim autour d'1 point
+si objet sur axe optique, image aussi
+syst approximativemt stigmatique si rayons incidents sont paraxiaux (α petit)
+syst aplanetique si image d'1 plan est 1 plan (plans orthogonaux a l'axe optique)
+
+*****************
+*APPROX DE GAUSS*
+*****************
+image de bonne qualite si:
+▶ objet plan, perpendiculaire a l'axe optique, centre su l'axe, de petite dimension
+▶ rayons incidents paraxiaux et pres du cente optique
+▶ image obtenue plane, perpendiculaire a l'axe, centree sur l'axe et de bonne qualite

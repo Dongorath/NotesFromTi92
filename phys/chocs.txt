@@ -1,0 +1,18 @@
+{particules} isolé
+Conservat° de la qdm totale:
+m1*v1→+m2*v2→=m1'*v1'→+m2'*v2'→
+Δp1→=-Δp2→
+F(/1)→=Δp1→/Δt=-Δp2→/Δt=-F(/2)→
+   Δt=duree du choc
+Conservat° de l'NRJ:
+Eav=Eap
+Epart=Ec+U   (U=NRJ interne)
+Choc elastique si U=cste
+si choc elastique, 2 m^ part av et ap, Ecav=Ecap
+Choc elastique ds ref barycentrique
+OG→=(m1*OM1→+m2*OM2→)/(m1+m2)
+v(G/R)→=m1/(m1+m2)*v1→+m2/(m1+m2)*v2→
+v1→=v1*→+v(G/R)→
+conservat° de p*→=0→
+v1*'→²=v1*→²
+v2*'→²=v2*→²

@@ -1,0 +1,34 @@
+      MATHEMATIQUES|seuqitaméhtam
+          UTILISEES|seesilitu
+                 EN|ne
+           SCIENCES|secneics
+          PHYSIQUES|seuqisyhp
+
+Pour une fonction f des cariables x, y et z:
+ df=(df/dx)y,z+(df/dy)z,x+(df/dz)x,y
+s'appelle la différentielle de f.
+
+Pour une fonction telle que f(x,y,z)=0
+         (df/dy)x,z
+(dx/dy)z=----------
+         (df/dx)y,z
+Cette relation est également valable pour les autres couples de variables (x,y) et (y,z).
+
+(dx/dy)z*(dy/dz)x*(dz/dx)*y=-1.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Développements limités usuels, pour x proches de zéro:
+
+Les fonction ε(x^n) sont telles que
+lim ε(x^n)=0 quand x tend vers 0.
+
+ln(1+X)=x-x^2/2+x^3/3…-(-x)^n/n+ε(x^n)
+
+e^(x)=1+x+x^2/2!+…+x^n/n!*ε(x^n)
+
+sin(x)=x-x^3/3!+x^5/5!+…+ε(x^n)
+
+cos(x)=1-x^2/2!+x^4/4!+…+ε(x^n)
+
+(1+x)^n=1+nx+n(n-1)*x^2/2!+…+ε(x^n)

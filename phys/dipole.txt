@@ -1,0 +1,9 @@
+bob: u=L*di/dt
+     Ebob=1/2*L*i²
+     i continu
+     non parfait (+r) u=L*di/dt+ri
+cond: u=q/C
+      i=dq/dt
+      i=C*du/dt
+      Econd=1/2*C*u²=1/2*q²/C
+      u et q continus

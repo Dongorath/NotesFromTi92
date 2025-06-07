@@ -1,0 +1,14 @@
+decremt logarithmique:
+δ=ln(y(t)/y(t+T))
+Ieff=Im/√2
+Ueff=Um/√2
+i_=Im*e^(j(ωt+φ)
+ =I_*e^(jωt)   où I_=Im*e^(jφ)
+deriver = *jω
+integrer = *1/jω
+Z_=U_/I_
+  =Um/Im*e^(j(φu-φi))
+Y_=1/Z_
+resistor: Z_=R
+bob: Z_=jωL
+cond: Z_=1/jωC

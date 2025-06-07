@@ -1,0 +1,6 @@
+1m=dist lum en 1/299.792.458s
+1s=9.192.631.770 periode de radiat° de cesium 133
+
+v→=Ω→*OM→    Ω→=θ'.uz→=ω.uz→
+mvt helicoidal: ρ=cste, z=h*θ
+2πh=pas de l'helice

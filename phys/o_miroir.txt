@@ -1,0 +1,68 @@
+miroir spherique: calotte spherique reflechissante
+centre du miroir: centre de la sphere dans laquelle le miroir a ete decoupe
+sommet du miroir: sommet de la calotte spherique
+concave si centre du miroir dans le milieu de propagat°
+convexe si centre a l'ext du milieu de propagat°
+plan focal objet (image): plan perpendiculaire a l'axe optique contenant le foyer objet (image)
+F,F' confondus → meme plan focal
+foyer secondaires: tout point du plan focal
+A∞ sur axe -→ F'
+A∞ pas sur axe -→ foyer secondaire
+3 rayons interressants:
+▶ passe par centre → pas devie
+▶ // axe optique → par foyer principal
+▶ par foyer principal → // axe optiq
+
+ATTENTION: valeurs algebriques
+
+Origine au sommet:
+1/SA' + 1/SA = 2/SC
+SF = SF' = SC/2
+γ = A'B'/AB = CA'/CA
+Dem:
+ ▶ mipic1 PIC
+ α=ω+i' α'=ω+i → α+α'=2ω+i+i'=2ω
+ tanα=HI/A'H=α & A'H=A'S (approx)
+ tanα'=HI/AH=α' & AH=AS
+ tanω=HI/CH=ω & CH=CS
+ α=HI/A'S α'=HI/AS ω=HI/CS
+ et α+α'=2ω
+ HI(1/SA'+1/SA)=2HI*1/CS   …cqfd
+ A∞-→F' & F-→A'∞
+ dc 1/SF'+1/SA∞=2/SC dc SF'=SC/2
+    1/SA'∞+1/SF=2/SC       …cqfd
+ rayon qui passe par B,S & B':reflec°
+ décrit angle i et i' par rapport axe optique (i incident,i' emergent)
+ tani=AB/SA tani'=A'B'/SA'
+ i=-i' dc AB/SA=-A'B'/SA'
+ dc γ=A'B'/AB=-SA'/SA      …CQFD
+Origine au centre:
+1/CA' + 1/CA = 2/CS
+γ = A'B'/AB = CA'/CA
+Dem:
+ SA=SC+CA et SA'=SC+CA'
+ 1/SA'+1/SA=1/(SC+CA)+1/(SC+CA')
+           =…
+           =2/SC
+ et on trouve 0=SC*CA+SC*CA'+2CA*CA'
+ d'où 0=1/CA'+1/CA+2/SC    …cqfd
+ rayon qui passe par B,C & B' et angle α par rap. à axe optique.
+ tanα=-AB/CA=-A'B'/CA' dc
+ γ=A'B'/AB=CA'/CA          …CQFD
+Formules de Newton:
+FA*FA = 'FS²
+γ = A'B'/AB = FS/FA = FA'/FS
+FA*F'A' = f*f'
+Dem:
+ ▶ mipic2 PIC
+ tanα=SI/FS=A'B'/FA'
+ SI=AB dc A'B'/AB=FA'/FS
+ tanα'=AB/FA=SJ/FS or SJ=A'B'
+ A'B'/AB=FS/FA
+ A'B'/AB=FA'/FS=FS/FA (=γ)
+ dc FA*FA'=FS²           …CQFD
+Miroir plan:
+R = CS = ∞
+pas de foyers
+SA' = -SA
+syst stigmatique rigoureux

@@ -1,0 +1,29 @@
+miroir spherique: calotte spherique reflechissante
+centre du miroir: centre de la sphere dans laquelle le miroir a ete decoupe
+sommet du miroir: sommet de la calotte spherique
+concave si centre du miroir dans le milieu de propagat°
+convexe si centre a l'ext du milieu de propagat°
+plan focal objet (image): plan perpendiculaire a l'axe optique contenant le foyer objet (image)
+F,F' confondus → meme plan focal
+foyer secondaires: tout point du plan focal
+A∞ sur axe -→ F'
+A∞ pas sur axe -→ foyer secondaire
+3 rayons interressants:
+▶ passe par centre → pas devie
+▶ // axe optique → par foyer principal
+▶ par foyer principal → // axe optiq
+
+ATTENTION: valeurs algebriques
+Origine au sommet:
+1/SA' + 1/SA = 2/SC
+SF = SF' = SC/2
+γ = A'B'/AB = CA'/CA
+Formules de Newton:
+FA*FA' = FS²
+γ = A'B'/AB = FS/FA = FA'/FS
+FA*F'A' = f*f'
+Miroir plan:
+R = CS = ∞
+pas de foyers
+SA' = -SA
+syst stigmatique rigoureux

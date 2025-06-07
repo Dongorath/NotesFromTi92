@@ -1,0 +1,36 @@
+Ec=1/2*m*v^2
+dEc/dt=Pc=F→.v(M/R)→
+δW=P*dt
+P=f→.v→
+δW=f→.dOM→
+dEc=δW(F→)+δW(fie→)
+Ecf-Eci=W(F→,I→F)+X(fie→,I→F)
+grad→Ep=(dEp/dx)(y,z)ux→
+        +(dEp/dy)(x,z)uy→
+        +(dEp/dz)(y,z)uz→
+       =(dEp/dρ)(θ,z)uρ→
+        +1/ρ*(dEp/dθ)(ρ,z)uθ→
+        +(dEp/dz)(ρ,θ)uz→
+       =(dEp/dr)(θ,φ)ur→
+        +1/(r*sin(φ))*(dEp/dθ)(r,φ)uθ→
+        +1/r*(dEp/dφ)(r,θ)uφ→
+**********************
+*FORCES CONSERVATIVES*
+**********************
+Epf-Epi=-W(F→,I→F)
+W independant du chemin
+sur 1 circuit ferme: ∫F→.dOM→=0
+pesanteur: Ep=mgz+cste (uz→ ↑)
+tension ressort: Ep=1/2*kx^2(+cste)
+ep(electrostatique)=qV+cste
+F→ newtoniennes: Ep=-k/r+cste
+Ep(fie→)=-1/2*ω^2*HM→^2+cste
+
+Em=Ec+Ep
+dEm=δWnc
+syst conservatif → Em=cste
+
+a l'eq, Ep extremale
+eq stable si d²Ep/dt²>0    (Ep min)
+eq instable si d²EP/dt²<0  (Ep max)
+eq indiffirent d²Ep/dt²=0

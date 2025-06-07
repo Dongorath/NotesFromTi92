@@ -1,0 +1,44 @@
+lentille: milieu homogene isotrope transparent limite par 2 dioptres spheriques
+a bords minces -→ convergentes
+a bords epais  -→  divergentes
+rayon passant par centre optique: pas devié
+
+foyer object:
+F -→ A'∞
+foyer secondaire: tt pt du plan focal
+rayon passant par F → // axe optique
+dist focale objet: f = OF
+foyer image:
+A∞ -→ F'
+dist focale image: f' = OF'
+rayon // axe optique → passe par F'
+f' = -f
+f'<0 si DV,  f'>0 si CV
+vergence: C=1/f' en dioptrie δ=m⁻¹
+CV → C>0,   DV → C<0
+
+Origine au foyer (formules de Newton):
+F'Aᵀ*FA = f*fᵀ
+γ = -F'A'/OF' = -OF/FA
+Dem:
+ image qui passe par B,F (et J sur L) et repart // axe optiq et par B'
+ →angle α=rayon/axe
+ tanα=-AB/FA=OJ/OF=A'B'/OF
+ tanα'=-A'B'/F'A'=OI/OF'=AB/OF'
+ γ=A'B'/AB=-OF/FA
+ γ=A'B'/AB=-F'A'/OF'
+ dc -OF/FA=-F'A'/OF'
+ F'A'*FA=f'*f
+ γ=-F'A'/f'=-f/FA         …CQFD
+origine au sommet (de Descartes):
+1/OF' = 1/OA' - 1/OA
+γ = A'B'/AB = OA'/OAz
+Dem:
+ F'A'*FA=f*f'=OF*OF'
+ (F'O+OA')(FO+OA)
+   =F'O*FO+F'O*OA+OA'*FO+OA'*OA
+   =OF*OF'
+ dc OA'*OA-OA*OF'-OA'*OF=0
+ 1/OF'-1/OA'-OF/(OA*OF')=0
+ et OF'=OF             …CQFD
+ 

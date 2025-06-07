@@ -1,0 +1,46 @@
+(M,m) soumise a 1 force centrale
+  f→=-k/r²*ur→
+Ep=-k/r+cste    (cste=0)
+a→=-C²u²(u+u'')*ur→
+v→=C(-u'*ur→+u*uθ→)
+d²u/dθ²+u=k/(mC²)
+r=p/(1+e*cos(θ))
+p=mC²/k    =parametre
+e=DmC²/k   =excentricite
+Em=1/2*m*v²-k/r
+Em=mC²/(2p²)*(e²-1)
+Em=1/2*m*r.²+Ueff
+Ueff=1/2*m*C²/r²-k/r
+
+k>0, f→ attractive:
+Em>0 -→ diffusion, e>1, hyperbole
+Em<0 -→ lié, e<1, ellipse
+Em min, r=p -→ e=0, lié, cercle
+Em=0 -→ diffusion, e=1, parabole
+Hyperbole:
+Ueff min si r=p=mC²/k
+r→+∞ si e*cos(θ)→-1, cos(θ)→-1/e
+θlim=cos⁻¹(-1/e)
+MF-MF'=2*a
+r min si θ=0 → rmin=p/(1+e)
+si θ=±π/2, r=p → Ueff min
+Parabole:
+Em=0, e=1, pas d'asymptotes
+Etats liés:
+ellipse (e<1) ou cercle (e=0)
+FM+F'M=2*a
+rmin=p/(1+e)   (θ=0)
+rmax=P/(1-e)   (θ=±π)
+x²/a²+y²/b²=1
+Em=-k/(2*a)
+a=p/(1-e²)
+b=p/√(1-e²)
+c=OF
+a²=b²+c²
+e=c/a
+p=b²/a
+S=π*a*b
+T²/a³=4π²m/k
+T²/a³=4π²/(GM)
+si 2 part en interact°: T²/a³=4π²μ/k
+     T²/a³=4π²/((m1+m2)*G)

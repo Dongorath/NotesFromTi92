@@ -1,0 +1,11 @@
+(di'→/dt)R=Ω→*i'→ (id j'→ et k'→)
+(dA→/dt)R=(dA→/dt)R'+Ω→*A→
+v(M/R)→=v(M/R')→+v(O'/R)→+Ω→*O'M→
+       =v(M/R')→+v(P/R)→
+a(M/R)→=a(M/R')→+2Ω→*v(M/R')→+a(O'/R)→
+        +(dΩ/dt)R'*O'M→+Ω→*(Ω→*O'M→)
+ac→=Ω→*v(M/R')→
+Fie→=-m*ae→
+Fic→=-m*ac→
+Th du moment cinetique: A fixe
+dσA→/dt=AM→*(Fphys→+fie→+fic→)

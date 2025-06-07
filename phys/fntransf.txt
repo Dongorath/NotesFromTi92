@@ -1,0 +1,16 @@
+H_=Ys_(ω)/Xe_(ω)
+H_(jω)=G(ω)*e^(j*φ(ω))   G=gain
+G(ω)=|H_(jω)|
+GdB=20*log(G(ω))
+Determiner H_
+etude asymptotique (ω<<ω0, ω>>ω0)
+Bande passante a -3dB tq GdB≥GdBmax-3
+                         G(ω)≥Gmax/√2
+                         Ps≥1/2*Psmax
+freq de coupure fc tq GdB=GdBmax-3
+ωc=ω0
+intersect° asymptotique a ωc
+
+Passe-bas: H_=1/(1+jω/ω0)
+Passe-haut: H_=(jω/ω0)/(1+jω/ω0)
+Passe-bande: H_=(jω/ω0)/(Q0+jω/ω0+Q0*(jω/ω0)²)

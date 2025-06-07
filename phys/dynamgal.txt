@@ -1,0 +1,50 @@
+qdm: p→=m*v→
+momt cinematique: L(A)→=σ(A)→=AM→*mv→
+f→=dp→/dt=dm/dt*v→+m*dv→/dt
+  =m*a→ que si m=cste
+Action-Reaction:
+ ▶f(1/2)→+f(2/1)→=0→
+ ▶f(1/2)→*r12→=0→
+ ▶r12→=M1M2→
+p(tot)→=cste
+chute libre: a→=g→
+frottements visqueux:
+m*a→=m*g→-h*v→  --> eq diff -->
+v→=τ*g→*(1-e^(-t/τ))+v0→*e^(-t/τ)
+   τ=m/h
+--> integrat° --> M0M→=τ*t*g→+(v0→-τ*g→)τ(1-e^(-t/τ)) --> mvt plant -->
+{x=(v0*τ*cos(α))(1-e^(-t/τ))
+{y=-τ*g*t+(1-e^(-t/τ))(g*τ²+v0*τ*sinα)
+
+poids particules negligeable
+mvt ds B→ uniforme:
+calculer v→*B→  -->
+{m*x''=q*y'*B   (1)
+{m*y''=-q*x'*B  (2)
+{m*z''=0        (3)
+z''=0 -→ z'=cst=vz=v0*sin(α) -→ z0=(v0*sin(α))*t
+ωc=q*B/m  -→ (1)=… (2)=… -→ integrat° sur bornes correspondantes, remplacer, resoudre eq diff -→
+{x=v0*cos(α)/ωc*sin(ωc*t)
+{y=v0*cos(α)/ωc*(cos(ωc*t)-1)
+x²+(y+v0*cos(α)/ωc)²=(v0*cos(α)/ωc)²
+mvt circulaire, vit de rot=ωc=cst
+||v→||=cste
+Cyclotron:
+mvt ds plan perpendiculaire à B→
+R=m*v/(|q|*B), ωc=q*B/m → Tc=2π/ωc=cst
+liaisons:
+▶unilateral: objt peut s'eloigner mais pas traverser
+             R→ de (S) vers objt
+▶bilateral: ne peut pas s'eloigner
+            R→=Rt→+Rn→=tangent+normal
+si pas frottemt, R→ perp a v→,(S)
+liaison cesse si R→=0→
+sur sphère, v0→=0, R→=0→ si cos(θ)=2/3*cos(θ0)
+moment d'1 F→: M(F→,A)=AM→*F→
+th du moment cinétique:
+dσ(A)→/dt=M(F→,A)  si A fixe
+cste des aires: C=ρ²*θ'
+S(1→2)=1/2*C*Δt(1→2)
+formules de Binet: u=1/ρ, θ'=C*u², u'=du/dθ, u''=d²u/dθ²
+v→=C(-u'*uρ→+u*uθ→)
+a→=-C²*u²(u+u'')uρ→

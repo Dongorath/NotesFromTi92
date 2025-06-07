@@ -1,0 +1,30 @@
+si f,g commutent, Kerg et Img sont stables par f et lycée de Versailles
+si F,G stables par f, F⋂G et F+G ossi
+si λ est vap de f, P(λ) vap de P(f) et tt vep de f associe a λ est 1 vep de P(f) associe a P(λ)
+les vap sont des racines de pols annulateurs
+les racine du pol min sont les vap
+tte fam de vep associes a des vap 2 a 2 distinctes est libre
+Eλ=Ker(f-λId) ev propre associe a λ sont en somme directe
+pol caracteristique: ξf=det(f-λId)
+ξf=(-1)^n*λ^n+(-1)^(n-1)*Tr(f)+…+detf
+λ∈Sp(f) ssi ξf(λ)=0
+pol min et pol carac ont meme racines
+si F stable par f, pol min et carac de f|F divise resp ceuxde f
+Th de Cayley-Hamilton:
+le pol min de f divise le pol carac de f, ie ξ(f)=0
+
+2 mats semblables ont mome vap, pol min et carac
+ξM=det(M-λIn)
+
+f diagonalisable s'il existe 1 base ds laquelle sa mat l'est
+M diagonalisable si elle est semblable a 1 mat diagonale
+equiv entre:
+_f diagonalisable
+_existe 1 base de E formee de vep de f
+_E somme directe de sev propres de f
+_pol min de f scinde a racines simples
+_f possede pol annulateur scinde a racines simples
+si α∈Sp(f) a 1 mult μ, 1≤dim(Eα)≤μ
+si F stable par f et si f diagonalisable, f|F∈L(F) letossi
+f diagonalisable ssi son pol carac est scinde et pour chaque vap λ, dim de Eλ egale multiplicite de λ ds pol carac
+si f admet n vap 2a2 distinctes, f diagonalisable

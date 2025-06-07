@@ -1,0 +1,47 @@
+si A=(a1,...,ap), rg(A)=rg(a1,...,ap)=dim(Vect(a1,...,ap))
+rg(A)≤n et rg(A)≤p  (n=dimE)
+rg(A)=0 ssi A=(0E,...,0E)
+rg(A)=p ssi A libre
+rg(A)=n ssi A engendre E
+rg(A)=n=p ssi A base de E
+si rg(A)=r, on peut extraire une base de r vects de Vect(a,...,ap)
+Ops eltaires ne modifient pas le rang
+
+rg(f)=dim(Im(f))
+Si B=(b1,,bn), rg(f)=rg(f(b1),,f(bn))
+f∈L(En,Fp):
+rg(f)=n ssi f injective
+rg(f)=p ssi f surjective
+rg(f)=p=n ssi f isomorphisme
+rg(f)=0 ssi f=0
+************
+*TH DU RANG*
+************
+dim(E) = rg(f) + dim(Ker(f))
+Jpq(r)=(Ir|0)
+       (--+-)
+       (0 |0)
+Jpq(0)=0
+ᵀJpq(r)=Jqp(r)
+Il existe U,V bases de E,F tq Mat(U,V)(f)=Jpn(r)
+E1-φ→E-f→F-ψ→F1, si φ surj et ψ inj, rg(ψofoφ)=rg(f)
+
+si A∈Mnp(K):
+rg(A)=rg(f_A)
+rg(A)≤p et rg(A)≤n
+rg(A)=0 ssi A=0
+si a1,...,an vects cols de A, rg(A)=rg(a1,...,an)
+Si P,Q inversibles, rg(QAP)=rg(A)
+rg(Jnp(r))=r
+rg(A)=r ssi il existe P,Q inversibles tq A=Q*Jnp(r)*P
+rg(ᵀA)=rg(A)
+si A∈Mn(K), rg(A)=n ssi A inversible
+
+Tn(i,j)=Li<->Lj sur In
+D(i,λ)=diag(1,...,1,λ,1,...,1)
+Fn(i,j,λ)=In+λE(i,j)
+Li<->Lj : Tn(i,j)*A
+Li<-λLi : Dn(i,λ)*A
+Li<-Li+λLj : Fn(i,j,λ)*A
+Ci<->Cj : A*Tp(i,j)
+Ci<-Ci+λCj : A*Fp(j,i,λ)

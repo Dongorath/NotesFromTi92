@@ -1,0 +1,9 @@
+Tn∈R[X] unique tq Tn(cos(θ))=cos(nθ)
+T0=X^0
+T1=X
+T2=2*x^2-1
+T(n+2)=2*T*T(n+1)-Tn
+deg(Tn)=n
+cd(Tn)=2^(n-1)
+pour tout x∈[-1,1] Tn(x)=cos(ncos⁻¹x)
+Tn=2^(n-1)*Π(X-a1,i,1,n) où ai=cos((2i-1)π/(2n))

@@ -1,0 +1,37 @@
+∫e^(αx)dx=1/α*e^(αx)
+∫x^α*dx=1/(α+1)*x^(α+1)   α≠1
+∫1/x*dx=ln|x|
+∫ln|x|dx=x*ln|x|-x
+∫u'/u=ln|u|
+∫1/(1+x²)dx=tan⁻¹(x)
+∫1/(1-x²)dx=1/2*ln|(1+x)/(1-x)|
+∫1/√(1-x²)dx=sin⁻¹(x)
+∫1/√(x²+1)dx=ln(x+√(x²+1))
+∫1/√(x²-1)dx=ln|x+√(x²-1)|
+∫1/√(a²-x²)dx=sin⁻¹(x/a)
+∫1/√(x²+a²)dx=ln(x+√(x²+a²))
+∫1/√(x²-a²)dx=ln|x+√(x²-a²)|
+∫1/(b²+x²)dx=1/b*tan⁻¹(x/b)
+∫1/(a²-x²)dx=1/(2*a)*ln|(a+x)/(a-x)|
+∫1/cos²(x)dx=tan(x)
+∫1/sin²(x)dx=-cotan(x)
+∫tan(x)dx=-ln|cos(x)|
+∫cotan(x)dx=ln|sin(x)|
+∫1/cos=1/2*ln((1+sin)/(1-sin)
+      =ln|tan(x/2+π/4)|
+∫1/sin=1/2*ln((1-cos)/(1+cos))
+      =ln|tan(x/2)|
+∫1/ch²(x)dx=th(x)
+∫1/sh²(x)dx=-coth(x)
+∫th(x)dx=ln(ch(x))
+∫coth(x)dx=ln|sh(x)|
+∫1/ch(x)dx=2*tan⁻¹(e^x)
+          =tan⁻¹(sh(x))
+∫1/sh(x)dx=ln|(e^x-1)/(e^x+1)|
+          =ln|th(x/2)|
+          =1/2*ln|(ch(x)-1)/(ch(x)+1)|
+si a∈C\R alors
+∫1/(x-a)dx=ln|x-a|+i*tan⁻¹((x-Re(a))/Im(a))
+∫b/(x-a)dx+∫b_/(x-a_)dx=
+           2*Re(b)*ln|x-a|
+    -2*Im(b)*tan⁻¹((x-Re(a))/Im(a))

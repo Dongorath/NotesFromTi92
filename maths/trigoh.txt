@@ -1,0 +1,7 @@
+chx=(e^(x)+e^(-x))/2
+shx=(e^(x)-e^(-x))/2
+ch(x+y)=chxchy+shxshy
+sh(x+y)=chxshy+shxchy
+chx+chy=2ch((x-y)/2)ch((x+y)/2)
+shx+shy=2ch((x-y)/2)sh((x+y)/2)
+chx-chy=2sh((x-y)/2)sh((x+y)/2)

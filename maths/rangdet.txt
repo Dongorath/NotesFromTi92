@@ -1,0 +1,60 @@
+rg(a1,…,ap)=dim(Vect(a1,…,ap))
+
+rg(f)=dim(Im(f))=rg(f(b1),…,f(bn)) si (b1,…,bn) est une base de E
+
+th du rang: dim(E)=rg(f)+dim(Ker(f))
+Jp,q(r)=( Ir | 0 )
+        (  0 | 0 )
+
+ᵀJp,q(r)=Jq,p(r)
+
+si g est une surjection,h injective, alors rg(hofog)=rg(f)
+
+rang d'une matrice:
+▶ si A=MatU,V(f),alors rg(A)=rg(f)
+▶ rg(A)=rg(a1,…,ap) ou a1,…,ap sont les vecteurs colonnes de A
+
+si Q∈GLn(k) et P∈GLp(k), alors rg(QAP)=rg(A)
+
+rg(A)=r ssi il existe … tq A=Q*Jn,p(r)*P
+rg(ᵀA)=rg(A)
+si A∈Mn(K), rg(A)=n ssi A inversible
+
+recherche du rg ▶ 6 ops elementaires acceptees
+inverse ▶ ops elementaires sur les lignes seulement
+
+**************
+*DETERMINANTS*
+**************
+det(A)=Σ(ε(σ)*Π(a1,σ(i),i,1,n),σ∈Sn)
+formule de changement de base
+detV(x1,…,xn)=detV(u1,…,un)*detU(x1,…,xn)
+(a1,…,an) est une base de E ssi detU(a1,…,an)≠0
+
+pour tout endomorphisme f de E, pour toute forme n-lineaire alternee h sur E, pour tout x1,…,xn∈E:
+h(f(x1),…,f(xn))=det(f)*h(x1,…,xn)
+f∈L(E) det(f)=detU(f(u1),…,f(un))
+
+det(ᵀA)=det(A)
+
+echange▶ det * (-1)
+* λ ▶ λ * det
+
+A est inversible ssi detA ≠ 0
+det(A-1)=1/detA
+A*Ã=det(A)*In
+A⁻¹=(1/det(A))*Ã
+
+det(Vn(x1,…,xn))=Π(xj-xi,1≤i<j≤n)
+
+Fq(i,j,λ)=Iq+λ*E(i,j)
+Tq(i,j) deduite de Iq par Li <-> Lj
+Dq(i,λ)=diag(1,…,1,λ,1,…,1) (λ etant a la place de i)
+
+Li<->Lj transforme A en A'=Tn(i,j)*A
+Li<- λLi .......          =Dn(i,λ)*A
+Li<- Li + λLj ....        =Fn(i,j,λ)*A
+Ci<-> Cj ........         =A*Tp(i,j)
+Ci<- λCi ........         =A*Dp(i,λ)
+Ci<- Ci + λCj ...         =A*Fp(j,i,λ)
+l'inverse de Tq(i,j) est Tq(i,j)

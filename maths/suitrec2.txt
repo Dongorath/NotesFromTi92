@@ -1,0 +1,9 @@
+x(n+2)=a*x(n+1)+b*x(n)
+polyn caracteristique: P=X²-aX-b
+si 2 racines (r1,r2):
+  x(n) = λ*(r1)^n + μ*(r2)^n
+si 1 racine double (r=a/2):
+  x(n) = (λ+μ*n) * r^n
+si racines complexes r1 = α*e^(iω) et
+                     r2 = α*e^(-iω)
+  x(n) = (λ*cos(nω)+μ*sin(nω)) * α^n

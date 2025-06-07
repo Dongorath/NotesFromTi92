@@ -1,0 +1,96 @@
+cos(x)^2+sin(x)^2=1
+cos(-x)=cos(x)
+sin(-x)=-sin(x)
+cos(x+y)=cos(x)cos(y)-sin(x)sin(y)
+sin(x+y)=sin(x)cos(y)+cos(x)sin(y)
+cos(x)cos(y)=1/2(cos(x-y)+cos(x+y))
+sin(x)sin(y)=1/2(cos(x-y)-cos(x+y))
+sin(x)cos(y)=1/2(sin(x-y)+sin(x+y))
+cos(2x)=cos(x)^2-sin(x)^2
+       =2cos(x)^2-1
+       =1-2sin(x)^2
+sin(2x)=2sin(x)cos(x)
+cos(x)^2=(1+cos(2x))/2
+sin(x)^2=(1-cos(2x))/2
+cos(x+π/2)=-sin(x)
+sin(x+^/2)=cos(x)    x+π/2→derive
+cos(π/2-x)=sin(x)
+sin(π/2-x)=cos(x)    π/2-x→cos<->sin
+cos(x+π)=-cos(x)
+sin(x+π)=-sin(x)
+cos(π-x)=-cos(x)
+sin(π-x)=sin(x)
+cos/sin classe C∞ sur R
+d(cos(x),x,n)=cos(x+nπ/2)
+d(sin(x),x,n)=sin(x+nπ/2)
+cos(π/4)=sin(π/4)=1/√(2)
+cos(π/6)=sin(π/3)=√(3)/2
+cos(π/3)=sin(π/6)=1/2
+cos(2π/3)=-1/2
+sin(2π/3)=√(3)/2
+abs(e^(z))=e^(Re(z))
+conjug(e^(ix))=e^(-ix)
+e^(ix)+e^(-ix)=2cos(x)
+e^(ix)-e^(-ix)=2isin(x)
+(cos(x)+isin(x))^n=cos(nx)+isin(x)
+e^(a)±e^(b)=e^((a+b)/2)*(e^((a-b)/2)±e^(-(a-b)/2))
+e^(iθ)±1=e^(iθ/2)(e^(iθ/2)±e^(-iθ/2))
+e^(iθ)+1=2cos(θ/2)e^(iθ/2)
+e^(iθ)-1=2isin(θ/2)e^(iθ/2)
+cos(x)+cos(y)=2cos(x+y)/2)cos(x-y)/2)
+sin(x)+sin(y)=2sin(x+y)/2)cos(x-y)/2)
+cos(x)-cos(y)=-2sin(x+y)/2)sin(x-y)/2
+e^(iπ/2)=i
+e^(iπ)=-1
+e^(i3π/2)=-i
+e^(i2π)=1
+e^(inπ)=(-1)^n
+e^(ix)=1 ssi x∈2πZ
+e^(z)=1 ssi z∈2iπZ
+e^(ix)=e^(iy) ssi x-y∈2πZ
+e^(z1)=e^(z2) ssi z1-z2∈2iπZ
+equivalence:
+ e^(ix)=e^(iy)
+ cos(x)=cos(y) et sin(x)=sin(y)
+ x#ymod(2π)
+ x-y∈2πZ
+ x∈y+2πZ
+cos(x)=cos(a) ssi x∈a+2πZ x∈(-a)+2πZ
+sin(x)=sin(a) ssi x∈a+2πZ x∈(π-a)+2πZ
+Si θ0 est un arg de z → arg(z)=θ0+2πZ
+Un={z∈C|z^n=1}
+si z∈Un abs(z)=1
+equivalence:
+ z^n=1
+ e^(inx)=1  [z=e^(ix)]
+ nx∈2πZ
+ x∈2π/nZ
+ il existe k∈Z tq x=2kπ/n
+Un={e^(i2kπ/n|k∈Z}
+UE={i,j,j^2} → z=e^(i2kπ/3) k=0..2
+e^(iθ)+1=2cos(θ/2)*e^(iθ/2)
+e^(iθ)-1=2sin(θ/2)*e^(iθ/2)
+cos et sin lipschitziennes de rap. 1
+tan(π/2-x)=1/tan(x)
+tan(x+π/2)=-1/tan(x)
+tan(0)=0
+tan(π/4)=1
+tan(π/6)=1/√(3)
+tan(π/3)=√(3)
+1/cos(x)^2=1+tan(x)^2
+tan(2x)=2tan(x)/(1-tan(x)^2)
+tan(π/4+x)=(1+tan(x))/(1-tan(x))
+sin⁻¹: [-1,1]→[-π/2,π/2]
+cos⁻¹: [-1,1]→[0,π]
+tan⁻¹: R→[-π/2,π/2]
+sin⁻¹(-x)=-sin⁻¹(x)
+cos⁻¹(-x)=π-cos⁻¹(x)
+tan⁻¹(-x)=-tan⁻¹(x)
+tan⁻¹(x)+tan⁻¹(1/x)={π/2 si X>0
+                    {-π/2 si x<0
+tan⁻¹(1)=π/4
+sin⁻¹'(x)=1/√(1-x^2)
+cos⁻¹'(x)=-1/√(1-x^2)
+tan⁻¹'(x)=1/(1+x^2)
+tan x+y=(tan x+tan y)/(1-tan x*tan y)
+tan x-y=(tan x-tan y)/(1+tan x*tan y)

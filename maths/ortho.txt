@@ -1,0 +1,144 @@
+ Normes, Produits scalaires et
+  Orthogonalité.
+
+NORMES-PRODUITS SCALAIRE
+
+Dans les cas où la confusion est impossible, on note:
+   N:E-----→R
+     x → N(x)=||x||
+
+N(x+y)≤N(x)+N(y)
+N(Σ(λi*xi,i,1,n))≤Σ(|λi|*N(xi),i,1,n)
+|N(x)-N(y)|≤N(x±y)≤N(x)+N(y)
+
+distance associé à une norme N(.)
+ d:ExE-------→E
+  (x,y) → d(x,y)=N(x-y)
+
+d(a;Q)=Inf N(x-a)=Inf {N(x-a)|x∈Q}
+       x∈Q
+
+boule ouverte B (fermé B̄ et sphère S)
+              <        ≤           =
+B(a;r)={x∈E|N(x-a)<r}
+…
+
+diamètre de Q:
+ Δ(Q)=Sup N(x-y)=Sup {N(x-y)|x,y∈Q}
+     x,y∈Q
+
+Produit scalaire est BILINEAIRE, SYMETRIQUE et (x|x)≥0 pour tout x et (x|x)=0 <=> x=0
+
+METHODE:
+▶dem que (.|.) est prod scal
+1. (.|.) est symétrique
+2. pour tout a∈E (a|.) est une forme linéaire
+3. pour tout x≠0, (x|x)>0
+   pour tout x, (x|x)≥0 et (x|x)=0 implique x=0
+
+Produit scal canoniques…
+…sur R:
+(.|.):RxR------→R
+     (x,y) → (x|y)=xy
+…sur C:
+(.|.):CxC------→C
+     (x,y) → (x|y)=Re(xȳ)=Re(x̄y)
+…sur R^n:
+(.|):R^nxR^n---→R
+    (X,Y) → (X|Y)=ᵀX*Y=Σ(xi*yi,i,1,n)
+…sur E=C°([a,b]):
+(.|.):ExE------→R
+     (f,g) → (f|g)=∫(f(t)g(t),t,a,b)
+
+Cauchy-Schwartz
+((x|y))²≤(x|x)(y|y)
+|(x,y)|≤√((x|x))√((y|y))
+égalité ssi (x,y) liée
+
+Minkowski
+√((x+y|x+y))≤√((x|x))+√((y|y))
+égalité ssi (x|y)=N(x)N(y)
+        ssi il existe λ∈R+ tq y=λx
+
+N(λx+μy)²=λ²N(x)²+2λμ(x|y)+μ²N(y)²
+N(x±y)²=N(x)²±2(x|y)+N(y)²
+(x+y|x-y)=N(x)²-N(y)²
+Egalité de la médiane:
+N(x+y)²+N(x-y)²=2(N(x)²+N(y)²)
+
+(x|y)=1/2(N(x+y)²-N(x)²-N(y)²)
+     =1/4(N(x+y)²-N(x-y)²)
+
+La norme euclidienne sur R^n associée au prod scal canonique:
+N(.):X → N(x)=√(x1²+x2²+…+xn²)
+
+ORTHOGONALITE
+
+Δ ATTENTION on symbolise "orthogonal" par x¬y et "orthogonal x" par x~
+
+E espace préhilpersien réel si E est un ev réel munit d'un prod scal
+
+x¬y ssi (x|y)=0
+
+Pythagore:
+si x¬y alors N(x+y)²=N(x)²+N(y)²
+
+x¬Q si x est orthogonal à tous vect de Q
+
+Q~={x∈E|x¬Q}
+
+Si a∈E a~=Ker (a|.)
+
+Q~= ⋂ a~
+   a∈Q
+
+si Q1⊂Q2 alors Q2~⊂Q1~
+
+Q1¬Q2 <=> Q1⊂Q2~
+          Q2⊂Q1~
+
+N(x)=N(y) ssi x+y¬x-y
+
+si x¬yi pour i=1,…,n
+ x¬Vect(y1,…,yn)
+
+A=(a1,…,an) famille orthog si:
+ i≠j => ai¬aj
+et A est orthonormale si N(ai)=1
+                      si (ai|aj)=δij
+
+A orthog alors:
+    N(a1+…+an)²=N(a1)²+…+N(an)²
+
+____________________________
+ORTHOGONALISATION DE SCHMIDT|________
+Si A libre, famille orthog B=(b1,…,bn) tq:
+ (1) b1=a1
+ (2) bi-ai∈Vect(b1,…,b(i-1)) (avec B orthogonale | → (bi|bj)=0 i≠j)
+
+c'est l'orthogonalisée de Scmidt
+
+ (1)b1=a1
+ (2)Pour k=2,…,n,
+    bk=ak+Σ(λki*bi,i,1,k-1)
+    où λki=-(ak|bi)/(bi|bi)
+
+orthonormalisée U=(u1,…,un) def par:
+ ui=1/N(bi)*bi pour i=1,…,n
+-------------------------------------
+
+Si V sev de E, E=V(+)V~
+
+PROJECTION ORTHOGONALE
+proj orthog Πv sur V est la proj su V parallᵀ à V~
+
+ E=V(+)V~
+ x=x0+ x1  Πv(x)=x0
+
+d(x;V)=N(x-x0)
+
+(v1,…,vp) est une b.o.n. de V:
+Πv(x)=Σ((x|vi)vi,i,1,p)
+
+particulier: si N(a)=1 et V=D=R.a:
+ Πv(x)=(a|x)a

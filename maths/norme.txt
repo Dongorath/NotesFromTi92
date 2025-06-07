@@ -1,0 +1,55 @@
+▶ ||x||≥0 et ||x||=0 implique x=0
+▶ ||λx||=|λ|*||x||
+▶ ||x+y||≤||x||+||y||
+||Σ(λi*xi)||≤Σ(|λi|*||xi||)
+abs(||x||-||y||)≤||x±y||≤||x||+||y||
+d(x,y)=||x-y||
+d(x,y)=0 ssi x=y
+d(x,z)≤d(x,y)+d(y,z)
+d(a;Q)=Inf(||x-a||,x∈Q)
+d(Q1;Q2)=Inf(||x-y||,x∈Q1,y∈Q2)
+diametre de Q: Δ(Q)=Sup||x-y||;x,y∈Q
+Pour demontrer que (.|.) prod scal:
+▶ (x|y)=(y|x) qqst x,y∈E
+▶ (a|.) forme lilneaire
+▶ x≠0 implique (x|x)>0
+  ou pour tout x∈E, (x|x)≥0 et
+     (x|x)=0 implique x=0
+Cauchy-Schwarz:
+((x|y))²≤(x|x)*(y|y)
+|(x|y)|≤√(x|x)*√(y|y)
+egalite ssi (x,y) liee
+Minkowski:
+√((x+y|x+y))≤√(x|x)+√(y|y)
+norme euclidienne: ||x||=√(x|x)
+||λx+μy||=λ²||x||²+2λμ(x|y)+μ²||y||²
+(x+y|x-y)=||x||²-||y||²
+(x|y)=1/2*(||x+y||²-||x||²-||y||²)
+     =1/4*(||x+y||²-||x-y||²)
+Egalite de la mediane:
+||x+y||²+||x-y||²=2||x||²+2||y||²
+Egalite ds relat° triangulaire ssi (x|y)=||x||*||y|| ou
+si x≠0, il existe λ≥0 tq y=λx
+x orthogonal a y: x¬y si (x|y)=0
+Th de Pythagore:
+x¬y ssi ||x+y||²=||x||²+||y||²
+orthogonal d'un ens ou d'un point:
+Q~    a~
+a~=Ker(a|.)
+si Q1⊂Q2⊂E, Q2~⊂Q1~
+(I) Q1¬Q2   (II) Q1⊂Q2~  (III) Q2⊂Q1~
+||x||=||y|| ssi (x+y)¬(x-y)
+famille orthogonale: i≠j => ai¬aj
+famille orthonormale: (ai|aj)=δij
+si (a1,…,ap) orthogonale, alors ||a1+…+ap||²=||a1||²+…+||ap||²
+Orthogonalisee de Schmidt:
+b1=a1 et, pour i=2,…,n,
+              bi-ai∈Vect(b1,…,b(i-1))
+b1=a1 et, pour k=2,…,n,
+bk=ak+Σ(λki*bi,i,1,k-1) où
+λki=-(ak|bi)/(bi|bi) pour i=1,…k
+V¬V~, V⋂V~={0}, E=V+V~, V=(V~)~
+
+project° orthogonale πV = project° sur V //ment a V~
+x0=πV(x) unique point qui realise la distance de x a V
+si (v1,…,vp) bon de V, πV(x)=Σ((x|vi)*vi,i,1,p)

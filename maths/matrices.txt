@@ -1,0 +1,37 @@
+E(k,)=(δki*δlk)
+ᵀA=(aji)
+ᵀ(λA+μB)=λᵀA+μᵀB
+Tr(A)=Σ(aii,i,1,n)
+mat scal = α*In
+symetrique: ᵀA=A
+antisymetrique: ᵀA=-A
+A*B=(Σ(aik,bkj,k,1,p))
+Mat(fog)=Mat(f)*Mat(g)
+ᵀ(A*B)=ᵀB*ᵀA
+diag(αi)*A=(αi*aij)
+A*diag(βi)=(aij*βj)
+(A*B)⁻¹=B⁻¹*A⁻¹
+ᵀ(A⁻¹)=(ᵀA)⁻¹
+si A=Mat(f), A⁻¹=Mat(f⁻¹)
+si A=Mat(f), X=mat(x) et Y=mat(f(x)), Y=A*X
+f_(λA+μB)=λf_A+μf_B
+f_AB=f_Aof_B
+f_In=Id
+(f_A)⁻¹=f_(A⁻¹)
+E'(k,l)=E"(r,s)=δlr*E(k,s)
+Si k≠1:
+(In+λE(k,l))*(In+μE(k,l))=In+(λ+μ)E(k,l)
+(In+λE(k,l))⁻¹=In-λE(k,l)
+Mat de passage de U a V:
+P=mat(U)(V1,...,vn)=(u^*i(vj))
+P=Mat(V,U)(IdE)
+Mat de passage de V a U = P⁻¹
+X=mat(U)(x) et X'=mat(V)(x) → X=P*X'
+Si B=(b1,...,bn) base de E, A=(a1,...,an) base de E ssi P=mat(B)(a1,...,an) inversible, et alors P⁻¹=mat(A)(b1,...,bn)
+Si B=(b1,...,bn) base de E et si a1,...,an sont les vects col de P ds B
+P inversible ssi A=(a1,...,an) base de E, et alors P⁻¹=mat(A)(b1,...,bn)
+U,U' bases de E, V,V' bases de F, A=Mat(U,V)(f), A'=Mat(U',V')(f),
+P mat de passage de U a U' et
+Q  "   "    "     " V a V', alors
+A'=Q⁻¹*A*P
+Si U,V bases de E, A=Mat(U)(f) et B=Mat(V)(f) alors B=P⁻¹*A*P

@@ -1,0 +1,20 @@
+ev sur K si:
+ (λ+μ)x=λx+μx
+ λ(μx)=(λμ)x
+ λ(x+y)=λx+λy
+ 1x=x
+F sev de E si
+ F≠vide
+ F stable par +
+ λx∈F
+l'intersect° de ts les sevs contenant A est le + pt sev contenant A
+Σ(Ei,i∈I)=Vect(⋃(Ei,i∈I))
+x∈Σ(Ei,i∈I) ssi il existe 1 partie finie J⊂I et xi∈Ei i∈J tq x=Σ(xi,i∈J)
+Σ(Fi,i∈I) directe si Fk⋂Σ(Fi,i∈I\{k})={0} pour tt k∈I
+F=Σ(Fi,i,1,p) directe ssi dim(F)=Σ(dim(Fi),i,1,p)
+tt supplementaire du noyau est isomorphe a l'image
+rg(gof)≤Min(rg(f),rg(g))
+
+pour tte forme lineaire φ≠0, il existe a∈E tq φ(a)=1
+φ1,φ2 ≠0, Kerφ1=Kerφ2 ssi φ1=λφ2
+pour tt a∈E, il existe φ∈E* tq φ(a)=1

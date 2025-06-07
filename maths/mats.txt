@@ -1,0 +1,6 @@
+A,B∈Mn(K) sont semblables s'il existe P∈GLn(K) tq A=P⁻¹BP
+N=P⁻¹MP, P mat de passage de ancienne vers new  (N=new)
+2 mats semblables ont la meme trace
+soit p projecteur, Tr(p)=rg(p)
+M,N∈Mpn(K) sont equivalentes s'il existe P∈GLn(K) et Q∈GLp(K) tq N=Q⁻¹MP
+2 mats de meme calibres sont equivalentes ssi elles ont le meme rang

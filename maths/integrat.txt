@@ -1,0 +1,73 @@
+|∫[a,b]f(t)dt|≤∫[a,b]|f(t)|dt
+              ≤(b-a)Sup[a,b]|f|
+
+si f CONTINUE POSITIVE sur [a,b] et s'il EXISTE un point t0 de [a,b] tel que f(t0)≠0
+         ∫[a,b]f(t)dt>0
+
+Theoreme de RIEMANN
+si f continue sur [a,b], pour tout ε>0 il existe δ>0 tq pour tte subdivision pointée (σ,τ) de [a,b], |σ|<δ =>
+ |S(f,(σ,τ))=Σ{0,n-1}(xi+1-xi)f(ti)
+ σ=(x0,…,xn) τ=(t0,…,tn-1)
+
+ si F est cpm sur I, si ω∈I
+ F:x→∫[ω,x]f(t)dt
+ F continue sur I
+
+ si a∈I et si f est continue en a sur I
+ F derivable en a sur I
+  F'(a)=f(a)
+ 
+ CHANGEMENT DE VARIABLES
+ soit I J des intervalles de R et φ une fonction de R → R DEF et de CLASSE C1 sur I tq φ(I)=J
+ si f est une fonction de R → K DEF et CONTINUE sur J, alors qqs a,b∈I
+ ∫[φ(b),φ(b)]f(x)dx=
+        ∫[a,b]f(φ(t))*φ'(t)dt
+
+FORMULES TRIGO  t=tan(x/2)
+sin(x)=2t/(1+t^2)
+tan(x)=2t/(1-t^2)
+cos(x)=(1-t^2)/(1+t^2)
+
+si on fait x=π/2-t
+ →echange sin et cos
+ →change tan de 1/tan
+
+PAIRE IMPAIRE PERIODE
+1: ∫[a,0]f(t)dt = ∫[0,a]f(t)dt
+   ∫[-a,a]f(t)dt = 2*∫[0,a]f(t)dt
+2: ∫[a,0]f(t)dt = -∫[0,a]f(t)dt
+   ∫[-a,a]f(t)dt = 0
+3: ∫[a+P,b+P]f(t)dt = ∫[a,b]f(t)dt
+   ∫[a,a+P]f(t)dt = ∫[0,P]f(t)dt
+
+INEGALITE MOYENNE (th de la moyenne)
+Si a<b et si f et g st cpm sur [a,b]
+|∫[a,b]f(t)g(t)dt|
+   ≤Sup[a,b](|f(t)|)*∫[a,b]|g(t)|dt
+
+INEG. ACC. FINIS.
+a≠b et f φ R → K def et C1 sur [a,b]
+si |f'(t)|≤φ'(t) pour tout t∈[a,b]
+ |f(b)-f(a)| ≤ |φ(b)-φ(a)|
+si a<b |f(b)-f(a)| ≤ φ(b)-φ(a)
+
+so φ:t→φ(t)=k*t
+|f'(t)|≤k => |f(b)-f(a)|≤k|b-a|
+
+TAYLOR
+a≠b n∈N f R→K def et Cn+1 sur [a,b]
+form de T avec reste integrable a l'ordre n
+     0 (b-a)^p  (p)  b(b-t)^n (n+1)
+f(b)=Σ -------*f (a)+∫-------f  (t)dt
+    p=0   p!         a  n!
+|f(n+1)(t)|≤Mn+1
+form de T-Lagrange a l'ordre n
+|     n (b-a)^p  (p) | |b-a|^n+1
+|f(b)-Σ -------*f (a)|≤---------*Mn+1
+|    p=0   p!        |  (n+1)!
+
+EGALITE DE TAYLOR-LAGRANGE
+a≠b n∈N f R→R def et Cn sur [a,b] et n+1 fois derivable sur [a,b], il EXIST un pt c∈]a,b[ tq:
+     n (b-a)^p (p)  (b-a)^n+1 (n+1)
+f(b)=Σ -------f (a)+---------f (c)
+    p=0   p!         (n+1)!

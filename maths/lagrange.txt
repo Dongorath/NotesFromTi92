@@ -1,0 +1,6 @@
+1 unique pol L tq L(ai)=bi i=0,…,n
+Li=(X-a0)…(X-a(i-1))(X-a(i+1)…(X-an)/
+(ai-a0)…(ai-a(i-1))(ai-a(i+1))…(ai-an)
+
+Lk(aj)=δ(k,j)
+L=Σ(bk*Lk,k,0,n)

@@ -1,0 +1,18 @@
+fns integrables:
+t→e^(αt) sur [a,+∞[ ssi α<0
+t→-ln(t) sur ]0,1]
+si a>0 t→1/t^α sur [a,+∞[ ssi α>1
+si a<0 t→1/|t|^α sur ]-∞,a] ssi α>1
+si a<b t→1/(b-t)^α sur [a,b[ ssi α<1
+si a<b t→1/(t-a)^α sur ]a,b] ssi α<1
+t→1/t^α sur ]0,1] ssi α<1
+t→1/t^(3/2) sur [1,+∞[
+
+t→1/t^α pas integrable sur ]0,+∞[
+
+*******************
+*TH DE COMPARAISON*
+*******************
+f,g continues sur I et positives
+Si f≤g et si g integrabl, f integrabl
+Si I=[a,b[ (]a,b]), si f=O(g,b-) (f=O(g,a+)) et si g integr, f integr

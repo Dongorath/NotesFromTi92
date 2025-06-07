@@ -1,0 +1,20 @@
+triangulaire superieure si i>j implique aij=0
+
+MatU,V (f)=matV (f(u1),…,f(un))
+si f∈L(E),f=IdE ssi matU (f)=In
+
+ᵀ(A*B)=ᵀB*ᵀA
+(ᵀA)⁻¹=ᵀ(A⁻¹)
+(A*B)⁻¹=B⁻¹*A⁻¹
+
+si A=MatU,V (f), f est un isomorphisme d'ev de E sur F ssi A est inversible et,si A∈GLn(K), MatU,V (f⁻¹)=A⁻¹
+
+E(k,l)*E(r,s)=δlr*E(k,s)
+
+la matrice de passage P de U a V est Mat V,U (IdE) =matU (v1,…,vn)
+P∈GLn(K)
+A=MatU,V (f)
+A'=MatU',V' (f)
+P matrice de passage de U a U'
+Q ..................... V a V'
+A'=Q⁻¹*A*P

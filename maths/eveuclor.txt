@@ -1,0 +1,44 @@
+prod mixte Det = det ds bon directe
+parallelotope:
+Q={A+t1*a1→+…+tn*an→|0≤ti≤1}
+Voln(Q)=|Det(a1→,…,an→)|
+mesure de l'angle d'une rotat° = θ tq mat representative de rotat° est R(θ)
+ds E2: rotθ(i→)=cos(θ)*i→+sin(θ)*j→
+       rotθ(j→)=-sin(θ)*i→+cos(θ)*j→
+mes(x→,y→)=θ (mod 2π) ssi rotθ(1/||x→||*x→)=1/||y→||*y→
+si θ=mes(x→,y→):
+(x→|y→)=||x→||*||y→||*cos(θ)
+Det(x→,y→)=||x→||*||y→||*sin(θ)
+si f rotat° d'angle θ, D=rot(θ/2)(D0), f=σdoσD0
+angle de demi-droites = angle entre vects directeurs
+angle de droites = angle entre vects directeurs modulo π
+tan(θ)=Det(u1→,u2→)/(u1→|u2→)
+
+Det(a→,b→,x→)=(a→*b→|x→)
+Det(a→,b→,a→*b→)=||a→*b→||²
+si (a→,b→) libre, (a→*b→) base de P~ et (a→,b→,a→*b→) base directe de E3
+a→*b→=det[[a1,a2,a3]
+          [b1,b2,b3]
+          [i→,j→,k→]]
+Egalite de Lagrange:
+((x→|y→))²+||x→*y→||²=||x→||²*||y→||²
+x→*(y→*z→)=(x→|z→)y→-(x→|y→)z→
+(x→*y→)*z→=(x→|z→)y→-(y→|z→)x→
+x→*y→=||x→||*||y→||*sin(θ)*k→
+x→*y→=Det(P,k→)(x→,y→)k→
+
+si f=rotat° θ,D=Ru→:
+f(x→)=x1→+cos(θ)x0→+sin(θ)u→*x0→ où
+x1→=(u→|x→)u→ et x0→=x0→-x1→
+
+angle non oriente: x→^y→∈[0,π]
+x→^y→=cos⁻¹((x→|y→)/(||x→||*||y→||))
+si θ=x→^y→, mes(x→,y→)=±θ (mod 2π)
+angle entre droites ∈[0,π/2]
+ds E2: si θ=D1^D2 et φ=mes(D1,D2)
+tan(θ)=|tan(φ), φ=±θ (mod π)
+tan(θ)=|det(u1→,u2→)|/|(u1→|u2→)|
+D1~^D2~=D1^D2
+D1^D2~=π/2-D1^D2
+H1^H2=H1~^H2~
+D^H=H^D=π/2-D^H~

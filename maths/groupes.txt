@@ -1,0 +1,35 @@
+H ss-grp de G si:
+_ H n'est pas vide
+_ pour tt x,y∈H, x*y⁻¹∈H
+morphisme φ de (G,*) ds (G',T):
+φ(x*y)=φ(x)Tφ(y)
+φ(e)=e'
+φ(x⁻¹)=φ(x)⁻¹
+centre d'1 grp: Z(G)={a∈G|a*x=x*a}
+R relation d'equivalence:
+_ reflexive: xRx
+_ symetrique: xRy => yRx
+_ transitive: xRy et yRz => xRz
+si E ens, E/R = ens des classes d'equivalence
+a#b (mod n) si b-a∈nZ  (# = congru)
+Z/nZ={0¬,1¬,…,(n-1)¬}
+<A>=⋂ des ss-grps contenant A
+<A> = + pt ss-grp contenant A
+<{a}>={a^n|n∈Z}
+δa : n → a^n    Ker(δa)=dZ
+si d=0: δa inj, <{a}> isomorphe à Z
+        => a d'ardre infini
+sinon: Ker(δa)=nZ => <{a}> isomorphe à Z/nZ => a d'ordre n et <{a}>={e,a,a²,…,a^(n-1)}
+G monogene s'il existe a∈G tq G=<a>
+grp cyclique = grp monogene fini
+k¬ engendre Z/nZ ssi pgcd(k,n)=1
+
+G agit à gauche sur X s'il existe
+|θ: GxX → X
+|   g,x → g.x      tq
+_ e.x = x
+_ pour tt g,h∈G, g.(h.x)=(g*x).x
+Orbite de x∈X: Ox = { y∈X | il existe g∈G tq g.x=y}
+les orbites forment 1 partition de X
+Stabilisateur de x: Sx={g∈G|g.x=x} ⊂G
+Sx ss-grp de G

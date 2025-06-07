@@ -1,0 +1,53 @@
+V//W si dir de V ⊂ ds dir de W
+si V//W, V⋂W vide ou V⊂W
+intersect° de sea = sea de dir l'intersect° des dir
+si A∈V et B∈W, V⋂W pas vide ssi AB→∈V+W
+Si E somme directe des dir de V et W, V⋂W est un singleton
+D//H ou D⋂H singleton
+H1//H2 ou H1⋂H2 sea de dim n-2
+A0,…,Ap alignes (coplanaires ssi dim(Vect(A0A1→,…,A0Ap→))≤1 (≤2)
+D1,D2 coplanaires ssi // ou concourantes
+(AB)=A+R.AB→=…
+(ABC)=A+Vect(AB→,AC→)=…
+(A0,…,Ap) affinemt libre si dim(A0…Ap)=p, sinon affinemt liee
+
+**************
+*APPS AFFINES*
+**************
+f(N)=f(M)+φ(MN→)
+L(f)=φ
+f(M)f(N)→=φ(MN→)
+f(M+x→)=f(M)+φ(x→)
+f(M)=B+φ(AM→) unique app affine tq f(A)=B et L(f)=φ
+L(gof)=L(g)oL(f)
+transformat° affine si L(f)∈GL(E)
+f(A+V)=f(A)+φ(V)
+f conserve alignemt et //isme
+f((A0…Ap)=(f(A0)…f(Ap))
+si A point fixe, f(M)=A+φ(AM→)
+ω→=Of(O)→=f(O)-O
+▶ si A point fixe, ens des pts fixes
+  F=A+Ker(φ-Id)
+▶ si Ker(φ-Id)={0→}, A=O+(φ-Id)⁻¹(-ω→)
+si f endom affine, il existe (t,g) unique tq t translat° et g emdom affine tq g(A)=A, et f=tog
+HT(E)=H(E)⋃T(E)
+si f∈HT(E), L(f)=αId (α≠0)
+
+sA=homothetie de centre A et de rapport -1, sA(M)=A-AM→
+sA∈GA(E), sA²=Id, sA⁻¹=sA
+
+p project° sur V //ment a W:
+p(M)=A+π(AM→)
+
+gα affinite de base V, de dir W et de rapport α:
+gα(M)=p(M)+α*p(M)M→
+L(gα)=(1-α)π+αId
+g1=Id, gλogμ=gλμ, gλ⁻¹=g(1/λ)
+s symetrie par rapport a V //ment a W:
+s(M)=g(-1)(M)=p(M)+Mp(M)→=M+2Mp(M)→
+si A∈V, s(A)=A, donc s(M)=A+σ(AM→)
+s²=Id, s⁻¹=s
+ds le repere (r):
+p(M)|(x1,…,xp,0,…,0)
+gα(M)|(x1,…,xp,αx(p+1),…,αxn)
+s(M)|(x1,…,xp,-x(p+1),…,-xn)

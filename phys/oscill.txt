@@ -1,0 +1,34 @@
+Em=Ec+Ep=1/*m*(dx/dt)^2+Ep(x)=cste
+oscillateur harmonique:
+d²X/dt²+ω0²*X=0
+Pendule simple: d²θ/dt²+g/l*sin(θ)=0
+oscill libre amortie:
+m*d²x/dt²+h*dx/dt+k*x=0
+oscillat° forcees:
+m*d²x/dt²+h*dx/dt+k*x=Fm*cos(ω*t)
+X_Fm/(k-m*ω²+j*ω*h)
+λ<ω0/√2
+ωr=ω0*√(1-2*λ²/ω0²)
+Xmax=Fm/(h*ω0)
+*********
+*Q=ω0/Δω*
+*********
+Δω=2*λ
+X(ω)=Fm/√((k-m*ω²)²+h²*ω²)
+V(ω)=ω*X(ω)
+V(ω)=(Fm/m)/√(4*λ²+(ω0/ω-ω)²)
+
+impedance meca: Z_=F_/V_=h+j(mω-k/ω)
+
+Q=2π*(nrj de l'oscillateur)/(nrj lost par frottemts pdt T0)   a la resonance de vit
+
+{L*q..+R*q.+1/C*q=Um*cos(ω*t)
+{m*x..+h*x.+k*x=Fm*cos(ω*t)
+L → m     R → h     1/C → k
+q → x     i → v     U → F
+Emag=1/2*L*i² → Ec=1/2*m*v²
+Econd=1/2*q²/C → Ep=1/2*k*x²
+
+Van der Pol: h(x)=λ(x²-x0²)
+m*x..+λ*(x²-x0²)*x.+k*x=0
+xm=2*x0 (approx)

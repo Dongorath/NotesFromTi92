@@ -1,0 +1,52 @@
+  dualité  serie - //
+gdeur commmune i  |  u
+generateur tension| courant
+              ug  | n (éta)
+              R   | G
+              L   | C
+              C   | L
+            maille|noeuds
+
+d²u R du  1    1 dn
+---+-*--+--u = -*--
+dt² L dt LC    L dt
+                  d²u G du  1    1 dn
+                  ---+-*--+--u = -*--
+                  dt² C dt LC    C dt
+
+solution eq diff
+d²y      dy
+---+2λω *--+ω²y = f(t) ω²=1/LC
+dt²    0 dt  0          0
+   -----
+     ↓
+   = ω0/Q0
+
+eq homogène f(t)=0
+ → eq caracteristiq
+  s²+2λω0s+ω0²=0
+Δ>0 (λ>1) →s1
+          →s2
+y(t)=Ae^(s1*t)+Be^-10(s2*t)
+regime aperiodique
+
+Δ=0 (λ=1) s1=s2=-λω0
+y(t)=e^(-λω0t)(At+B)
+regime critique
+
+Δ<0 (λ<1) → solutions cplexes
+y(t)=Ae^(s1*t)+Be^(s2*t)
+     ¬   ¬¬    ¬   ¬¬
+regime pseudoperiodique amorti
+T=2π/ω=2π/(ω0*√(1-λ²))
+decrement logarithmique:
+δ=ln(y(t)/y(t+T))=λω0T(pseudo-peri)
+si δ=0 (faible) →λ<<1
+
+
+energie RLC série
+ug  = Ri+L(di/dt)+(1/C)q    (*i)
+ug.i= Ri²+d(1/2 Li²)/dt+d(Econd)/dt
+ → Energie
+
+ 

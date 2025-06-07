@@ -1,0 +1,10 @@
+d²u/dt²+ω0/Q0*du/dt+ω0²*u=f(t)
+passe-bande du 2nd ordre:
+H_=1/(1+j*Q0*(x-1/x))    x=ω/ω0
+H_=G*e^(jφ)
+GdB=20*log(G)
+Si H1_ et H2_: φ=φ1+φ2  GdB=GdB1+GdB2
+
+integrateur: -20dB/decade
+derivateur:  +20dB/decade
+double integrateur: -40dB/decade

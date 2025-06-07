@@ -1,0 +1,43 @@
+OG→=(Σmi*OAi→)/Σmi
+m*v(G/R)→=P(R)→
+P*→=0→
+σ(B/R)→=σ*→+BG→*P(R)→
+Ec(R)=Ec* +1/2*m*v(G/R)→²
+f(int)→=0→
+M(f(int)→)→=0→
+Fext→=dP(R)→/dt=m*a(G/R)→
+Th du moment cinet: si B fixe
+dσ(B/R)→/dt=M(Fext→/B)→
+dσ*→/dt=M(Fext→/G)→
+δW(fint→)=1/2*Σ(fij*drij,i≠j)
+δWij=fij*drij=-dUij
+U=1/2*Σ(Uij,i≠j)
+Th de l'Ec: Ecf-Eci=
+      W(fext→,cons)+W(fext→,nc)+Ui-Uf
+(Em+U)f-(Em+U)i=W+Q
+Syst isolé: ▶Fext→=0→
+            ▶v(G/R)=cste→
+            ▶R* gal
+            ▶M(Fext→)→=0→=M(Fext→/G)
+            ▶W(Fext)=0→
+            ▶P(R)→=cste→
+            ▶σ(R)→=cste→
+            ▶E=cste=Ec+U
+              =Ec*+1/2*m*v(G/R)→²
+              =(Ec*+U)+1/2*m*v(G/R)→²
+Pt fictif M tq GM→=M1M2→
+GM1→=-m2/(m1+m2)*GM→
+GM2→=-m1/(m1+m2)*GM→
+μ=m1*m2/(m1+m2)
+v→=V(M/R*)→=dGM→/dt
+p1*→=-μ*v→
+p2*→=+μ*v→
+Ec*=1/2*μ*v²
+σ*→=GM→*μv→
+E*=Ec*+U
+
+cste des airs: C=r²*θ.
+v→=C(-u'*ur→+u*uθ→)
+a→=-C²u²(u+u'')*ur→
+E*=Ueff+1/2*μ*r.²
+Ueff=1/2*σ²/(μr²)+U

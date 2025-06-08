@@ -1,0 +1,32 @@
+Enoncé de CLAUSIUS du 2nd principe:
+il n'existe pas de processus dont le seul effet est de faire passer de la chaleur d'une source froide vers une source chaude
+Inégalité de CLAUSIUS:
+ΔS≥Σ(Q1/T1,i,1,n)
+ΔS≥∫(δQ/T)
+Enoncé de KELVIN du 2nd principe:
+il n'existe pas de moteur fonctionnant de manière cyclique et échangeant de =la chaleur avec une seule source de chaleur
+moteur: Qc>0, Qf<0, W<0
+machine frigorifique: Qc<0, Qf>0, W>0
+Moteur de CARNOT:
+2*isotherme+2*adiabatique
+Le rendement d'un moteur réel est toujours inférieur ou égal au rendement d'un morteur de Carnot fonctionnant entre les deux même sources. Ce rendement ne dépend pas de la nature du fluide, il ne dépend que des températures Tc et Tf: ρ=1-Tf/Tc
+30%≤ρréel≤40%
+ρ=travail récupéré / énergie fournie
+ρ=-W/Qchaud
+taux de compression=a=Vmax/Vmin
+ρ=1-a^(1-γ)
+
+efficacité=e=objectif/moyens
+Réfrigérateur:
+objectif: prélever de la chaleur à la source froide
+moyen: utiliser de l'énergie électrique (compresseur)
+e=Qf/W=Qf/(-Qc-Qf)=-1/(1+Qc/Qf)
+e≤Tf/(Tc-Tf)
+Pompe à chaleur:
+objectif: fournir de la chaleur à la source chaude
+moyen: utiliser de l'énergie électrique (compresseur)
+source froide: lac, rivière, nappe phréatique, air atmosphérique
+e=Qc/W=Qc/-(Qc+Qf)
+e≤Tc/(Tc-Tf)
+
+pseudo-source: T varie, mais sur un cycle, T=cste

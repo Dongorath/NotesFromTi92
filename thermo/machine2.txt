@@ -1,0 +1,63 @@
+Enoncé de CLAUSIUS du 2nd principe:
+il n'existe pas de processus dont le seul effet est de faire passer de la chaleur d'une source froide vers une source chaude
+
+Inégalité de CLAUSIUS:
+ΔS≥Σ(Q1/T1,i,1,n)
+ΔS≥∫(δQ/T)
+
+Enoncé de KELVIN du 2nd principe:
+il n'existe pas de moteur fonctionnant de manière cyclique et échangeant de =la chaleur avec une seule source de chaleur
+
+Source chaude           Source froide
+     T1                      T2
+      +---------[ S ]--------+
+            Q1    |    Q2
+                  |W
+Au total 2³ possibilités d'échange
+ΔU=0=W+Q1+Q2
+ΔS=0=Q1/T1+Q2/T2 (égalité car rev)
+2nd ppe:Q1/T1+Q2/T2≤0 d'où:
+
+moteur: Qc>0, Qf<0, W<0
+machine frigorifique: Qc<0, Qf>0, W>0
+
+Moteur de CARNOT:
+2*isotherme+2*adiabatique
+Le rendement d'un moteur réel est toujours inférieur ou égal au rendement d'un morteur de Carnot fonctionnant entre les deux même sources. Ce rendement ne dépend pas de la nature du fluide, il ne dépend que des températures Tc et Tf: ρ=1-Tf/Tc
+30%≤ρréel≤40%
+
+ρ=travail récupéré / énergie fournie
+ρ=-W/Qchaud
+
+Moteur de STIRLING
+1→2:isoT ΔU=0
+W12=-Q12
+W12=∫-PdV=…=-nRT1ln(Vmax/Vmin)
+2→3:isoV
+W23=0
+Q23=ΔU=nCvΔT=nR/(γ-1)(T2-T1)
+3→4:isoT
+4→1:isoV
+ρ=-W/Q=…=1-T2/T1=ρcarnot (cycle rev)
+(W=W12+W34 et Q=Q12)
+
+Moteur à explosion:
+taux de compression=a=Vmax/Vmin
+ρ=1-a^(1-γ) (avec lois de Laplace)
+
+efficacité=e=objectif/moyens
+
+Réfrigérateur:
+objectif: prélever de la chaleur à la source froide
+moyen: utiliser de l'énergie électrique (compresseur)
+e=Qf/W=Qf/(-Qc-Qf)=-1/(1+Qc/Qf)
+e≤Tf/(Tc-Tf)  ■emax=Tf/(Tc-Tf)
+
+Pompe à chaleur:
+objectif: fournir de la chaleur à la source chaude
+moyen: utiliser de l'énergie électrique (compresseur)
+source froide: lac, rivière, nappe phréatique, air atmosphérique
+e=Qc/W=Qc/-(Qc+Qf)
+e≤Tc/(Tc-Tf)    ■enax=Tc/(Tc-Tf)
+
+pseudo-source: T varie, mais sur un cycle, T=cste

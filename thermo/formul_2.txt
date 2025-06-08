@@ -1,0 +1,110 @@
+
+  FORMULAIRE 2nd PRINCIPE THERMO
+  ------------------------------
+
+
+Adiabatiq rev=isentropiq
+
+T thermo:     }
+T=(dU/dS)(V)  }
+              }intensif
+P thermo:     }
+-P=(dU/dV)(S) }
+
+P=T(dS/dV)(U)
+
+identitée thermo
+dU=TdS-PdV
+dH=TdS+VdP
+
+dS=δQrev/T transfo imaginaire revers
+
+syst (Σ) en contact avec thermos th
+dS(Σ)≥δQ(Σ)/Tth
+ inégalité Clausius-Carnot
+ΔS(Σ)≥Σ(Qi/Ti,i=thermostat)
+
+δSe=δQ(Σ)/Tth entropie échangée
+
+dS(Σ)=δSe+δSc
+
+transfo non rev  -→ δSc>0
+   …    rev      -→ δSc=0
+   …    interdite-→ δSc<0
+(Sc pas fn d'état)
+
+modèle GP
+(T,V)
+dU=CvdT=nR/(γ-1)dT
+id thermo dU=…
+ …→dS=nR/(γ-1)dT/T+nRdV/V
+■■S=nR/(γ-1)ln(T)+nRln(V)+cst■■
+(T,P)
+dH=CpdT=nRγ/(γ-1)dT
+id thermo dH=…
+ …→dS=nRγ/(γ-1)dT/T-nRdP/P
+■■S=nRγ/(γ-1)ln(T)-nRln(V)+cst■■
+
+loi de LAPLACE
+(se dem avec GP,γ=cst,tr ad rev→S=cst)
+(T,V): T*V^(γ-1)=cst
+(T,P): T^γ*P^(1-γ)=cst
+
+Modèle VdW
+donnée U=CvT-n²a/V+cst
+id th dU=…
+et dU=… (dérive expr donnée)
+TdS=PdV+CvdT+n²a/V²dV
+ dS=CvdT/T+(P+n²a/V²)dV/T
+→utilise eq état VdW:
+ (P+n²a/V²)(V-nb)=nRT
+■■S=Cvln(T)+nRln(V-nb)+cst■■
+
+Phase condensé
+V=cst dU=CvdT
+id th dU=TdS (dV=0)
+■■S=Cvln(T)+cst■■
+
+Cv=T(dS/dT)(V) (diff de U,id th,V=cst
+Cp=T(dS/dT)(P) (diff de H,id th,P=cst
+
+entropie mesure désordre
+
+Calorimètre
+P=cst
+ΔH=Qp=0
+ =Ccal(Tf-Tcal)+Cobjet(Tf-Tobjet)
+Tf=…
+Phase cond Cv=Cp=C et S=Cln(T)+cst
+ΔSobjet=…
+ΔScal=…
+et ΔS=ΔSobjet+ΔScal
+ds un cal ΔS=Sc=…>0 → non rev
+
+diag entropiq (T,S)
+dS=δQrev/T → δQrev=TdS
+aire=±(Qrev)
+↑T        isoV  isentropiq
+|           ✓    '
+|-----------✓----'---isoT
+|           ✓    '/isoP
+|          ✓     '
+|          ✓    /'
+|          ✓   / '
+|         ✓   /  '
+|         ✓  /   '
+|        ✓  /    '
+|      ✓✓ //     '
++---✓✓✓-//---------→S
+isoP
+S(T,P)=Cpln(T)-nRln(P)+cst=Cpln(T)+cst
+dc T=α*e^(S/Cp)
+isoV
+T=β*e^((γ-1)/(nR)*S)
+(dT/dS)(P)=1/γ(dT/dS)(V):
+ isoV + pentue que isoP
+Rq rendᵀ cycle Carnot (2isoT+2isoS)
+ρ=-Wcycle/Q2=(Q1+Q2)/Q2
+aire sous courbe:
+ Q2=T2(S2-S1)
+ Q1=T1(S1-S2) → ■■ρ=1-T1/T2■■

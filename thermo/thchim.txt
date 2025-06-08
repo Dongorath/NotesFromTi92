@@ -1,0 +1,110 @@
+ΔE=0
+δWautres=inexistants
+Si V=cste: ΔU=Qv
+Si P=cste: ΔH=Qp
+gaz: GP
+phases condensées: V,P sans influence
+Gaz:
+pression partielle Pi=ni*RT/V
+Σ(Pi,i,1,N)=Ptot=(Σ(ni,i,1,n))*RT/V
+Ptot=ntot*RT/V
+fraction/titre molaire: xi=ni/ntot
+Pi=xi*P
+GP: pas d'interactions: U=Σni*Ui
+                        H=Σni*Hi
+phases condensées (solides séparés,
+liquides non miscibles): U=Σni*Ui
+                         H=Σni*Hi
+
+Etats standards:
+pression imposée: P=P°=10^5 Pa=1 bar
+T au choix
+▶ pour un gaz, l'état standard à la température T, pur ou dans un mélange,correspond à l'état du gaz parfait associé à la même température et à la pression P°=1 bar
+▶ phase condensée: état standard à la température T, pur ou dans un mélange, est l'état de ce constituant pur dans le même état physique à la même température T et à la pression P°=1 bar
+Etat standard de référence: celui d'un élément chimique à la température T est l'état standard du corps pur simple le plus stable dans l'état physique le plus stable à cette température
+Exs: O2, H2, Cl2, He, S8, …
+
+γi = "nu i"
+α1 A1 + … = α'1 A'1 + …
+γi=-αi     γ'i=α
+ξ=(ni(t)-ni0)/γi
+dξ=dni(t)/γi=dn'i(t)/γ'i
+ξ en mol
+si ξ augmente, sens direct
+si ξ diminue, sens indirect/inverse
+U°(T,ξ)=Σ(ni0*U°mi(T),i,1,N)+
+        ξ*Σ(γi*U°mi(T),i,1,N)
+H°(T,ξ)=Σ(ni0*H°mi(T),i,1,N)+
+        ξ*Σ(γi*H°mi(T),i,1,N)
+U°(T,ξ)=U(T,ξ), H°(T,ξ)=H(T,ξ)
+X extensive, X(T,P,ξ)
+on appelle grandeur de réaction pour X la dérivée partielle de X par rapport à ξ, les grandeurs T et P étant fixées
+ΔrX=(dX/dξ)(T,P)
+Δr=opérateur de LEWIS
+grandeur de réaction défini pour une équation bilan donnée
+ΔrX intensive → …mol⁻¹
+ΔrX lié aux états physiques
+si T,P fixes: dX=ΔrX*dξ
+ΔrX=ΔX pour un avancement d'une mole
+ΔrU°=Σ(γi*U°mi(T),i,1,N)
+ΔrH°=Σ(γi*H°mi(T),i,1,N)
+chaleur de réaction:
+▶ à V=cst: Qrv=(dU/dξ)(T,V)=ΔrH
+▶ à P=cst: Qrp=(dH/dξ)(T,P)=ΔrH
+Transformation chimique monotherme isochore:
+ΔU=Qv=∫(Qrv*dξ,ξi,ξf)
+Qv mesurable par calorimétrie
+si Qrv>0 et ξf>ξi, Qv>0 → endthermique
+                       endoénergétique
+si Qrv<0 et ξf>ξi, Qv<0 → exothermique
+Transformation chimique monotherme isobare:
+ΔH=Qp=∫(Qrp*dξ,ξi,ξf)
+Qp mesurable par calorimétrie
+
+Lois de KIRCHHOFF:
+d/dT(ΔrH°(T))=ΔrC°p=Σ(γi*C°pmi,i,1,N)
+d/dT(ΔrU°(T))=ΔrC°v=Σ(γi*C°vmi,i,1,N)
+ΔrH°-ΔrU°=RT*Σ(γig,gaz)
+ΔrH°=ΔrU° à quelques % près
+Détermination d'une chaleur de réaction:
+▶ par colrimétrie: Q=W=0, ΔU=0
+  Qcal=Ccal(T2-T1)=ΔUcal
+  ΔU(1→2)=ΔU(1→α)+ΔU(α→2)
+         =ΔU(1→β)+ΔU(β→2)
+  … ΔU=ΔUcal+ΔU(1→2)=0
+  _ réaction unique, sans concurrente
+  _ réaction totale
+  _ réaction rapide (fuites limitées)
+▶ par calcul:
+  si une équation bilan peut être mise sous la forme d'une combinaison linéaire de plusieurs équations bilan, alors l'enthalpie standard de cette réaction à une température T s'obtient en effectuant la même combinaison linéaire des enthalpies standards de réaction des différentes réaction à la même température T
+ La réaction standard de formation d'une espèce chimique à une température donnée, dans un état physique donné, est la réaction au cours de laquelle une mole de ce corps dans son état standard est formée à partir de corps purs simples correspondant aux éléments qui le constitue, chacun de ces corps purs simples devant représenter l'état standard de référence de l'élément à cette température
+ La variation d'enthalpie standard qui accompagne la réaction standard de formation de l'espèce X à une température donnée dans un état physique donné est l'enthalpie standard de formation de cette espèce.
+ Elle est notée ΔfH°(X)
+ ΔfH°(corps pur simple de référence)=0
+
+       ***********************
+       *Loi de HESS:         *
+       *ΔrH°(T)=Σ(γi*ΔfH°i(T)*
+       ***********************
+
+explosion: V=cst, calorimètre, ΔU=0
+flamme: P=cst, ΔH=0
+
+L'énergie d'ionisation est l'énergie minimale qu'il faut fournir pour arracher un électron à un atome sous forme gazeuse à 0K
+M(g) → M+(g) + e-(g)  ΔrU=ΔionU
+(potentiel d'ionisation, svt en eV)
+ΔrH(T)=ΔrH(0)=ΔionH=ΔionU=Ei1
+On appelle attachement électronique l'énergie qu'il faut fournir pour fixer un électron sur un atome à k'==l'état gazeux à 0K
+M(g) + e- → M-(g)
+ΔattU=ΔattH=ΔrH(0)=A1
+affinité électrinique: c'est l'opposé de l'énergie d'attachement électronique    Eae=-A1
+L'énergie réticulaire d'un cristal ionique est égal à l'énergie interne standard de la réaction à 0K au cours de laquelle une mole de cristal est dissociée en ses ions constitutifs à l'état gazeux et sans interactions entre eux
+CxAy = x C(p+)(g) + y A(q-)(g)
+ΔrU°(0K)=ΔretU°(0K)=Eréticulaire
+ΔretH°(T)=ΔretH°(0K) à 1% près
+L'énergie de dissociation homolytique de la liaison A-B est égale à l'énergie interne standard de réaction de la réaction hypothétique à 0K au cours de laquelle une mole de molécules à l'état gazeux est dissociée en atomes A. et B. à l'état gazeux et sans interactions entre eux
+AB(g) = A.(g) + B.(g)
+ΔrU°(0K)=D(A-B)(0K)=ΔrH°(0K)
+D(A-B)=ΔdisH° > 0
+
+Cycle de BORN-HABER: cucle de réactions imaginaires aboutissant aux résultat escompté

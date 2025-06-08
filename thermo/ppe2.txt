@@ -1,0 +1,55 @@
+Une transformation est réversible s'il est possible d'envisager une transformation inverse passant par les même états intermédiaires, les échanges énergétiques étant exactement inversés.
+Causes d'irréversibilité:
+▶ inhomogénéité
+▶ frottements
+▶ transformation chimique
+▶ variation brusque de l'extérieur
+*************************
+*ÉNONCÉ DU 2ÈME PRINCIPE*
+*************************
+Il existe une fonction d'état S extensive appelée entropie telle que, fermé, S ne peut qu'augmenter.
+adiabatique réversible = isentropique
+a l'équilibre, S est maximale
+(dU/dS)(V)=T
+(dU/dV)(S)=-P
+P=T*(dS/dV)(U)
+
+**************      **************
+*dU=T⨯dS-P⨯dV*      *dH=T⨯dS+V⨯dP*
+**************      **************
+S en J.K⁻¹
+************
+*dS=δQrév/T*
+************
+
+On appelle thermostat un système fermé évoluant de façon réversible et isotherme capable d'échanger de la chaleur avec un système sans échange de travail.
+dSth=-δQsyst/Tth
+Inégalité de CLAUSIUS-CARNOT:
+ΔSsyst≥Σ(Qi/Ti,i∈th)
+
+****************
+*dSe=δQsyst/Tth*
+****************
+dSsyst=sSe+dSc
+Transformation:
+▶ irréversible: dSc>0
+▶ réversible: dSc=0
+▶ interdite: dSc<0
+
+Modèle du gaz parfait:
+S=nR/(γ-1)*ln(T)+nR*ln(V)+cste
+S=nRγ/(γ-1)*ln(T)-nR*ln(P)+cste
+Loi de Laplace: dans S, factoriser par nR/(γ-1)
+Modèle de Van der Waals:
+S=C(V)*ln(T)+nR*ln(V-nb)+cste
+Phases condensées:
+S=C(V)*ln(T)+cste
+C(V)=T*(dS/dT)(V)
+C(P)=T*(dS/dT)(P)
+l'entropie mesure le désordre
+une transformation réversible apparaît comme un cas limite idéal de N transformations, N → ∞
+
+diagramme entropique: T(S)
+isochore croit plus vite qu'isobare
+Aire=Qrév si -->
+Aire=-Qrév si <--

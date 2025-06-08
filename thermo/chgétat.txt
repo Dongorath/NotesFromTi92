@@ -1,0 +1,40 @@
+Phase: ensemble homogène où les paramètres d'états intensifs (P,T,μ, indice de réfraction) ont partout la même valeur
+Changement de phase, transition de phase, changement d'état: évolution conduisant tout ou partie du système à évoluer d'une phase vers une autre
+
+solide<-allotropie->solide
+  ↑ |                | ↑
+co| |su              | |sol
+nd| |bl            fu| |idi
+en| |im            si| |fic
+sa| |at            on| |ati
+ti| |io              | |on
+on| |n               | |
+  | ↓                ↓ |
+  gaz←vaporisation-liquide
+     -liquéfaction→
+une phase: monophasé
+deux phases: diphasé
+titre massique/molaire:
+x1=m1/(m1+m2)=n1/(n1+n2)
+x2=m2/(m1+m2)=n2/(n1+n2)
+T>Tc OU P>Pc : fluide hyper-critique
+diagramme P(v), isothermes d'ANDREWS
+courbe d'ébullition + courbe de rosée
+= courbe de saturation
+Théorème des moments:
+mvap*MV_=mliq*LM_
+mv*MV=ml*ML
+
+u=x1*u1+x2*u2
+h=x1*h1+x2*h2
+s=x1*s1+x2*s2
+Pour une transition de phase de 1 à 2, l'enthalpie massique de transition de phase h(1→2)(T) est la différence des enthalpies massiques du corps pur dans les deux phases 1 et 2 à la pression Π(T) pour T fixée
+h(1→2)(T)=h2(T)-h1(T)
+h(1→2)(T)=-h(2→1)(T)    (tn rèv)
+s(1→2)(T)=s2(T)-s1(T)
+s(1→2)(T)=h(1→2)(T)/T
+(h1→v)(T)=lv(T)
+Formule de CLAPEYRON:
+l(1→2)=T*(v2-v1)*(dP/dT)(chgt d'etat)
+dH_T=dxv*lvap(T)
+ds_T=dxv*lvap(T)/T

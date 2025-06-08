@@ -1,0 +1,21 @@
+ρ=dm/dτ
+forces vol: dF→=fv→*dτ
+forces surf: dF→=-P*dS→=dτ*grad→(P)
+fv→-grad→(P)=0→
+si que pesanteur(z↓): dP/dz=-ρ/g
+
+P=P0*e^(-m*g*z/(k*T))
+n*=C*e^(-ε/(k*T))
+
+fluide incompressible & homogene ds champ de pesanteur uniforme:
+ρ=cste
+P+ρ*g*z=cste
+ΔP=ρ*g*h
+
+Th de Pascal:
+Tte variat° de P en 1 pt du fluide à l'eq est transmise ds tt le fluide
+
+Poussée d'Archimede:
+F→=m*g→   (m=masse de fluide deplace)
+Γ→(C)=0→ (Γ→(C) moment des forces pour le solide en C)
+Les forces de pression exercees par 1 fluide au repos sur 1 solide immerge sont equivalentes a 1 force unique appellee poussee d'Archimede Π→ egale a l'oppose du poids du fluide deplace et applique au centre de pousse C

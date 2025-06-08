@@ -1,0 +1,159 @@
+  Machine thermique
+
+Theorie generale des machines thermique
+
+▶Def
+.Machine:Sys qui realise de conservat° d'E
+.Machine themnique: conv ersion travail chaleur
+.Cycle:Transfo non triviale qui ramene le sys a son etat intiale
+Une machine ther doit decrire un cycle pour avoir un fctnmt continu en regime permanent
+
+diagramme P=f(V) (Watt)
+P=f(Vm) (Claperon)
+T=f(S) (diagramme etropique)
+H=f(S) (Mollier)
+→on donit avoi une courbe fermee
+
+W(cycle)=aire sous la courbe
+!Δ! W<0 sens horaire moteur
+W>0 sens trigo recepteur
+.Motheur thermique:machin e thermique fournissant du W meca
+.Refrigerateur:Appareil  permettant de refroidir 1 corps en echange d'1  W
+.Pompe a chaleur:Apparei l permettant de chauffe r 1 maison "en prenant  de la Q" a 1 sf
+.Machine ditherme:MT fon ctionnant avec 2 source de chaleur
+
+▶M ditherme
+→Schema
+
+(Σ) est un sys ferme {Σ⋃Sc⋃Sf} est isole
+2eme principe
+ΔS=0 ΔS=Se+Sc Sc≥0
+ΔS≥Se
+ΔS≥Qc/Tc+Qf/Tf
+Qc/Tc+Qf/Tf≤0
+→inegalite de Clausius
+
+→Diagramme de Raveau
+diag Qc=f(Qf)
+on trace les 2 droites d'eq
+Qf+Qc=0 (Δ1)
+Qf/Tf+Qc/Tc=0 (Δ2)
+toutes les parties au dessusde (Δ2) violent inegalite de clausius dc st de regions impossibles
+Au dessu de (Δ1) W<0 (moteur)
+
+▶Cas particulier des Mm monotherme
+Cas thermostat unique en contact avec (Σ) on a
+ΔU=0=W+Q →W≥0
+Q/Ts     →Q≤0
+Il n'existe ddc pas de moteur monoth ms il E des recepteurs monoth
+
+_Le cycle de Carnot
+▶Descript°
+
+C'est un cycle ditherme decrit de maniere reversible. Pour que l'echange st reversible il faut que T=Tc(→isotherme reversible a Tc)
+De meme pour la source froide (→isotherme reversible a Tf)
+En dehors de ces echanges le sys est en evolut° adiabatique reversible (isentropique)
+T↑ B C
+ | .-.
+ | |W|
+ |A.-.D
+ ------→D
+On a δQ(rev)=T.dS
+      Q(rev)=∫T.dS
+de + ΔU=0=W+Q
+W=-∫T.dS
+dc W=aire ds cycle
+
+▶Not° d'efficacite
+e=ce que recois/ce que je donne
+
+▶Teorie de Carnot
+→Moteur ditherme
+W<0 Qc>0 Qf<0
+e=-W/Qc
+Or on a W=-Qc-Qf
+e≤1-TF/Tc
+
+→refrigerateur
+W>0 Qc<0 Qf>0
+e=Qf/W
+…
+e≤Tf/(Tc-Tf)
+
+→Pompe a chaleur
+W>0 Qc<0 Qf>0
+e=-Qc/W
+…
+e≤Tc/(Tc-Tf)
+
+_Realisat° de qq machines thermiques
+▶Type de MT
+
+Ds bcp de M un fluide circulant entre les ≠ organes assurent les echanges energetiques
+
+▶Moteur a explosions & cycle de Rochas-Otto
+
+.1er tps admission (AB)
+aspiration d'un melange air-essence le piston arrive au PMB(pt mort bas)
+.2eme tps compression (BC)
+le melange est comprime jusqu'au PMH
+.3eme tps explosion+detente (CDE)
+bougie=> explosion P↑
+.4eme tps echappemt (EA)Les gaz st rejettes
+
+le vilbrequin fait un tour tt les 2 tps
+un cycle = 2 tours
+
+→Modelisat°
+.Le melange air-essence & les Gaz brules st consideres c des GP
+.On admet aucune evolut° chimique
+.Chaleur semble provenir d'une source chaude fictive
+.Phase d'admission→isobare
+.Compression & detente st des adiabatique QS
+.La combustion est suffisamment rapide pour V=cte (isochore)
+.L'echappement fait chuter la pression a volume ct
+.Le gaz se refroidit instantanement, atmosphere joue le role Sf
+Q↑
+ |  D.
+ |Qc |\
+ |   | \
+ |  C.\ >
+ |     < \.E
+ |      \ | Qf
+ |   A   \|
+ |   .----.B
+ |
+ ----------→ V
+
+→Calcul de l'efficacite
+
+a=Vmax/Vmin :taux de compress°
+e=-W/Qc
+1er principe
+ΔU=0
+  =W+Qf+Qc
+→ e=1+Qf/Qc
+
+
+.Pour (CD)
+W(C→D)=0 (isochore)
+ΔU=Qc=Cv(TD-TC)
+or Cv=nR/(γ-1)
+→ Qc=nR(TD-TC)/(γ-1)
+de mome pour EB
+→ Qf=nR(TB-TE)/(γ-1)
+dc
+e=1-(TE-TB)/(TD-TC)
+BC & DE st adiabatique reversible
+       γ-1        γ-1
+TB.Vmax   =TC.Vmin
+       γ-1        γ-1
+TD.Vmin   =TE.Vax
+
+TC=TB.a^(γ-1)
+TD=TE.a^(γ-1)
+e=1-a^(1-γ)
+
+RMQ:
+_e↑ avec a
+_Le rendement est encore plus faible

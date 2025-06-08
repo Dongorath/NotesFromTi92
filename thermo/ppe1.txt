@@ -1,0 +1,70 @@
+Em+U=cste
+ΔU=-ΔEm
+W(fnc→)=0 pour syst fermé isolé
+1 transfo rapide est adiabatique
+si poids: P=P0+M*g/S
+δW=-Pext*dVsyst
+transfo qs: P=Pext
+transfo mr: Psyst=Pext
+tqmsr:W=-∫PdV
+sens direct: A=W (travail recepteur)
+sens horaire: A=-W (travail moteur)
+W(isochore)=0
+W(monobare)=-Pext*(Vf-Vi)
+W(isobare tqsmr)=-P*(Vf-Vi)
+W(isotherme GP tqsmr)=-nRT*ln(Vf/Vi)
+                     =nRT*ln(Pf/Pi)
+W(polytropique: PV^k=cste, tqsmr)
+                   =(PfVf-PiVi)/(k-1)
+*********
+*1er PPE*
+*********
+_ U extensive
+_ pour syst ferme I→F, Q, W≠Ep:
+  ΔE+ΔU=W+Q
+_ U fn d'état
+Δ(E+U)=W+Q
+syst ferme isole : Q=0 , W=0 → U+E consevative
+W=Wnc
+dE+dU=δW+δQ
+Joule-Gay Lussac → U=cste
+********
+*H=U+PV*
+********
+H=fn d'etat
+isobare → dH=δQp+δWautres
+H extensive
+Cv=(dU/dT)v
+Cp=(dH/dT)p en J.K⁻¹ extensif
+    **********
+GP: *Cp-Cv=nR*
+    **********
+γ=Cp/Cv
+*************   **************
+*Cv=nR/(γ-1)*   *Cp=γnR/(γ-1)*
+*************   **************
+fluides reels: H=U   Cp=Cv=C
+**************
+*CALORIMETRIE*
+**************
+(dH/dT)p=Cp=cp*m
+phases condensees: P sans influence
+H(T,P)→H(T)
+dH=m*cp*dT=m*c*dT
+ΔH=ΣΔHi=Σmi*ci*(Tf-Ti)
+pour calorimetre: K=μ*c(eau)
+μ=valeur en eau du calorimetre
+ΔH=0 si calorimetre de Berthelot
+ΔH=Welec=Pt=UIt=RI²t
+ si methode de Joule
+
+isotherme: tqs, ΔU=0, ΔH=0
+    W=-nRT*ln(Vf/Vi)=nRT*ln(Pf/Pi)=-Q
+Loi de Laplace: adiabatique, GP, tqsmr
+γ indep de T:
+▶ T*V^(γ-1)=cste
+▶ P*V^γ=cste
+▶ T^γ*P^(1-γ)=cste
+
+diagramme de WATT ou CLAPEYRON: P(V)
+pente adiabatique=γ*pente isotherme

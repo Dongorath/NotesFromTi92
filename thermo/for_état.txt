@@ -1,0 +1,66 @@
+
+  CHANGEMENT D'ETAT DES CORPS PURS
+  --------------------------------
+  (formules)
+
+
+S→L:fusion
+L→S:solidification
+L→G:vaporisation
+G→L:liquéfaction
+S→G:sublimation
+G→S:cond à l'état solide
+
+        φ1     φ2  (eq entre 2 phase)
+A l'eq  n1     n2
+      m1=n1M m2=n2M
+titre massique de la phase 1:
+ x1=m1/(m1+m2)
+…2: x2=m2/(m1+m2)
+x1+x2=1
+titre massique=titre molaire
+
+fluide hypercritiq
+T>Tc ou P>Pc
+
+chgᵀ d'état isotherme isobare
+
+↑P
+||
+||
+||     C
+||   ----
+||  -    --
+| \__________V
+| 'L     M  -\_
+| '          ' \
+|'            ' \_
+|'            '   \
++--------------------→v
+  vliq   v   vvap
+masse de liq et vap
+xvap=mvap/(mvap+mliq)
+
+Théorème des moments:
+mvMV=mlML
+mv=masse en vap
+ml=    …    liq
+MV=vvap-v
+ML=v-vliq
+
+Π(T) pression de vap saturante
+
+u=x1u1+x2u2
+h=x1h1+x2h2
+s=x1s1+x2s2
+
+entalpie massiq de transition de phase est h1→2(T)=h2(T)-h1(T) à la pression Π(T)
+
+s1→2(T)=h1→2(T)/T
+
+chaleur latente l1→2=h1→2 pour chgᵀ d'état: (molaire)
+ l1→2=T(v2-v1)(dP/dT)(chgᵀ d'état)
+
+lvap(T)=hliq→vap
+dh=dxv*lvap(T)
+ds=dxv*lvap(T)/T

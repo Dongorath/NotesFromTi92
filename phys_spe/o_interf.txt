@@ -1,0 +1,51 @@
+incoherentes Σ(I)
+coherentes   Σ(ψ)
+
+frange d'= eclairᵀ: phi(M)=cst
+maxi si phi(M)=p*2π p∈Z
+
+contraste (visibilité)
+C=(Imax-Imin)/(Imax+Imin)
+
+ I=2*I0*(1+cos(phi))
+ -------------------
+
+---→ 2 planes monochrom
+ψ1=a*cos(ωt-k1→.r→+phi1)
+ψ2=a*cos(ωt-k2→.r→+phi2)
+phi(M)=(k2→-k1→).r→+(phi1-phi2)
+k=ω/c
+k2→=k(cos(α/2)uy→+sin(α/2)ux→)
+k1→=    …        -    …
+r→=x*ux→+y…
+phi(M)=2*k*sin(α/2)*x+(phi1-phi2)
+fge d'egal I → x=cst
+interfrange i=λ0/(2*sin(α/2))=λ0/α
+
+---→ ondes sphériques
+ψi(M)=ai/ri*cos(ωt-kiri+phii)
+phi(M)=k(r2-r1)+phi1-phi2
+fge egal eclair: S2M-S1M=cte
+ → hyperboloïde de revolution
+
+---→ecran // S1S2
+dist(ecran-source)=D
+dist(S1-S2)=a
+S1(a/2,0,0) S2(-a/2,0,0) M(x,y,D)
+S1M²=…
+r2²-r1²=(r2-r1)*2D
+       =2xa
+r2-r1=2xa/D
+phi=… fge→x=cst et i=λ0D/a
+
+---→ecran perp S1S2
+D=dist(ecran-milieu O' [S1S2])
+dist(S1-S2)=a
+SiM²=(D±a/2)²+ρ²=ri²
+ ρ=O"M  O"∈(S1S2)
+r2-r1=a(1+ρ²/(2D))
+
+---→ordre d'interference
+p(M)=δ(M)/λ0
+p(M)=entier → brillant
+p(M)=entier+1/2 → sombre

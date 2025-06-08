@@ -1,0 +1,47 @@
+* = prod vect
+. = prod scal
+¬ = orthogonal
+
+
+dF→ = fvol(P)→ dτ
+fvol→ = ρ fmas→
+dF→ = fsurf→ dS
+dM(A)→ = AP→ * dF(P)→
+pt d'app I de F→ tq M(A,F→)= AI→ * F→
+S1,S2 sol: F(2/1)→ + F(1/2)→ = 0→
+δ²W = dF→ . d(OP→)
+δ²W = dF→ . v(R,P)→ dt
+δW = P(t) dt
+P(t) = ∫∫∫ dF→ . v(R,P)→ (recu par S)
+Pour 1 sol:
+P(t) = F→ . v(R,A)→ + Ω→ . M(A,F→)
+translat°: P(t) = F→ . v(R,A)→
+rotat° autour de Δ fixe: P(t) = Ω MΔ
+      où M(A,F→)→ = MΔ uΔ→ + M(¬)→
+Fint→ = 0→
+Mint→ = 0→
+δWint = ∫∫∫ f(M/P) d(MP)
+pour 1 solide: δWint = 0
+               Pint = 0
+fvol→ = -grad→(ep(vol)(P))
+Ep = ∫∫∫ ep(vol) dτ
+vg(S/S')→ = v(R',I∈S)
+          = v(R,I∈S)→ - v(R,I∈S')→
+non glissemt si vg(S/S')→ = 0→
+R→ = T→ + N→
+N→ . n→ > 0 si contact
+si glissemt: T→ . vg→ < 0
+             T→ et vg→ colineaires
+si glissemt:     ||T→|| = f ||N→||
+si non glissemt: ||T→|| ≤ f ||N→||
+f coeff de frottemt, N→ force de frot
+P = T→ . vg→ ≤ 0
+  = -||T→|| ||vg→||
+non glissemt ou pas frottemt:
+Pcontact = 0
+articulat° rotule/spherique parfaite:
+M(O,F→)→ = 0→
+Pcontact = 0
+articulat° pivot/cylindrique parfaite:
+MΔ = 0
+Pcontact = 0

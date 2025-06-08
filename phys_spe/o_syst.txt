@@ -1,0 +1,54 @@
+..miroir Fresnel
+2 ondes sphériq
+I=2I0(1+cos(phi)
+ecran // S1S2 i=λ0*D/S1S2
+distance ecran miroir D' D=D'+R
+S1S2=Rε ε=angle entre 2 rayon emergent passant par O
+ε=2α
+i=λ0*(D'+R)/(R*2α)
+
+..fente d'Young
+
+2 ondes sphériq S1=F1 et S2=F2
+ecran // à S1S2 → fge x=cst
+ i=λ0*D/S1S2=λ0*D/a
+(calcul:
+ψ1=a ψ2=ae^(j*phi) δ(M)=S2M-S1M=ax/D
+phi(M)=2π*x/i → i=…)
+
+source large (largeur s)
+elt de surf dξ autour P∈source
+ dI=I0dξ
+δ(M)=(PS2M)-(PS1M)=PS2-PS1+S2M-S1M
+    =PS2-PS1+ax/D
+et PS2-PS1=a*ξ/D'
+ (ξ ordonée de P et D'=dist(fente-P)
+dI=I0(1+cos(phi))dξ
+I(M)=∫dI
+…
+visibilité V(s)=|sinc(πa/(λ0D')/s)|
+
+---→biprisme fresnel
+interf à 2 ondes planes
+i=λ0/α=λ0/(2*(n-1)*A)
+
+---→michelson
+------→lame d'air
+ecran perp à S1S2 → hyperboloïdes…
+
+si source ponctuelle → non localisé
+    …     étendue → localisé à ∞
+
+δ(M)=2e/cos(i)-2e*tan(i)*sin(i)
+    =2e*cos(i)
+fge d'egal éclair => i=cst anneaux
+si e diminue, anneaux rentre
+
+si e=0 contact optique
+(teinte plate, eclairement uniform)
+
+------→coin d'air
+ecran // S1S2 fge rectiligne,equi,// à l'arête du coin d'air
+
+si source ponctuelle → non localisé
+    …     etendue → localisé près des miroirs

@@ -1,0 +1,11 @@
+d(p(R)→)/dt = Fext→ = M a(R,G)→
+Th du moment cinetique:
+A fixe: d(σ(A,R,S)→)/dt = M(A,Fext→)→
+d(σ(G,S)→)/dt = M(G,Fext→)→
+Th scalaire du moment cinetique:
+JΔ dΩ/dt = MΔ(Fext→)
+dEc/dt = Pint + Pext
+ΔEc = Wint + Wext
+dEm = δWnc
+ΔEm = Wnc
+dEm/dt = Pnc

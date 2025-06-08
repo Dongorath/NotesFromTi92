@@ -1,0 +1,31 @@
+entre fente p+1 et p
+δ=(SS(p+1)M)-(SS(p)M) avec plan d'onde
+et incidence i0
+   emergence i
+δ=a(sin(i0)-sin(i))
+pour intensité maxi:
+
+ ρρρρρρρρρρρρρρρρρρρρρρρρ
+ ρ a(sin(i0)-sin(i))=pλ ρ
+ ρρρρρρρρρρρρρρρρρρρρρρρρ
+ (formule des reseaux)
+
+maxi ppaux d'ordre p: MPp
+
+ampli
+ψ0=e^(A)
+…
+ψp=e^(j*p*phi)
+…
+ψ(N-1)=e^(j*(N-1)*phi)
+ondes cohérentes, on Σ les ψ
+* ψ=A(1-e^(jN*phi))/(1-e^(j*phi))
+
+  ψ=Ae^(j*(N-1)/2*phi)*sin(N*phi/2)
+                        sin(phi/2)
+
+  si e^(j*phi)≠1
+* ψ=AN si e^(j*phi)=1
+
+ I=Imax/N²*(sin(N*phi/2))²
+           ( sin(phi/2) )

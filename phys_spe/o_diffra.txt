@@ -1,0 +1,55 @@
+◀■▶ ppe Huygens-Fresnel
+tt elt d'aire dS atteind par vibration lumineuse se comporte comme une srce secondaire de MEME PULSATION et MEME PHASE d'amplit prop à dS
+
+ ▶dψp=t(P)ψp(inc)dS
+(t(P) transmitance)
+
+◀■▶ diaphragme
+S\ ↑      D
+| \|      |   O2↑  |
+F--+------+-----+--+
+   |\k0→  |\k→  ↓  |M
+   ↓ \      \
+ψ(M)=∫∫dψp(M),P∈D
+
+S---→diagramme-→P------→M
+ψ(S)  ψp(inc)  dψ(P)   dψp(M)
+
+ψp(inc)=ψ(S)e^(j*2π/λ0(SP)) S→P
+dψ(P)=ψp(inc)t(P)dS
+dψp(M)=dψ(P)e^(j*2π/λ0(PM)) P→M
+
+ dψp(M)=ψ(S)t(P)e^(j*2π/λ0(SPM))dS
+◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶
+     |
+     - (SP)=(SH0)+(H0P)
+  H0/P     =(SO)+H0P
+   /\      =(SO)+u0→.OP→
+k0→  0 2π/λ0(SP)=2π/λ0(SO)+k0→.OP→
+/   /-
+   / |
+
+ dψp(M)=ψ(S)t(P)e^(j*(k0→-k→).OP→)dS
+◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶
+
+δ(M)=(SPM)-(SOM)=(u0→-u→).OP→
+
+OP→(X,Y) et k0→-k→(u,v)
+
+ψ(M)=∫∫t(X,Y)e^(j*(uX+vY))dXdY (1)
+
+u→=O2M→/(O2M) O2M→(x,y,f'2)
+on f'2>>x,y
+u→=x/f'2*ux→+y/f'2*uy→+uz→
+
+◀■▶ ouverture rectangulaire
+ |X|≤a/2 et |Y|≤b/2
+formule (1)
+ψ(M)=ψ0∫e\(j*uX)dX*∫(e^(j*vY)dY
+    =…
+◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀
+■ψ(M)=ψ0*ab*sinc(ua/2)*sinc(vb/2)   ■
+■    =ψ0*ab*sinc(παa/λ0)*sinc(πβb/λ0)
+◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀■▶◀
+u0→-u→(α,β,0)
+longeur centrale de la tache centr de diffraction Δα=2α/λ

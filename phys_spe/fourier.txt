@@ -1,0 +1,47 @@
+T=2π/ω
+s(t)=a0/2+Σ(an*cos(nωt)+bn*sin(nωt),n,1,∞)
+an=2/T*∫(s(t)*cos(nωt),t,0,T)
+bn=2/T*∫(s(t)*sin(nωt),t,0,T)
+S0=a0/2=1/T*∫(s(t),t,0,T)=<s(t)>
+  =valeur moyenne
+sn(t)=an*cos(nωt)+bn*sin(nωt)
+     =termes sinusoidaux
+     =harmonique de rang n
+s1(t)=a1*cos(ωt)+b1*sin(ωt)
+     =fondamental
+s(t)=S0+sond(t)=s(t)+Σ(sn(t),n,1,∞)
+sond(t)=ondulation du signal
+sn(t)=cn*cos(nωt+φn)
+ cn=√(an²+bn²)    =amplitude
+
+ tan(φn)=-bn/an   =phase
+limit(cn,n,∞)=0
+s(t) paire   ▶ bn=0
+s(t) impaire ▶ an=0
+s(t)=1/2*Σ(Cn_*e^(jnωt),n,-∞,∞)
+ C0_=a0/2
+ Cn_=an-j*bn  (n>0)
+ C-n_=an+j*bn=Cn_*  (conjugué)
+ Cn_=2/T*∫(s(t)*e^(-jnωt),t,0,T)
+ cn=|Cn_|
+ φn=arg(Cn_)
+ Tension créneau: impaire → an=0
+ bn=2*Smax/(n*π)*(1-(-1)^n)
+ Dents de scie: s(t)=Smax/2-4*Smax/π²*Σ(cos((2n+1)ωt)/(2n+1)²,n,0,∞)
+ Impulsion periodique: cn=2hε/T*sin(nωε)/(nωε)
+ *********************
+ *FORMULE DE PARSEVAL*
+ *********************
+ Se²=<s(t)²>=c0²+1/2*Σ(cn²,n,1,∞)
+ Pmoy=R*Ie²(=Ue*Ie*cos(φ))
+ Facteur de forme: F=Se/Smoy=√(<s(t)²>)/<s(t)>=√(c0²+1/2*Σ(cn²,n,1,∞))/c0
+ F²=1+δ0²
+ taux de distorsion harmonique:
+  δh=Sh/Sf=√(Σ(cn²,n,2,∞))/c1
+  Sf=valeur efficace du fondamental
+  Sh=  "        "    des harmoniques
+     (n≥2)
+
+s(t)=1/(2π)*∫(S_(ω)*e^(jωt),ω,-∞,∞)
+S_(ω)=∫(s(t)*e^(-jωt),ω,-∞,∞)
+S_(ω)=TF(s(t))    s(t)=TF⁻¹(S_(ω))

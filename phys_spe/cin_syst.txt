@@ -1,0 +1,33 @@
+* = prod vect
+¬ = orthogonal
+θ. = dθ/dt
+A→ . B→ = prod scal
+
+
+S solide si pour tt A,B∈S, d(A,B)=cst
+Ω(S/R)→ = Ω→ = θ. uz→
+v(R,P)→ = Ω→ * OP→
+v(B)→ = v(A)→ + Ω→ * AB→
+(d(A→)/dt)R = (d(A→)/dt)R' + Ω(R'/R)→ * A→
+Mtot OG→ = Σ(mi OMi→ , i)
+p(R,S)→ = ∫∫∫ v(R,P)→ dm(P)
+p(R,S)→ = M v(R,G)→
+p*→ = 0→
+σ(A,R,S)→ = ∫∫∫ AP→ * v(R,P)→ dm
+σ(A,R)→ = σ(A',R)→ + AA'→ * p(R)→
+σ*→ = σ*(G)→ (indep du point)
+Th de Koenig:
+σ(A,R)→ = σ*→ + M AG→ * v(R,G)→
+A point de vit nulle:
+σ(A,R,S)→ = J(Δ,A) Ω→ + σ(A¬)→
+J(Δ,A) = ∫∫∫ r² dm = ∫∫∫ HP² dm
+Sol en rotat° autour de Δ fixe:
+σ(Δ)→ = σ→ . uΔ→ = JΔ Ω
+Ec(R,S) = ∫∫∫ 1/2 (v(R,P)→)² dm
+Th de Koenig:
+Ec(R) = Ec* + 1/2 M (v(R,G)→)²
+A point de vit nulle:
+Ec(R) = 1/2 σ(A,R)→ . Ω→
+Sol en rotat° autour de Δ fixe:
+Ec(R) = 1/2 JΔ Ω²
+Ec* = 1/2 J(Δ,G) Ω²

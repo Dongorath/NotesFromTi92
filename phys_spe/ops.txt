@@ -1,0 +1,102 @@
+. = prod scal
+▼ = nabla
+* = prod vect
+∫O∫  O∫ = integrale sur circuit ferme
+
+GRADIENT D'UN CHAMP SCALAIRE:
+dU = grad→(U) + dU/dt dt
+a t fixe, dU = grad→(U) dr→
+coord cartesiennes:
+grad→(U) = ▼→(U) =
+     dU/dx ux→ + dU/dy uy→ + dU/dz uz→
+▼→ = d/dx ux→ + d/dy uy→ + d/dz uz→
+coord cylindriques:
+grad→(U) = dU/dr ur→ + 1/r dU/dθ uθ→ + dU/dz uz→
+coord spheriques:
+grad→(U) = dU/dr ur→ + 1/r dU/dθ uθ→ + 1/(r sin(θ)) dU/dφ uφ→
+
+FLUX D'UN CHAMP DE VECTEUR:
+δφ = A(r→,t)→ . dS→ = A→ . n→ dΣ
+
+DIVERGENCE D'UN CHAMP DE VECTEURS:
+δφ = div(A→) dτ
+Th d'Ostrograski:
+∫O∫ A→ . dS→ = ∫∫∫ div(A→) dτ
+coord cartesiennes:
+div(A→) = ▼→ . A→ = dAx/dx + dAy/dy + dAz/dz
+coord cylindriques:
+div(A→) = 1/r d(r² Ar)/dr + 1/r dAθ/dθ + dAz/dz
+coord spheriques:
+div(A→) = 1/r² d(r² Ar)/dr
+      + 1/(r sin(θ)) d(r sin(θ) Aθ)/dθ
+      + 1/(r sin(θ)) d(r Aφ)/dφ
+
+CIRCULATION et ROTATIONNEL D'UN CHAMP DE VECTEURS:
+circulat°: dC = A(r→,t)→ . dr→
+   C((M,P)∈C)=∫(A(r→,t)→.dr→,(M→P)∈C)
+dC = rot→(A→) . dS→
+rot→(grad→(φ)) = 0→        ou
+▼→ * (▼→(φ)) = 0→
+th de Stokes:
+O∫ A→ . dr→ = ∫∫ rot→(A→) . dS→
+coord cartesiennes:
+rot→(A→) = ▼→ * A→ = [dAz/dy-dAy/dz]
+                     [dAx/dz-dAz/dx]
+                     [dAy/dx-dAx/dy]
+coord cylindriques:
+rot→(A→) =[   1/r dAz/dθ - dAθ/dz   ]
+          [     dAr/dz - dAz/dr     ]
+          [1/r d(r Aθ)/dr-1/r dAr/dθ]
+coord spheriques:
+rot→(A→) = [1/(r sin(θ))
+            d(sin(θ) Aφ)/dθ   -
+            1/(r sin(θ)) dAθ/dφ     ]
+           [1/(r sin(θ)) dAr/dφ   -
+            1/r d(r Ar)/dr          ]
+           [1/r d(r Aθ)/dr    -
+            1/r dAr/dθ              ]
+
+LAPLACIEN D'UN CHAMP SCALAIRE:
+ΔU = div(grad→(U))
+coord cartesiennes:
+ΔU = (▼→)²(U) = d²U/dx² + d²U/dy² + d²U/dz²
+coord cylindriques:
+ΔU = 1/r d(r dU/dr)/dr + 1/r² d²U/dθ² + d²U/dz²
+coord spheriques:
+ΔU = 1/r² d(r² dU/dr)/dr
+     + 1/r² d(sin(θ) dU/dθ)/dθ
+     + 1/(r² sin²(θ)) d²U/dφ²
+
+LAPLACIEN D'UN CHAMP VECTORIEL:
+ΔA→ = grad→(div(A→)) - rot→(rot→(A→))
+coord cartesiennes:
+ΔA→ = (▼→)²(A→) - ▼→ * (▼→ * A→)
+ΔA→ = ΔAx ux→ + ΔAy uy→ + ΔAz uz→
+
+FORMULAIRE:
+les operateurs sont lineaires
+div(grad→(U)) = ΔU
+rot→(grad→(U) = 0→
+div(rot→(A→)) = 0
+rot→(rot→(A→)) = grad→(div(A→)) - ΔA→
+grad→(U V) = V grad→(U) + U grad→(V)
+div(U A→) = A→ . grad→(U) + O div(A→)
+rot→(U A→) = grad→(U) * A→ + U rot→(A→)
+div(A→ * B→) = B→ . rot→(A→) - A→ . ro→(B→)
+rot→(A→ * B→) = A→ div(B→)
+                - B→ div(A→)
+                + (B→ . grad→) A→
+                - (A→ . grad→) B→
+grad→(A→ . B→) = A→ * rot→(B→)
+                 + B→ * rot→(A→)
+                 + (B→ . grad→) A→
+                 + (A→ . grad→) B→
+
+FORMULE DU ROTATIONNEL:
+∫∫∫ rot→(A→) dτ = ∫O∫ dS→ * A→
+
+FORMULE DU GRADIENT (OU DE GAUSS):
+∫∫∫ grad→(U) dτ = ∫O∫ U dS→
+
+FORMULE DE KELVIN:
+O∫ U dr→ = -∫∫ grad→(U) * dS→

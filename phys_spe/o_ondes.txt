@@ -1,0 +1,37 @@
+ ¤¤¤ onde progressives
+
+ψ(x,t)=f(t-x/v)
+ [f(vt-x),f(x/v-t),…]
+onde se propage à la vitesse v (vit de phase)
+
+ψ=a*cos(ωt-kx)
+ → v=ω/k
+periode tempo T       ω=2π/T }
+        spacialle λ   k=2π/λ } λ=vT
+(v=c/n pour ond elec-magnet. ds milieu indice n)
+si on écrit k→=k*ux→,on a
+ ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+ ¤ ψ=a*cos(ωt-k→.OM→)  ¤ k→=2π/λ*u→
+ ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+onde se propage suivant k→
+
+ψ=a*e^(-j(ωt-k→.OM→))  a*e^(j*k→.OM→)
+
+ ¤¤¤ onde plane
+
+ψ(M,t)=ψ(P,t)e^(j(k→.PM→))
+k→.PM→=2π/λ(xm-xp)
+λ0=cT=n*vT=n*λ →2π/λ=n*2π/λ0
+n(xm-xp)=(PM)
+ ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+ ¤ ψ(M,t)=ψ(P,t)e^(j*2π/λ0(PM)) ¤
+ ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+ ¤¤¤ onde sphérique
+
+ψ(M,t)=a/r(ωt-kr)
+
+ ¤¤¤ intensité
+
+intensité I=K'<(E→)²>
+I(M)=K*E(M,t)*E■(M,t)

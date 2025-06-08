@@ -1,0 +1,48 @@
+ Statique Des Fluides-
+  Facteur De Boltzmann
+
+Force volumique
+interaction à longue portée+inertie
+dF→=fv→*dτ(M)
+Force surfatique
+interaction courte portée (contact…)
+dF→=-P(M)dS→
+
+PFSF
+fluide repos ds un ref supposé gal
+fluide soumis à fv→
+fv→-grad(P)=0→
+
+Eq de l'atmos isotherme (GP)
+* GP
+* en A, eq thermiq
+* masse molaire M
+fv→-grad(P)=0→
+ρ(A)g→-grad(P)=0→
+…
+ρ(A)g+dP/dZ=0 ◀----
+
+P(z)=P0e^(-Mgz/RT)
+R=k_Na
+m=mass d'1 m✓
+mgz Ep d'1 m✓
+kT homogene energie
+e^(-mgz/kT) facteur de Boltzmann
+
+n*=N/V
+ε=energie potentielle individuelle
+n*=Ce^(-ε/kT)
+
+ρgz+P=cste :intégrale 1ère du PFSF
+
+ΔP=ρgh→ P↑ avec profondeur
+
+Th de PASCAL
+toute variation de pression en UN pt du fluide est transmise ds tout le fluide.
+
+POUSSE D'ARCHIMEDE
+Π→=-(m*)*g→
+m* masse du fluide déplacé
+si:
+* INHOMOGENEITE de la pression
+* object totalt immergé

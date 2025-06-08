@@ -1,0 +1,34 @@
+dy=y'(x)*dx
+dz=(dz/dx)*dx+(dz/dy)*dy
+(dx/dy)=1/(dy/dx)
+(dx/dy)*(dy/dz)*(dz/dx)=-1
+
+extensif: proportionnel
+intensif: pas  """
+ext/ext=int
+int*ext=ext
+int*int=int
+
+libre parcours moyen=1/(ns*σ)
+
+pression cinetique:
+bilan de qdm: p'-p
+vol*nb de part par unite de vol
+ *bilan de qdm pour 1 part
+P=m*n*v²/3
+
+1/2*m*v²=3/2*k*T
+R=Na*k
+
+P*V=n*R*T
+
+U=3/2*n*R*T
+
+(P+n²*a/V²)*(V-n*b)=n*R*T
+
+CV=(dU/dT)V
+
+α=P*β*XT
+α=1/V*(dV/dT)P
+XT=-1/V*(dV/dT)T
+β=1/P*(dP/dT)V

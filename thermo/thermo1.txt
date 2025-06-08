@@ -1,0 +1,52 @@
+chap INTRO à la thermo
+
+ISOLE: pas d'echange matiere/energie
+FERME: echange energie & pas matiere
+
+VARIABLE D'ETAT def à un instant donné l'état macrodu syst
+exple: P, V, T, n, q…
+
+EQ D'ETAT
+les var. d'états peuvent ètre liées par une eq. d'etat
+le syst est defini à partir de l'ensemble des variables independantes.
+exple:
+1 PV=nRT (modele GP)
+2 (P+n²a/v²)(V-nb)=nRT (Van der Waals
+ds 2; pas de relation explicite def V
+on dit que V est def de façon IMPLICITE en fn de T & de P
+
+une fonction d'etat  depend de var d'etat independantes.
+
+derivée partielle:
+→ y(x)   dy=y'(x)dx
+→ z(x,y) dz=(dz/dx)y*dx+(dz/dy)x*dy
+
+fonction implicite f(x,y,z)=0
+(dx/dz)z=1/(dy/dx)z
+Dem:
+ z=cste
+ dz=0
+ (dz/dx)y*dx+(dz/dy)x*dy=0
+ (dz/dx)y*dx=-(dz/dy)x*dy
+ (dz/dx)*y*dx/dy=-(dz/dy)x
+ dx/dy=-(dz/dy)x*1/(dz/dx)y
+ (dy/dz)z=-(dz/dy)x*1/(dz/dx)y
+ (dy/dx)z=-(dz/dx)y*1/(dz/dy)x
+ d'où la relation
+(dx/dy)z*(dy/dz)x*(dz/dx)y=-1
+
+variable d'état EXTENSIF si elle depd de la qté de matiere (proportionel)
+exple: N, n, V, qi…
+ce st des gdeurs ADDITIVES
+
+INTESIVE ne st pas prop à la qté de matiere
+exple: C=N/V, P, T…
+
+Propriété:
+extensif=-
+intensif=+
+int.*ext.=ext.…
+
+Energie interne U: fonction d'etat tq energie totale E soit conservative
+ E=Ec+Ep+U
+U=ec+epinteraction

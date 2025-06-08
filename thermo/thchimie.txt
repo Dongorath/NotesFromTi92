@@ -1,0 +1,189 @@
+
+      THERMOCHIMIE……
+
+ΔU+ΔE=W+Q (ΔE=0…)
+δW=δWpression+δWautre
+               →electrique
+δWautre=0…
+Si V=cst, ΔU=Q
+Si P=cst, ΔH=Qp
+* gaz:
+GP loi de Joule U(T), H(T)
+* phase condensée:
+V,P ss influence
+ U(T,V) → U(T)
+ H(T,P) → H(T)
+Cv=(dU/dT)v → Cv=dU/dT dU=Cv*dT
+Cp=(dH/dT)p → Cp=dH/dT dH=Cp*dT
+
+---→Mélanges
+* gaz:
+Pi pression partielle
+Si gaz seul Pi=ni*(RT)/V
+Σ(Pi,i,1,N)=Ptot=(Σ(ni,i,1,N))*RT/V
+Ptot=ntot*RT/V
+▶fraction molaire: xi=ni/ntot
+ Pi=xi*P
+Umélange=Σ(Ui,i,1,N)
+Hmél…
+* phase condensé:
+contient un seul CP (sol séparés, liq non missible)
+Umélange=Σ(niUmi(T),i,1,N)
+Hmél…
+
+---→Etat standard
+P°=10^5_Pa
+T libre
+* gaz:
+Etat standard=etat du GP associé à la même T et à P°
+* phase condensée:
+ …=état de ce constituant pure ds le même état physiq à même T et à P°
+
+ ---→Etat stdard de reférence
+ c'est l'état stdard du CP simple le + stable ds l'état physiq le + stable à cette T
+ (pour O: etat stdard de ref O2)
+
+ ---→avancement ξ d'une reaction
+     α1A1 + α2A2 +…=β1B1 + β2B2 +…
+t=0  n10     n20    n1'0   n2'0
+ t  n1(t)   n2(t)  n1'(t) n2'(t)
+ξ=(n10-n1(t))/α1=(n20-n2(t))/α2=…
+ =(n1'(t)-n1'0)/β1=…
+on pose vi=-αi et vi=+βi (v="nu")
+▶ ξ=[n(t)-n(0)]/"nu"
+dξ=dni(t)/vi=dni'/vi'
+ vi<0 et vi'>0
+Si ξ ↑ sens direct
+Si ξ ↓ sens indirect
+
+---→U et H de réaction
+▶ on appelle gdeur de réaction pour X la dérivée paretielle de X / ξ, T et P étant fixée
+▶ ΔrX=(dX/dξ)(T,P)  Δr op de LEWIS
+Δr intensif →…mol⁻¹
+Si T, P st cstes:
+ dX=ΔrX*dξ
+ΔrX représente la Δ de X pour un avt de 1_mol
+ΔrU°=(dU°/dξ)(T,P°)
+    =Σvi*U°mi(T)
+    =ΔrU°(T)
+ΔrH°=ΔrH°(T)
+
+---→chaleur de réaction (V P cst)
+Qrv=(dU/dξ)(T,V)
+Qrp=(dH/dξ)(T,P)
+▶ ΔrH=Qrp
+(dU/dξ)(T,V)=…(T)=…(T,P) dc
+▶ ΔrU=Qrv
+
+---→monotherme isochore
+EI Ti=Text ξi Vi=V0
+EF Tf=Text ξf Vf=V0
+▶ ΔU=Qv=∫(Qrv,ξ,ξi,ξf)
+Si Qv>0 endothermiq
+Si Qv<0 exothermiq
+
+---→isotherme isobare
+EI Ti=Text ξi Pi=P0
+EF Tf=Text ξf Pf=P0
+▶ ΔH=Qp=∫(Qrp,ξ,ξi,ξf)
+même rq que précédent
+
+---→ΔrH°(T) et ΔrU°(T)
+▶ d(ΔrH°(T))/dT=ΔrCp° Loi KIRSCHHOFF
+▶ d(ΔrU°(T))/dT=ΔrCv°
+
+---→ΔrH°(T)
+Cp°m=a+bT+c/T²
+d(ΔrH°(T))/dT=ΔrCp°
+             =Σvi*Cp°mi (v="nu")
+
+---→relation ΔrH° et ΔrU°
+ΔrH°-ΔrU°=d(H°-U°,ξ)(T,P°)
+         =Σvi*(H°mi-U°mi)
+H°mi-U°mi=P°Vm
+* gaz:
+P°Vm=RT
+*phase condensée:
+P°Vm(liq) ≪ RT=P°Vm(gaz)
+▶ ΔrH°-ΔrU°=RT*Σ(vi,i=GAZ) (v="nu")
+ΔrH°~ΔrU°
+
+---→chaleur de réaction
+Calorimètre Qcal=Ccal(T2-T1)=ΔUcal
+ΔU1→2=???
+▶ METHODE…METHODE…METHODE…METHODE…MET
+A utiliser si
+ -réaction uniq ss concurrence
+ -   …     totale
+ -   …     rapide
+  ↑T
+T1| β--→--→---→--■
+  | |       .....|
+  | |      .     |chemin fictif
+  | ↑    ..      ↑
+  | | ...chemin réel inconnu
+  | |.           |
+T2| ■--→---→--→--α
+  +----------------→ξ
+    ξ1           ξ2
+ΔU1→2=ΔU1→α+ΔUα→2
+ΔU1→α: dU=… (U(T,P,ξ))
+▶ ΔU1→α=ΔrU(T1)*(ξ2-ξ1)
+ΔUα→2: ξ cste quant de prod et réactif excedentaire st cst
+dUi=CvidT=ni*CvmidT
+▶ ΔUα→2=∫(Σ(niCvmi(T),i=produit de réactif excés),T,T1,T2)
+▶ ΔU=ΔUcal+ΔU1→α+ΔUα→2
+
+---→par le calcul
+Si une eq bilan peut être mise sous forme d'une combi linéaire de +sieurs eq bilan, ΔrH° de cette réac° à T est = la même combi linéaire de ΔrH° de chaq réaction à la même T
+
+---→réaction stdard de réaction
+1 mole de ce corps ds son état stdard est formé à partir de CP simple
+---→enthalpie stdard de reaction
+La Δrh° qui accomp la react de stdard de formation de l'esp X à T donnée ds un état physiq donné  est ΔfH°(X)
+▶ ΔfH°(CPS)=0
+
+---→Loi de HESS
+▶ ΔrH°(T)=Σvi*ΔfH°i(T) (v="nu")
+ Loi de HESS
+
+---→Explosion flamme
+échange avec ext négligeable (bref)
+explo:V=cst colrimètre → ΔU=0
+flamme:P=cst → ΔH=0
+diagramme (T,ξ) chemin fictif α
+1 → transfo isotherme → α → réchauf prod et reac excès et prod inerte → 2
+0=ΔH1→2
+ =ΔH1→α+ΔHα→2
+ ΔH1→α=ΔrH°(T1)(ξ2-ξ1)
+ ΔHα→2=∫(Σ ni*Cp°mi)dT (T1…T2)
+         ↓
+     produit, reac excès,…
+
+---→Ionisation
+Eionisation = Emini pour arracher 1 e- à 1 atome sous forme gaz
+M(g)→M(g)+ + e(g)-
+▶ ΔrH(T)=ΔrH(0)=ΔrU(T)=…=ΔionH=ΔionU
+  (=Ei1)
+
+---→attachᵀ elec-affinité elec
+attachᵀ elec = energie pour fixe 1 e- sur 1 atome gaz à 0_°K
+▶ ΔattU~ΔattH~ΔrH(T)=A1
+affinité elec est opposé de A1
+▶ Eae=-A1
+
+---→chgᵀ d'état
+A(l)=A(g) transfo chim
+ΔH=ξ*ΔrH
+Pour une mole ΔH=L=ΔrH
+ ΔrH°=L (P=P°)
+ΔrS°=ΔrH°/T=L/T
+ΔrH°-TΔrS°=0
+
+---→energie réticulaire
+c'est ΔrU° pour 1_mol de cristal dissocié en ses ions constitutifs à l'état gaz
+▶ ΔrH°~ΔretH°~ΔrU°=ΔretU°=Eréticulair
+
+---→energie de dissociation-liaison
+energie de dissociation homolytiq de la liaison A-B est égale à ΔrU° pour la reaction 1_mol de molécule gaz est dissociée en atome A° et B° gaz
+▶ ΔrU°=Da-b=ΔrH°=ΔdissH°>0

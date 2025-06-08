@@ -1,0 +1,64 @@
+Affinite chimique: A(T,P,ξ)=-ΔrG(T,P,ξ)
+A=A°(T)-RT*ln(Π)
+A°(T)=-ΔrG°(T)
+Π=Π(ai^γi,i)
+dG=-SdT+VdP-Adξ
+Pour la chimie:Adξ=Text*δScree
+Condition d'evolution:  Adξ>0
+A>0 : --->
+A<0 : <---
+Aeq=0
+ΔrG°(T)+RT*ln(K°(T))=0
+A=RT*ln(K°(T)/Π)
+K°(T)=Πeq=Π(aieq^γi,i)
+temperature d'inversion Ti:
+ΔrG°(Ti)=0
+K°(Ti)=1
+approximation d'Ellingham:
+ΔrH°(T)=cste,   ΔrS°(T)=cste
+relation de Van't Hoff:
+d(ln(K°(T)))/dT=ΔrH°(T)/(RT²)
+si T ↑ sens endotherme favorise
+Deplacemt d'equilibre:
+si x varie de dx a l'eq:
+A=(dA/dx)eq*dx
+(dA/dx)eq*dx*dξ>0
+A=RT*ln(K°(T))-RT*ln(Π)
+▶Variation de T a p,ni csts:
+ on derive Aeq par rapport a T   …
+ ΔrH°(T)/T*dT*dξ>0
+▶Var de P a T,ni csts (loi de Le Chatelier):
+ si Ai pas gazeux, d/dP=0, sinon
+ ai=xi*P/P° → A=cste+RT*Δrγgaz*ln(P) →
+ -RT/P*Δrγgaz*dP*dξ>0
+▶ajout d'1 constituant a V cst (gaz):
+ ai0=ni0*(RT/VP°) si ai0 gaz (sinon
+ ai0=1 → pas d'evolution)     →
+ -RTγi0/ni0*dni0*dξ>0
+▶ajout d'1 solute a V cst:
+ ai0=Ci0/C°=ni0/(VC°)     d/dni0   …
+ -RTγi0/ni0*dni0*dξ>0
+▶ajout d'1 constituant a P cst:
+ si Ai0 pas gaz, A indep de ni0 → pas var
+ si Ai0 gaz, ts i gaz,
+ ai0=Pi0/P°=ni0/ntot*P/P°
+ ntot=ni0+Σ(ni,i≠i0)
+ i≠i0 ai=ni/ntot*P/P°
+ (dA/dni0)(T,P,ni≠ni0)=
+  -RT*Σ(1/ai*(dai/dni0)(T,P,ni≠ni0),i)
+    ...(1 page de calcul + loin)...
+ RT/ni0*dni0*(Δrγgaz*xi0eq-γi0)*dξ>0
+ (!!! exaltation possible !!!)
+▶ajout d'1 constituant inerte (nx):
+ si Ai pas gaz, ai indep de ntot → change rien
+ si Ai gaz ai=ni/(nto+nx)*P/P°
+ nto=Σ(ni,i≠x,igaz)
+ RT/nto*Δrγgaz*dnx*dξ>0
+ → augmentation de la quantite de gaz
+Ds ts les cas: LOI DE MODERATION
+v = c + 2* - φ
+c=nb de constituants - nb d'eq chim -
+  nb de relat° supplementaire
+2* = nb de param phys (T,P)
+φ=nb de phases
+s'assurer de la presence de ts les constituants

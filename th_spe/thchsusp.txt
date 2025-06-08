@@ -1,0 +1,83 @@
+   thermo-CHIMIE sup+spe
+
+■■■■■■■■■■■■Rappels■■■■■■■■■■■■■■■■
+1ppe dU+dE=δW+δQ
+Cv=(dU/dT)(V)
+Cp=(dH/dT)(P)
+Mayer Cp-Cv=nR (GP)
+γ=Cp/Cv
+GP Cv=nR/(γ-1) Cp=nRγ/(γ-1)
+Cv=T(dS/dT)(V)  Vp=T(dS/dT)(P)
+
+dH=m*cp*dt phase condensée
+Loi de LAPLACE
+PV^(γ)=ct TV^(γ-1)=ct T^(γ)P^(1-γ)=ct
+ (GP,adiabat,reversible,γ=ct)
+
+T=(dU/dS)(V) -P=(dU/dV)(S)
+
+id thermodyn
+dU=TdS-PdV  dH=TdS+VdP
+dS=δQrev/T
+
+GP en fn (T,V)
+ S=nR/(γ-1)ln(T)+nRln(V)+ct
+GP en fn (T,P)
+ S=nRγ/(γ-1)ln(T)-nRln(V)+ct
+phas condensé  S=Cvln(T)+ct
+■■■■■■■■th-chimie SUP■■■■■■■■■■■■■■■■
+🔒°=Σnio 🔒mi°(T)+ξΣγi 🔒mi°(T)
+Δr🔒°=Σγi 🔒mi°(T)
+🔒=U ou H
+d/dT(ΔrH°(T))=ΔrCp°
+d/dT(ΔrU°(T))=ΔrCv°
+ΔrH°-ΔrU°=RT Σ(gaz)γi
+loi de Hess Δr🔒°(T)=ΣγiΔf🔒i°(T)
+
+transfo isoT
+ΔH(T=ct)=ΔrH°(T)(ξ2-ξ1)
+rechauffement
+ΔH(ξ)=∫(ΣniCpmi°(T)dT[T1,T2]
+■■■■■■■■th-chimie SPE■■■■■■■■■■■■■■■■
+dS=δSech+δScrée
+δSech=δQ/Text
+δScrée≥0 (=0 si reversib)
+d/dT(ΔrH°(T))=ΔrCp°
+d/dT(ΔrU°(T))=ΔrCv°
+G=H-TS
+dG=VdP-SdT
+V=dG/dP S=-dG/dT
+ΔG=w-TextScrée
+ΔrG°=Σγigi°(T)
+ΔrG=ΔrH-TΔrS
+Helmoholtz:
+d/dT(ΔrG°(T))=-ΔrS°(T)
+d/dT(ΔrG°(T)/T)=-ΔrH°(T)/T²
+potentiel chimiq
+μi=(dG/dni)(T,P,nk≠ni)
+dG=VdP-SdT+Σμidni
+G=Σγini
+V=dG/dP  → vi=dμi/dP
+S=-dG/dT → si=-dμi/dT
+μi=μi°+RTln(ai)
+ ai activité
+affinité electron A
+A=A°-RTln(Π(ai)^γi)
+A°=-ΔrG°(T)
+dG=VdP-SdT-Adξ
+condition d'evol Adξ>0
+    …     d≠equili Adξ=0
+eq chimiq ssi A=0
+si dξ=0 → reaction interompue
+cste d'equilibre:
+ΔrG°(T)+RTln(K°(T))=0
+A=RTln(K°(T)/Π)
+K°(T)=Πéq=Π(aiéq)^γi
+d/dT(ln(K°(T))=ΔrH°(T)/RT²
+deplacement d'eq-evolution?
+(dA/dξ)éq*dxdξ>0
+variance
+c=c+2*-φ
+c=nb de constituant indep-nb éq & rel
+2*=nb de param physiq (T,P
+φ=nb de phase (2 sol → 2phases,2liq non missibles → 2ph,…)

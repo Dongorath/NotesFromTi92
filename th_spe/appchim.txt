@@ -1,0 +1,57 @@
+dE=δW+δQ
+E=U+Ecmacro+Epmacro
+si Ecmacro=cste et Epmacro=cste
+dU=δW+δQ
+δW=δWp+δw
+δWp=-Pext*dV
+dU=δQ a V cst
+H=U+PV
+dH=δQ a P cst
+ΔH=Q+w si Pi=Pf=Pext
+dS=δSech+δScree
+δSech=δQ/Text
+δScree≥0 (=o si rev)
+dSrev=δQrev/T
+l'entropie d'1 syst isolé augmente
+dU=TdS-Pdv
+dH=TdS+Vdp
+dni/γi=dξ
+ΔrX=d(X(T,P,ξ))/dξ
+ΔrH=Σ(γi*hi,i)  hi=enthalpie molaire
+                   partielle du corps
+                   i ds le melange
+Loi de Hess: ΔrH=Σ(γi*ΔfHi,i)
+Cp=(dH/dT)p
+d(ΔrH°(T))/dT=ΔrCp°(T)
+d(ΔrS°(T))/dT=ΔrCp°(T)/T
+ΔrH°=ΔrU°+RT*Δrγgaz
+********
+*G=H-TS*
+********
+dG=VdP-SdT
+Si syst ferme en contact avec 1 seule source thermique a Text et Pext,
+si Pi=Pf=Pext et Ti=Tf=Text:
+ΔG=w-Text*Scree
+a w=0,T=Text,P=Pext, pour 1 tn spontanee, G ne peut que diminuer
+equilibre realise si G min, dG=0
+ΔrG=ΔrH-T*ΔrS
+ΔfG=Σ(γi*ΔfGi,i)
+Relat° de Helmholtz:
+d(ΔrG°(T))/dT=-ΔrS°(T)
+(dG/dT)p=-H/T²
+d(ΔrG°(T))/dT=-ΔrH°(T)/T²
+μi(T,P,nk)=(dG/dni)(T,P,nk≠ni)
+dG=-SdT+VdP+Σ(μi*dni,i)
+G=Σ(ni*μi,i)
+μi=gi <----------- potentiel chimique
+Identité de Gibbs-Duhem:
+-SdT+VdP=Σ(ni*dμi,i)
+(dμi/dT)(P,nk)=-si
+(dμi/dP)(T,nk)=vi
+vliq,vsol<<vgaz
+la mat s'ecoule spontanement vers les potentiles decroissants
+μi(T,P,nk)=μi°(T)+RT*ln(ai)
+ai=activite du corps Ai
+GP:ai=Pi/P°    sol,liq:ai=1,
+mélange idéal:ai=xi,  soulté:ai=Ci/C°
+l'etat standard du corps Ai a la temp T est l'etat de ce constituant sous la pression de ref lorsque son activite vaut 1

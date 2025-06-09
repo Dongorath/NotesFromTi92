@@ -1,6 +1,11 @@
 # NotesFromTi92
 
+> [!CAUTION]
+> Ces notes contiennent un nombre incroyable d'erreurs et donc ne doivent être en aucune cas utilisées comme source de connaissance !!! Toute utilisation pour tenter d'apprendre ou de résoudres des problèmes de maths, physique ou chimie résultera en des erreurs qui vous vaudront le ridicule de vos profs et la seule échapatoire sera que votre chien mange vos devoirs !
+
 Ceci est une collection de notes prises sur ma bonne vieille Ti-92 à l'époque où j'étais en Maths Sup / Maths Spé.
+
+Les programmes et fonctions en TI-Basic ont également été recopiées.
 
 Les notes sont recopiées telles quelles sans remise en forme ou correction (oui, les fautes font mal aux yeux), pour la postérité. Des espaces ont quand même été rajoutés pour séparés deux mots qui ne le sont pas dans le texte originale par le retour automatique à la ligne dans l'éditeur de texte de la Ti-2 (une ligne fait au maximum 38 caractères).
 
@@ -13,4 +18,4 @@ Note : la Ti-92 a des caractères spéciaux pour certaines choses :
 - pour l'exposant -1 (inverse, x⁻¹), il existe un unique caractère, il sera remplacé par soit par la forme en division (1/x) soit par deux caractères superscripts (x⁻¹)
 - il y a un caractère représentant un cadenas, il sera remplacé par l'emoji 🔒
 
-L'utilisation d'une police monospace est nécessaires pour voir correctement certains textes (ex: alignement de représentations de molécules).
+L'utilisation d'une police monospace est nécessaires pour voir correctement certains textes (ex: alignement de représentations de molécules, graphiques, ...).

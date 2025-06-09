@@ -1,0 +1,8 @@
+lunatiq()
+Func
+If rand()≤.5 Then
+ 1
+Else
+ 2
+EndIf
+EndFunc

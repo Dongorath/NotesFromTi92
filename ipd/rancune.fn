@@ -1,0 +1,12 @@
+rancune()
+Func
+If numpart=1 Then
+ 1
+Else
+ If partie[adv,numpart-1]=2 or partie[moi,numpart-1]=2 Then
+  2
+ Else
+  1
+ EndIf
+EndIf
+EndFunc

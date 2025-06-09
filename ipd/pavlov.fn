@@ -1,0 +1,12 @@
+pavlov()
+Func
+If numpart=1 Then
+ 1
+Else
+ If partie[adv,numpart-1]=partie[moi,numpart-1] Then
+  1
+ Else
+  2
+ EndIf
+EndIf
+EndFunc
